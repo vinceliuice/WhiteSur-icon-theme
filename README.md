@@ -18,11 +18,11 @@ You can use this with:
 
 ### GTK theme
 
-Mojave-gtk-theme: https://github.com/vinceliuice/WhiteSur-gtk-theme
+WhiteSur-gtk-theme: https://github.com/vinceliuice/WhiteSur-gtk-theme
 
 ### KDE theme
 
-McMojave-kde: https://github.com/vinceliuice/WhiteSur-kde
+WhiteSur-kde: https://github.com/vinceliuice/WhiteSur-kde
 
 ## Preview
 ![1](preview.png)

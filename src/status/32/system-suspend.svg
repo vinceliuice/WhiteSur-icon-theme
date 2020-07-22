@@ -1,0 +1,18 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="a" x1="16" x2="16" y1="1" y2="31" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#37414a" offset="0"/>
+   <stop stop-color="#6c7582" offset="1"/>
+  </linearGradient>
+  <filter id="c" x="-.036" y="-.036" width="1.072" height="1.072" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.45000001"/>
+  </filter>
+  <filter id="b" x="-.036" y="-.036" width="1.072" height="1.072" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.285"/>
+  </filter>
+ </defs>
+ <path d="m16 1c-8.2759 0-15 6.7241-15 15s6.7241 15 15 15 15-6.7241 15-15-6.7241-15-15-15z" color="#000000" filter="url(#c)" opacity=".25" overflow="visible"/>
+ <path d="m16 1c-8.2759 0-15 6.7241-15 15s6.7241 15 15 15 15-6.7241 15-15-6.7241-15-15-15z" color="#000000" fill="url(#a)" overflow="visible"/>
+ <path d="M16 6.5a9.5 9.5 0 1 0 0 19 9.5 9.5 0 0 0 0-19zm0 2a7.5 7.5 0 0 1 7.438 6.5H8.563A7.5 7.5 0 0 1 16 8.5zM8.562 17h14.876A7.5 7.5 0 0 1 16 23.5 7.5 7.5 0 0 1 8.562 17z" filter="url(#b)" opacity=".25" overflow="visible"/>
+ <path d="M16 6.5a9.5 9.5 0 1 0 0 19 9.5 9.5 0 0 0 0-19zm0 2a7.5 7.5 0 0 1 7.438 6.5H8.563A7.5 7.5 0 0 1 16 8.5zM8.562 17h14.876A7.5 7.5 0 0 1 16 23.5 7.5 7.5 0 0 1 8.562 17z" fill="#fff" overflow="visible"/>
+</svg>

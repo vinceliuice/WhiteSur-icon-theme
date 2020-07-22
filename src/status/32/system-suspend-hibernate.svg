@@ -1,0 +1,20 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <filter id="c" x="-.036" y="-.036" width="1.072" height="1.072" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.45"/>
+  </filter>
+  <linearGradient id="a" x1="16" x2="16" y1="1091.5" y2="1121.5" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#9575cd" offset="0"/>
+   <stop stop-color="#cd75bc" offset="1"/>
+  </linearGradient>
+  <filter id="b" x="-.0315" y="-.042" width="1.063" height="1.084" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.21000005"/>
+  </filter>
+ </defs>
+ <g transform="translate(0 -1090.5)">
+  <circle cx="16" cy="1106.5" r="15" filter="url(#c)" opacity=".25"/>
+  <circle cx="16" cy="1106.5" r="15" fill="url(#a)"/>
+  <path d="M16.667 1100.52a.665.665 0 0 0-.667.666v2c0 .37.297.667.667.667H20l-4 3.333v2.667c0 .37.297.667.667.667h6.666c.37 0 .667-.298.667-.667v-2a.665.665 0 0 0-.667-.667H20l4-3.333v-2.667a.665.665 0 0 0-.667-.666zm-8 6a.665.665 0 0 0-.667.666v.667c0 .37.298.685.667.667H10l-2 2V1111.853c0 .37.297.667.667.667H12c.37 0 .667-.298.667-.667v-.667a.665.665 0 0 0-.667-.666h-1.333l2-2v-1.334a.665.665 0 0 0-.667-.666z" filter="url(#b)" opacity=".25" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".528" stroke-width="2"/>
+  <path d="M16.667 1100.52a.665.665 0 0 0-.667.666v2c0 .37.297.667.667.667H20l-4 3.333v2.667c0 .37.297.667.667.667h6.666c.37 0 .667-.298.667-.667v-2a.665.665 0 0 0-.667-.667H20l4-3.333v-2.667a.665.665 0 0 0-.667-.666zm-8 6a.665.665 0 0 0-.667.666v.667c0 .37.298.685.667.667H10l-2 2V1111.853c0 .37.297.667.667.667H12c.37 0 .667-.298.667-.667v-.667a.665.665 0 0 0-.667-.666h-1.333l2-2v-1.334a.665.665 0 0 0-.667-.666z" fill="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".528" stroke-width="2"/>
+ </g>
+</svg>

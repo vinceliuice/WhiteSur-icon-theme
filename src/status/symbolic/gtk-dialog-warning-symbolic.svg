@@ -1,0 +1,26 @@
+<svg width="16" height="16" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb">
+ <title>Paper Symbolic Icon Theme</title>
+ <defs>
+  <filter color-interpolation-filters="sRGB">
+   <feBlend in2="BackgroundImage" mode="darken"/>
+  </filter>
+ </defs>
+ <g transform="translate(-365 251)">
+  <g transform="translate(346.25 -247.5)" enable-background="new">
+   <g transform="matrix(.52112 0 0 .52112 20.768 5.3453)" fill="#fff">
+    <g transform="matrix(.02206 0 0 .02206 -29.9 -.39149)" fill="#fff"></g>
+   </g>
+  </g>
+  <g transform="matrix(1 0 0 -1 365 -235)" enable-background="new" fill="#363636">
+   <g transform="matrix(.875 0 0 .875 -478.12 -651.69)" fill="#363636">
+    <g transform="translate(217.57 209.57)" fill="#363636">
+     <g transform="matrix(.66667 0 0 .66667 70.952 189.83)" fill="#363636">
+      <path transform="matrix(1.5 0 0 1.5 384.07 515.3)" d="m11 3a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm-0.19922 3.5a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1zm-0.10742 3h0.21289c0.35614 0 0.64453 0.28644 0.64453 0.64258v4.7148c0 0.35614-0.28839 0.64258-0.64453 0.64258h-0.21289c-0.35614 0-0.64258-0.28644-0.64258-0.64258v-4.7148c0-0.35614 0.28644-0.64258 0.64258-0.64258z" fill-rule="evenodd"/>
+      <g transform="translate(-4.4108e-7 .39078)" stroke="#fff" stroke-width=".6"></g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g transform="translate(324.04 -243.34)"></g>
+ </g>
+</svg>

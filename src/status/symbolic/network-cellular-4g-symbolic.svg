@@ -1,0 +1,7 @@
+<svg enable-background="new" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb">
+ <g transform="translate(-321 283)">
+  <g transform="matrix(.75 0 0 .85714 262.25 -485)" fill="#363636">
+   <path transform="translate(81,237)" d="m1.9998 0.99998s-1.9999 0-2 2.0625v9.9375c-8.4e-5 2 2 2 2 2h12c2 0 2-2 2-2v-10s0-2-2-2zm2e-4 2h2v4h1v-4h2v4 2 4h-2v-4h-1c-2 0-2-2-2-2zm8 0h2c2 0 2 2 2 2v1h-2v-1h-2v6h2v-2h-1v-1.9688l2-0.03125 1 0.03125v1 2.9375c0 5e-5 0 2.0312-2 2.0312h-2s-2 0-2-2v-6c0-2 2-2 2-2z" color="#363636"/>
+  </g>
+ </g>
+</svg>

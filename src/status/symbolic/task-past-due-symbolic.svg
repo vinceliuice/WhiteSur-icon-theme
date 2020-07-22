@@ -1,0 +1,19 @@
+<svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-385.03 235)">
+  <g transform="matrix(.52112 0 0 .52112 421.71 -231.5)" fill="#fff">
+   <g transform="matrix(.02206 0 0 .02206 -29.9 -.39149)" fill="#fff"></g>
+  </g>
+  <g fill="#bebebe">
+   <circle transform="rotate(266.31)" cx="194.96" cy="427.68" r="0" enable-background="new"/>
+   <g transform="matrix(.0067059 0 0 .0067059 431 -258.33)"></g>
+   <circle transform="rotate(266.31)" cx="185.94" cy="441.39" r="0"/>
+  </g>
+  <g transform="matrix(.52112 0 0 .52112 388.21 -231.62)" enable-background="new" fill="#fff">
+   <g transform="matrix(.02206 0 0 .02206 -29.9 -.39149)" fill="#fff"></g>
+  </g>
+  <circle transform="rotate(266.31)" cx="197.24" cy="394.25" r="0" enable-background="new" fill="#bebebe"/>
+  <g transform="matrix(.0067059 0 0 .0067059 397.5 -258.45)" enable-background="new" fill="#bebebe"></g>
+  <path d="m393.03-234a2 2 0 0 0-2 2h-3c-0.554 0-1 0.446-1 1v10c0 0.554 0.446 1 1 1h5.0078a5 5 0 0 1-0.89844-2h-3.1094v-1h3a5 5 0 0 1 0.10156-1h-3.1016v-1h3.4199a5 5 0 0 1 0.58789-1h-4.0078v-1h5.0098a5 5 0 0 1 2.9902-1h-8v-1h8v1a5 5 0 0 1 2 0.41992v-3.4199c0-0.554-0.44601-1-1-1h-3a2 2 0 0 0-2-2zm0 1a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 6e-3 -0.0996 1 1 0 0 1 0.9941-0.90039z" enable-background="new" fill="#363636" fill-rule="evenodd" style="paint-order:stroke fill markers"/>
+  <path d="m397.03-219a4 4 0 0 1-4-4 4 4 0 0 1 4-4 4 4 0 0 1 4 4 4 4 0 0 1-4 4zm-0.0996-1.75a0.5 0.5 0 0 0 0.5-0.49999 0.5 0.5 0 0 0-0.5-0.5 0.5 0.5 0 0 0-0.5 0.5 0.5 0.5 0 0 0 0.5 0.49999zm-0.0537-1.5h0.10652c0.17806 0 0.32226-0.14322 0.32226-0.32129v-2.3574c0-0.17807-0.1442-0.32128-0.32226-0.32128h-0.10652c-0.17807 0-0.32129 0.14321-0.32129 0.32128v2.3574c0 0.17807 0.14322 0.32129 0.32129 0.32129z" enable-background="new" fill="#e74c3c" fill-rule="evenodd"/>
+ </g>
+</svg>

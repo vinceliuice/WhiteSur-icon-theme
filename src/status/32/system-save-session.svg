@@ -1,0 +1,21 @@
+<svg version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style id="current-color-scheme" type="text/css"/>
+  <linearGradient id="a" x1="16" x2="16" y1="1" y2="31" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#33e66e" offset="0"/>
+   <stop stop-color="#b2ea34" offset="1"/>
+  </linearGradient>
+  <filter id="c" x="-.036" y="-.036" width="1.072" height="1.072" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.45000001"/>
+  </filter>
+  <filter id="b" x="-.039857" y="-.032824" width="1.0797" height="1.0656" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.2325"/>
+  </filter>
+ </defs>
+ <g>
+  <path d="m16 1c-8.2759 0-15 6.7241-15 15 0 8.2759 6.7241 15 15 15 8.2759 0 15-6.7241 15-15 0-8.2759-6.7241-15-15-15z" color="#000000" filter="url(#c)" opacity=".25" overflow="visible"/>
+  <path d="m16 1c-8.2759 0-15 6.7241-15 15 0 8.2759 6.7241 15 15 15 8.2759 0 15-6.7241 15-15 0-8.2759-6.7241-15-15-15z" color="#000000" fill="url(#a)" overflow="visible"/>
+  <path d="M23 16l-7.027 8L9 16h5V7h3.928v9z" filter="url(#b)" opacity=".25" overflow="visible"/>
+  <path d="M23 16l-7.027 8L9 16h5V7h3.928v9z" fill="#fff" overflow="visible"/>
+ </g>
+</svg>

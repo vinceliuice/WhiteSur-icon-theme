@@ -1,0 +1,20 @@
+<svg width="24" height="24" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <title>Gnome Symbolic Icon Theme</title>
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#ffffff;
+      }</style>
+ </defs>
+ <g transform="translate(-279 -624.67)">
+  <path d="m295.67 637h-1.3333v-2h1.3333zm0-3.3333h-10.667v6.6667c0 1.4728 1.1939 2.6667 2.6667 2.6667h4c1.4727 0 2.6667-1.1939 2.6667-2.6667v-2h1.3333c0.73637 0 1.3333-0.59696 1.3333-1.3333v-2c0-0.74-0.6-1.3333-1.3333-1.3333z" fill="#ffffff"/>
+  <g transform="translate(270.45,648.39)" display="none">
+   <path d="m6.5552 3.669c-1.9786-4e-3 -4.7492 0.59448-4.3689 1.9299 0.27853 0.9782 2.7468 1.3711 4.2822 1.3406 2.3909-0.0476 3.9956-0.15186 4.4994-1.1659 0.66845-1.3456-2.3241-2.1008-4.4126-2.1046z" color="#000000" display="inline" fill="#ffffff" style="text-decoration-line:none;text-indent:0;text-transform:none"/>
+  </g>
+  <g fill="#ffffff" shape-rendering="auto">
+   <path d="m286.6 630.48s-0.1458 0.10908-0.2912 0.27273c-0.14524 0.16348-0.31893 0.38933-0.32139 0.69986-2e-3 0.30445 0.15695 0.51985 0.26266 0.6772 0.1057 0.15735 0.16404 0.25422 0.15944 0.38182-9e-3 0.24106-0.36504 0.47832-0.36504 0.47832l0.26769 0.49007s0.63208-0.30182 0.65539-0.94825c0.0114-0.31566-0.1435-0.54965-0.25343-0.71329s-0.16942-0.26-0.16867-0.36168c3.3e-4 -0.0661 0.0767-0.21546 0.18126-0.33314 0.10456-0.11769 0.20811-0.19637 0.20811-0.19637z" color="#000000" color-rendering="auto" image-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+   <path d="m288.6 630.48s-0.1458 0.10908-0.2912 0.27273c-0.14524 0.16348-0.31893 0.38933-0.32139 0.69986-2e-3 0.30445 0.15695 0.51985 0.26266 0.6772 0.1057 0.15735 0.16404 0.25422 0.15944 0.38182-9e-3 0.24106-0.36504 0.47832-0.36504 0.47832l0.26769 0.49007s0.63208-0.30182 0.65539-0.94825c0.0114-0.31566-0.1435-0.54965-0.25343-0.71329s-0.16942-0.26-0.16867-0.36168c3.3e-4 -0.0661 0.0767-0.21546 0.18126-0.33314 0.10456-0.11769 0.20811-0.19637 0.20811-0.19637z" color="#000000" color-rendering="auto" image-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+   <path d="m290.6 630.48s-0.1458 0.10908-0.2912 0.27273c-0.14524 0.16348-0.31893 0.38933-0.32139 0.69986-2e-3 0.30445 0.15695 0.51985 0.26266 0.6772 0.1057 0.15735 0.16404 0.25422 0.15944 0.38182-9e-3 0.24106-0.36504 0.47832-0.36504 0.47832l0.26769 0.49007s0.63208-0.30182 0.65539-0.94825c0.0114-0.31566-0.1435-0.54965-0.25343-0.71329s-0.16942-0.26-0.16867-0.36168c3.3e-4 -0.0661 0.0767-0.21546 0.18126-0.33314 0.10456-0.11769 0.20811-0.19637 0.20811-0.19637z" color="#000000" color-rendering="auto" image-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+   <path d="m292.6 630.48s-0.1458 0.10908-0.2912 0.27273c-0.14524 0.16348-0.31893 0.38933-0.32139 0.69986-2e-3 0.30445 0.15695 0.51985 0.26266 0.6772 0.1057 0.15735 0.16404 0.25422 0.15944 0.38182-9e-3 0.24106-0.36504 0.47832-0.36504 0.47832l0.26769 0.49007s0.63208-0.30182 0.65539-0.94825c0.0114-0.31566-0.1435-0.54965-0.25343-0.71329s-0.16942-0.26-0.16867-0.36168c3.3e-4 -0.0661 0.0767-0.21546 0.18126-0.33314 0.10456-0.11769 0.20811-0.19637 0.20811-0.19637z" color="#000000" color-rendering="auto" image-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+  </g>
+ </g>
+</svg>

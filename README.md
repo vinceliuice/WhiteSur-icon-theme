@@ -1,7 +1,7 @@
 <img src="https://github.com/vinceliuice/Sierra-gtk-theme/blob/imgs/logo.png" alt="Logo" align="right" /> WhiteSur Icon Theme
 ======
 
-MacOS Bigt Sur like icon theme for linux desktops
+MacOS Big Sur like icon theme for linux desktops
 
 ## Install tips
 

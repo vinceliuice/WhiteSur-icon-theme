@@ -62,7 +62,7 @@
        type="text/css"
        id="current-color-scheme">
       .ColorScheme-Text {
-        color:#5d656b;
+        color:#363636;
       }
       </style>
     <linearGradient
@@ -82,7 +82,7 @@
      id="path6" />
   <path
      inkscape:connector-curvature="0"
-     style="color:#5d656b;fill:url(#linearGradient4159);fill-opacity:1;stroke:none"
+     style="color:#363636;fill:url(#linearGradient4159);fill-opacity:1;stroke:none"
      d="m 15.40625,3 -4,4 L 10.3125,8.09375 7,11.375 7,11.40625 6.3125,12.09375 3,15.375 3,17 l 2,2 1.625,0 3.96875,-4 1.125,-1.125 L 15,10.59375 15.71875,9.875 19,6.59375 19,5 17,3 15.40625,3 Z"
      id="path6-3" />
 </svg>

@@ -1,0 +1,20 @@
+<svg width="32" height="32" enable-background="new" version="1.0" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>Adwaita Icon Template</title>
+ <defs>
+  <filter id="filter975" x="-.048" y="-.048" width="1.096" height="1.096" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.56"/>
+  </filter>
+  <linearGradient id="linearGradient902" x1="12.976" x2="12.976" y1="27.569" y2="4.8405" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#e7e5e4" offset="0"/>
+   <stop stop-color="#fff" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <rect x="2" y="3" width="28" height="28" rx="5" ry="5" color="#000000" enable-background="accumulate" filter="url(#filter975)" opacity=".15"/>
+  <rect x="2" y="2" width="28" height="28" rx="5" ry="5" color="#000000" enable-background="accumulate" fill="url(#linearGradient902)"/>
+  <rect x="7.3846" y="7.3846" width="7.5385" height="7.5385" color="#000000" enable-background="accumulate" fill="#f26522"/>
+  <rect x="17.077" y="7.3846" width="7.5385" height="7.5385" color="#000000" enable-background="accumulate" fill="#8dc63f"/>
+  <rect x="7.3846" y="17.077" width="7.5384" height="7.5384" color="#000000" enable-background="accumulate" fill="#00aeef"/>
+  <rect x="17.077" y="17.077" width="7.5384" height="7.5384" color="#000000" enable-background="accumulate" fill="#ffc20e"/>
+ </g>
+</svg>

@@ -1,14 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
-  <defs id="defs3051">
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#5d656b;
-      }
-      </style>
-  </defs>
- <path 
-    style="fill:currentColor;fill-opacity:1;stroke:none" 
-	d="M16 3A2.00001 2 0 0 0 14 5 2.00001 2 0 0 0 16 7 2.00001 2 0 0 0 18 5 2.00001 2 0 0 0 16 3M11.5 7A.5 .5 0 0 0 11 7.5 .5 .5 0 0 0 11.5 8 .5 .5 0 0 0 12 7.5 .5 .5 0 0 0 11.5 7M9.5 8A.5 .499991 0 0 0 9 8.5 .5 .499991 0 0 0 9.5 9 .5 .499991 0 0 0 10 8.5 .5 .499991 0 0 0 9.5 8M6 9A2 2.00001 0 0 0 4 11 2 2.00001 0 0 0 6 13 2 2.00001 0 0 0 8 11 2 2.00001 0 0 0 6 9M9.5 13A.500009 .5 0 0 0 9 13.5 .500009 .5 0 0 0 9.5 14 .500009 .5 0 0 0 10 13.5 .500009 .5 0 0 0 9.5 13M11.5 14A.5 .5 0 0 0 11 14.5 .5 .5 0 0 0 11.5 15 .5 .5 0 0 0 12 14.5 .5 .5 0 0 0 11.5 14M16 15A2.00001 2 0 0 0 14 17 2.00001 2 0 0 0 16 19 2.00001 2 0 0 0 18 17 2.00001 2 0 0 0 16 15"
-    class="ColorScheme-Text"
-    />
+<svg version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#363636;
+      }</style>
+ </defs>
+ <path class="ColorScheme-Text" d="m10.5 2.086 2.8283 2.8283-0.70703 0.70703-1.6213-1.6213-1e-6 9h-1v-9l-1.6214 1.6214-0.70703-0.70703 2.8284-2.8284z" fill="currentColor"/>
+ <path d="m6 6c-1.662 0-3 1.338-3 3v7c0 1.662 1.338 3 3 3h9c1.662 0 3-1.338 3-3v-7c0-1.662-1.338-3-3-3h-1v1h1c1.108 0 2 0.892 2 2v7c0 1.108-0.892 2-2 2h-9c-1.108 0-2-0.892-2-2v-7c0-1.108 0.892-2 2-2h1v-1z" class="ColorScheme-Text" fill="currentColor"/>
 </svg>

@@ -1,0 +1,20 @@
+<svg width="32" height="32" enable-background="new" version="1.0" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>Adwaita Icon Template</title>
+ <defs>
+  <filter id="filter975" x="-.048" y="-.048" width="1.096" height="1.096" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.56"/>
+  </filter>
+  <linearGradient id="linearGradient974" x1="15.078" x2="15.078" y1="27.844" y2="4.3092" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#e9e3e2" offset="0"/>
+   <stop stop-color="#fff" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <rect x="2" y="3" width="28" height="28" rx="5" ry="5" color="#000000" enable-background="accumulate" filter="url(#filter975)" opacity=".15"/>
+  <rect x="2" y="2" width="28" height="28" rx="5" ry="5" color="#000000" enable-background="accumulate" fill="url(#linearGradient974)"/>
+  <path d="m25.496 15.731c0-0.62713-0.05777-1.2397-0.16446-1.8336h-9.1349v3.6672h5.5284c-0.35869 1.2695-1.113 2.3551-2.1217 3.1046-0.0566 1.764 1.2083 2.2066 2.8526 2.2698 1.8802-1.774 3.04-4.3456 3.04-7.208" fill="#3284ff"/>
+  <path d="m16.316 9.9678c1.3899 0 2.6418 0.50315 3.6116 1.3409l2.64-2.6777c-1.6485-1.6079-3.8741-2.5926-6.3708-2.5926-3.721 0-7.0388 2.1856-8.6537 5.3667 0.21531 2.3807 1.8033 2.2905 3.2409 2.4709 0.82857-2.2781 3.0306-3.9082 5.532-3.9082" fill="#ff3424"/>
+  <path d="m7.6034 20.173c2.8772 0.25096 3.4711-0.84118 3.1252-2.4862-0.19028-0.5751-0.29503-1.1881-0.29503-1.8255 0-0.69691 0.12453-1.3652 0.35016-1.9858l-3.2409-2.4709c-0.66109 1.3023-1.0385 2.7704-1.0385 4.3256 0 1.6019 0.40056 3.1115 1.0992 4.4427" fill="#fb0"/>
+  <path d="m10.729 17.687-3.1252 2.4862c1.6363 3.1174 4.9179 5.2497 8.5931 5.2497 2.4404 0 4.6225-0.94015 6.2592-2.4842l-2.8526-2.2699c-0.91821 0.68226-2.0465 1.0867-3.2875 1.0867-2.5597 0-4.8054-1.7068-5.5871-4.0684" fill="#26b14c"/>
+ </g>
+</svg>

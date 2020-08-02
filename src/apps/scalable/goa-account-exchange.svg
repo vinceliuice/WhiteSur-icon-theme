@@ -1,0 +1,32 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <clipPath id="b">
+   <path d="m0 0h192v152h-192z"/>
+  </clipPath>
+  <clipPath id="c">
+   <path d="m0 0h192v152h-192z"/>
+  </clipPath>
+  <clipPath id="d">
+   <path d="m0 0h192v152h-192z"/>
+  </clipPath>
+  <clipPath id="e">
+   <path d="m0 0h192v152h-192z"/>
+  </clipPath>
+  <filter id="filter975" x="-.048" y="-.048" width="1.096" height="1.096" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.56"/>
+  </filter>
+ </defs>
+ <rect x="2" y="3" width="28" height="28" rx="5" ry="5" color="#000000" filter="url(#filter975)" opacity=".15"/>
+ <rect x="2" y="2" width="28" height="28" rx="5" ry="5" color="#000000" fill="#fff"/>
+ <g stroke-width=".23081">
+  <path d="m26.255 4h-6.1033a1.7449 1.7449 0 0 0-1.2344 0.51125l-14.407 14.406a1.7465 1.7465 0 0 0-0.51102 1.2344v6.1038a1.7449 1.7449 0 0 0 1.7454 1.7445h6.1038a1.7442 1.7442 0 0 0 1.2335-0.51102l14.407-14.406a1.7465 1.7465 0 0 0 0.51125-1.2344v-6.1038a1.7449 1.7449 0 0 0-1.7456-1.7447z" fill="#28a8ea"/>
+  <path d="m26.255 28h-6.1038a1.7449 1.7449 0 0 1-1.2344-0.51102l-2.9175-2.9168v-5.452c0-1.723 1.3964-3.1206 3.1206-3.1206h5.4511l2.9175 2.9175a1.7465 1.7465 0 0 1 0.51125 1.2348v6.1038a1.7449 1.7449 0 0 1-1.7447 1.7445z" fill="#0078d4"/>
+  <path d="m5.7447 4h6.1038c0.46255 0 0.90616 0.18396 1.2335 0.51125l2.9175 2.9168v5.4518c0 1.723-1.3964 3.1196-3.1194 3.1196h-5.4518l-2.9179-2.9165a1.7465 1.7465 0 0 1-0.51102-1.2344v-6.1038a1.7449 1.7449 0 0 1 1.7454-1.7447z" fill="#50d9ff"/>
+ </g>
+ <g stroke-linecap="round" stroke-linejoin="round">
+  <rect x=".56091" y="9.5085" width="14" height="14" rx="3" ry="3" opacity=".05" stroke="#000"/>
+  <rect x=".56091" y="9.5085" width="14" height="14" rx="3" ry="3" opacity=".05" stroke-width="3"/>
+  <rect y="9" width="14" height="14" rx="3" ry="3" fill="#0078d4" stroke-width="3"/>
+ </g>
+ <path d="m9.8128 13.3h-4.2415v2.0192h4.0297v1.2946h-4.0297v2.0972h4.4256v1.2888h-5.9937v-8h5.8096z" fill="#fff" stroke-width=".24349"/>
+</svg>

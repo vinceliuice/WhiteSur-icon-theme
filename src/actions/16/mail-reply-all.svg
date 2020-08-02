@@ -54,17 +54,17 @@
        type="text/css"
        id="current-color-scheme">
       .ColorScheme-Text {
-        color:#5d656b;
+        color:#363636;
       }
       </style>
   </defs>
   <path
-     style="fill:#5d656b;fill-opacity:1;stroke:none"
+     style="fill:#363636;fill-opacity:1;stroke:none"
      d="M 6,4 1,8 6,12 6,10.71875 2.6015625,8 6,5.28125 6,4 Z"
      id="rect3348-8-9-7"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#5d656b;fill-opacity:1;stroke:none"
+     style="fill:#363636;fill-opacity:1;stroke:none"
      d="M 9,4 4,8 9,12 9,9 14,9 14,7 9,7 Z"
      id="rect3348-8-9"
      inkscape:connector-curvature="0"

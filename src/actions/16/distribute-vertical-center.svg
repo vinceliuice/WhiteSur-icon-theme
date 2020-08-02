@@ -49,12 +49,12 @@
        type="text/css"
        id="current-color-scheme">
       .ColorScheme-Text {
-        color:#5d656b;
+        color:#363636;
       }
       </style>
   </defs>
   <path
-     style="color:#5d656b;fill:currentColor;fill-opacity:1;stroke:none"
+     style="color:#363636;fill:currentColor;fill-opacity:1;stroke:none"
      d="m 14,7 -2,-3 -2,3 4,0 z m 0,2 -4,0 2,3 2,-3 z M 10,4 9,4 9,2 4,2 3,2 3,4 2,4 2,5 3,5 3,6 3,7 9,7 9,6 9,5 10,5 10,4 Z m 0,7 -1,0 0,-2 -5,0 -1,0 0,2 -1,0 0,1 1,0 0,1 0,1 6,0 0,-1 0,-1 1,0 0,-1 z M 8,3 8,6 4,6 4,3 8,3 Z m 0,7 0,3 -4,0 0,-3 4,0 z"
      class="ColorScheme-Text"
      id="path6"

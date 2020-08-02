@@ -1,0 +1,15 @@
+<svg width="32" height="32" enable-background="new" version="1.0" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>Adwaita Icon Template</title>
+ <defs>
+  <filter id="filter975" x="-.048" y="-.048" width="1.096" height="1.096" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.56"/>
+  </filter>
+  <linearGradient id="linearGradient882" x1="12.552" x2="12.552" y1="26.746" y2="5.0659" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#0076b6" offset="0"/>
+   <stop stop-color="#1dc5ff" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect x="2" y="3" width="28" height="28" rx="5" ry="5" color="#000000" enable-background="accumulate" filter="url(#filter975)" opacity=".15"/>
+ <rect x="2" y="2" width="28" height="28" rx="5" ry="5" color="#000000" enable-background="accumulate" fill="url(#linearGradient882)"/>
+ <path d="m16.016 11.154c-2.2176 0-4.0804 1.5186-4.6493 3.562-0.49674-1.0928-1.5899-1.8672-2.8602-1.8672-1.7288 2.69e-4 -3.151 1.4221-3.151 3.1513-2.693e-4 1.7297 1.4216 3.1515 3.1508 3.1518 1.2706-2.69e-4 2.3631-0.77528 2.8598-1.8681 0.56877 2.0434 2.4319 3.5624 4.6502 3.5624 2.2059 2.69e-4 4.0591-1.5021 4.6398-3.5279 0.50473 1.0726 1.5812 1.8333 2.8368 1.8335 1.7297 0 3.152-1.4221 3.1518-3.152 0-1.7297-1.4219-3.1515-3.1515-3.1511-1.2557 2.69e-4 -2.3329 0.76108-2.8375 1.8337-0.58084-2.026-2.4335-3.5287-4.6392-3.5283zm0 1.8498a2.9822 2.9822 0 0 1 2.9964 2.9961c0 1.6659-1.3306 2.9968-2.9964 2.9964a2.9822 2.9822 0 0 1-2.9957-2.9964c0-1.6659 1.3306-2.9959 2.9959-2.9961zm-7.5097 1.6946c0.72986 0 1.3013 0.57161 1.3015 1.3013 0 0.72986-0.57126 1.3022-1.3013 1.3022-0.72968 0-1.3013-0.57233-1.3011-1.3022 0-0.72968 0.5716-1.3013 1.3013-1.3013zm14.987 0c0.72985 0 1.3018 0.57125 1.3018 1.3013 0 0.73005-0.57178 1.3022-1.3018 1.3022-0.72986 0-1.3015-0.57233-1.3013-1.3022 0-0.72968 0.57161-1.3013 1.3013-1.3013z" color="#000000" enable-background="new" fill="#fff" stroke-width=".26923" style="isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+</svg>

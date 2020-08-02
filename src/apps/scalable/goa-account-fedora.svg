@@ -1,0 +1,21 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <radialGradient id="radialGradient5521-1" cx="10.255" cy="9.9089" r="12.672" fx="9.7252" gradientTransform="matrix(0 2.5253 -4.9716 0 66.264 -25.898)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#6e95e3" offset="0"/>
+   <stop stop-color="#223459" offset="1"/>
+  </radialGradient>
+  <filter id="filter975" x="-.048" y="-.048" width="1.096" height="1.096" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.56"/>
+  </filter>
+ </defs>
+ <rect x="2" y="3" width="28" height="28" rx="5" ry="5" color="#000000" filter="url(#filter975)" opacity=".15"/>
+ <rect x="2" y="2" width="28" height="28" rx="5" ry="5" color="#000000" fill="url(#radialGradient5521-1)"/>
+ <g transform="translate(-.4668 -.0204)">
+  <g shape-rendering="auto">
+   <path d="m10.961 15.052c-3.589 0-6.5313 2.9423-6.5313 6.5312 0 3.589 2.9423 6.5312 6.5313 6.5312 3.5891 0 6.5312-2.9423 6.5312-6.5312v-6.5312zm0 3h3.5312v3.5312c0 1.9658-1.5654 3.5312-3.5312 3.5312s-3.5313-1.5653-3.5313-3.5312c0-1.9658 1.5655-3.5312 3.5313-3.5312z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" opacity=".35" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+   <path d="m21 5c-3.5891 0-6.5332 2.9423-6.5332 6.5312v6.5312h6.5332c3.589 0 6.5312-2.9423 6.5312-6.5312 0-3.589-2.9423-6.5312-6.5312-6.5312zm0 3c1.9658 0 3.5312 1.5653 3.5312 3.5312 0 1.9658-1.5655 3.5312-3.5312 3.5312h-3.5332v-3.5312c0-1.9658 1.5673-3.5312 3.5332-3.5312z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" opacity=".35" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+   <path id="b" d="m17.531 15.02v6.5564c0 3.6286-2.942 6.5706-6.5706 6.5706-0.55053 0-0.94195-0.06205-1.4516-0.19529-0.74309-0.19455-1.3503-0.80376-1.3505-1.5124 0-0.85666 0.62173-1.4797 1.5512-1.4797 0.44232 0 0.6029 0.08487 1.2509 0.08487 1.913 0 3.4648-1.5496 3.4683-3.4626v-3.0138a0.48943 0.48943 0 0 0-0.49006-0.4888l-2.2784-4.24e-4c-0.84888 0-1.5348-0.67715-1.5348-1.5283-4.21e-4 -0.85645 0.69303-1.5308 1.5511-1.5308" fill="#fff" shape-rendering="auto" stroke-width=".10516"/>
+  </g>
+  <use transform="rotate(180 15.98 16.557)" width="1" height="1" fill="#ffffff" xlink:href="#b"/>
+ </g>
+</svg>

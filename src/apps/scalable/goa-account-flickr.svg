@@ -1,0 +1,18 @@
+<svg width="32" height="32" enable-background="new" version="1.0" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>Adwaita Icon Template</title>
+ <defs>
+  <filter id="filter975" x="-.048" y="-.048" width="1.096" height="1.096" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.56"/>
+  </filter>
+  <linearGradient id="linearGradient869" x1="13.613" x2="13.613" y1="27.594" y2="5.4161" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#e5e5e5" offset="0"/>
+   <stop stop-color="#fefefe" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <rect x="2" y="3" width="28" height="28" rx="5" ry="5" color="#000000" enable-background="accumulate" filter="url(#filter975)" opacity=".15"/>
+  <rect x="2" y="2" width="28" height="28" rx="5" ry="5" color="#000000" enable-background="accumulate" fill="url(#linearGradient869)"/>
+  <circle cx="10.615" cy="16" r="4.3077" color="#000000" enable-background="accumulate" fill="#0063dc"/>
+  <circle cx="21.385" cy="16" r="4.3077" color="#000000" enable-background="accumulate" fill="#ff0084"/>
+ </g>
+</svg>

@@ -2,7 +2,7 @@
   <defs id="defs3051">
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
-        color:#5d656b;
+        color:#363636;
       }
       </style>
     <radialGradient
@@ -24,7 +24,7 @@
          offset="0"
          id="stop4471" />
       <stop
-         style="stop-color:#5d656b;stop-opacity:1"
+         style="stop-color:#363636;stop-opacity:1"
          offset="1"
          id="stop4473" />
     </linearGradient>

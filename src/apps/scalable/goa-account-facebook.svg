@@ -1,0 +1,31 @@
+<svg width="32" height="32" enable-background="new" version="1.0" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>Adwaita Icon Template</title>
+ <defs>
+  <radialGradient id="radialGradient5521-1" cx="10.255" cy="9.9089" r="12.672" fx="9.7252" gradientTransform="matrix(0 2.5253 -4.9716 0 66.264 -25.898)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#5c96ff" offset="0"/>
+   <stop stop-color="#1e4ea4" offset="1"/>
+  </radialGradient>
+  <filter id="filter975" x="-.048" y="-.048" width="1.096" height="1.096" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.56"/>
+  </filter>
+  <filter id="filter871" x="-.069818" y="-.036571" width="1.1396" height="1.0731" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="1.28"/>
+  </filter>
+ </defs>
+ <rect x="2" y="3" width="28" height="28" rx="5" ry="5" color="#000000" enable-background="accumulate" filter="url(#filter975)" opacity=".15"/>
+ <rect x="2" y="2" width="28" height="28" rx="5" ry="5" color="#000000" enable-background="accumulate" fill="url(#radialGradient5521-1)"/>
+ <g transform="matrix(.26923 0 0 .26923 -1.9252 -46.892)" filter="url(#filter871)" opacity=".15">
+  <g>
+   <g transform="translate(-3e-5 -160)" enable-background="new">
+    <path d="m88 364s-16 0-16 16v16h-12v16h12v36h16v-36h14l2-16h-16v-12c0-4 4-4 4-4h12v-16z" color="#000000" enable-background="new" style="text-decoration-line:none;text-indent:0;text-transform:none"/>
+   </g>
+  </g>
+ </g>
+ <g transform="matrix(.26923 0 0 .26923 -1.2308 -47.538)">
+  <g>
+   <g transform="translate(-3e-5 -160)" enable-background="new">
+    <path d="m88 364s-16 0-16 16v16h-12v16h12v36h16v-36h14l2-16h-16v-12c0-4 4-4 4-4h12v-16z" color="#000000" enable-background="new" fill="#fff" style="text-decoration-line:none;text-indent:0;text-transform:none"/>
+   </g>
+  </g>
+ </g>
+</svg>

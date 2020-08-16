@@ -54,10 +54,10 @@ install() {
     cp -r ${SRC_DIR}/src/{actions,animations,apps,categories,devices,emblems,mimes,places} ${THEME_DIR}
     cp -r ${SRC_DIR}/src/status/{16,22,24,32,symbolic}                                     ${THEME_DIR}/status
     cp -r ${SRC_DIR}/links/{actions,apps,devices,emblems,mimes,places,status}              ${THEME_DIR}
-  fi
-
-  if [[ ${color} == '' && $DESKTOP_SESSION == '/usr/share/xsessions/budgie-desktop' ]]; then
-    cp -r ${SRC_DIR}/src/status/symbolic-budgie/*.svg                                  ${THEME_DIR}/status/symbolic
+    
+    if [[ $DESKTOP_SESSION == '/usr/share/xsessions/budgie-desktop' ]]; then
+      cp -r ${SRC_DIR}/src/status/symbolic-budgie/*.svg                                    ${THEME_DIR}/status/symbolic
+    fi
   fi
 
   if [[ ${color} == '-dark' ]]; then
@@ -71,6 +71,10 @@ install() {
     cp -r ${SRC_DIR}/src/devices/{16,22,24,symbolic}                                   ${THEME_DIR}/devices
     cp -r ${SRC_DIR}/src/places/{16,22,24,symbolic}                                    ${THEME_DIR}/places
     cp -r ${SRC_DIR}/src/status/{16,22,24,symbolic}                                    ${THEME_DIR}/status
+
+    if [[ $DESKTOP_SESSION == '/usr/share/xsessions/budgie-desktop' ]]; then
+      cp -r ${SRC_DIR}/src/status/symbolic-budgie/*.svg                                ${THEME_DIR}/status/symbolic
+    fi
 
     # Change icon color for dark theme
     sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,devices,places}/16/*

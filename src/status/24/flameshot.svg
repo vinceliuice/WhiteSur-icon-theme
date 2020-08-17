@@ -10,7 +10,7 @@
   </rdf:RDF>
  </metadata>
  <defs>
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#dfdfdf; } .ColorScheme-Highlight { color:#4285f4; }</style>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#ffffff; } .ColorScheme-Highlight { color:#4285f4; }</style>
  </defs>
  <g transform="translate(1,1)" fill="#ffffff">
   <path class="ColorScheme-Text" d="m20 4s-0.202 2.1521-4.021 3.8574c-0.035 0.917-0.164 1.8405-0.483 2.7186-0.525 1.447-1.598 2.766-3.303 3.442-2.7534 1.091-4.0868 2.461-4.777 3.601 1.1516-0.832 3.028-1.635 6.113-1.945 5.841-0.586 6.471-11.674 6.471-11.674z" opacity=".5"/>

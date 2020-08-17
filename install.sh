@@ -38,14 +38,6 @@ install() {
   cp -r ${SRC_DIR}/{COPYING,AUTHORS}                                                   ${THEME_DIR}
   cp -r ${SRC_DIR}/src/index.theme                                                     ${THEME_DIR}
 
-  if [[ $DESKTOP_SESSION == '/usr/share/xsessions/plasma' && ${color} == '' ]]; then
-    sed -i "s/Adwaita/breeze/g" ${THEME_DIR}/index.theme
-  fi
-
-  if [[ $DESKTOP_SESSION == '/usr/share/xsessions/plasma' && ${color} == '-dark' ]]; then
-    sed -i "s/Adwaita/breeze-dark/g" ${THEME_DIR}/index.theme
-  fi
-
   cd ${THEME_DIR}
   sed -i "s/${name}/${name}${color}/g" index.theme
 
@@ -77,9 +69,7 @@ install() {
     fi
 
     # Change icon color for dark theme
-    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,devices,places}/16/*
-    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,devices,places}/22/*
-    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,devices,places}/24/*
+    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,devices,places,status}/{16,22,24}/*
     sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/actions/32/*
     sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,apps,categories,emblems,devices,mimes,places,status}/symbolic/*
 

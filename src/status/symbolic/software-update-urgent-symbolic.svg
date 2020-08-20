@@ -1,5 +1,1 @@
-<svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg">
-<g transform='translate(-773 271)'>
-<path class='warning' color='#bebebe' d='M787.969-263a6.963 6.963 0 0 0-6.969-6.969 6.963 6.963 0 0 0-6.969 6.969 6.963 6.963 0 0 0 6.97 6.969 6.963 6.963 0 0 0 6.968-6.969zm-2.938 0l-4.03 5-4-5h3v-4h2v4z' fill='#f9c440' overflow='visible' style='text-indent:0;text-transform:none;marker:none'/>
-</g>
-</svg>
+<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path class="warning" d="M8 0L5.69 1.65l-2.833.221-.709 2.75-2.027 1.99 1.225 2.563L1.072 12l2.586 1.176 1.606 2.342L8 14.758l2.736.76 1.606-2.342L14.928 12l-.274-2.826L15.88 6.61l-2.027-1.99-.71-2.75-2.831-.22zM7 4h2v3l-.5 2h-1L7 7zm1 6a1 1 0 110 2 1 1 0 010-2z" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal;marker:none" color="#000" font-weight="400" font-family="sans-serif" overflow="visible" fill="#fdc92b"/></svg>

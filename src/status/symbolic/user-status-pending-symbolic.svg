@@ -1,6 +1,1 @@
-<svg height='16' width='16' xmlns='http://www.w3.org/2000/svg'>
-    <g color='#bebebe' transform='translate(-393 91)'>
-        <path d='M398-89c-2.77 0-5 2.23-5 5s2.23 5 5 5h3.344L404-76v-3c2.77 0 5-2.23 5-5s-2.23-5-5-5zm0 3h6c1.108 0 2 .892 2 2s-.892 2-2 2h-6c-1.108 0-2-.892-2-2s.892-2 2-2z' fill='#363636' opacity='.35' overflow='visible' style='marker:none'/>
-        <path d='M398-85a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm3 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm3 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z' fill='#363636' overflow='visible' style='marker:none'/>
-    </g>
-</svg>
+<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg"><g fill="#363636"><path d="M2 1C.892 1 0 1.892 0 3v8c0 1.108.892 2 2 2h1.522L6 16l2-3h6c1.108 0 2-.892 2-2V3c0-1.108-.892-2-2-2zm0 1h12c.554 0 1 .446 1 1v8c0 .554-.446 1-1 1H7.566L6 14.4 4.034 12H2c-.554 0-1-.446-1-1V3c0-.554.446-1 1-1zm-.7 11c.153.017.322.021.524 0z" opacity=".5"/><path d="M5 6a1 1 0 100 2 1 1 0 000-2zm3 0a1 1 0 100 2 1 1 0 000-2zm3 0a1 1 0 100 2 1 1 0 000-2z"/></g></svg>

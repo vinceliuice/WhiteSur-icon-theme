@@ -1,5 +1,1 @@
-<svg height='16' width='16' xmlns='http://www.w3.org/2000/svg'>
-    <g color='#bebebe' transform='translate(-813 171)'>
-        <path d='M821-171c-2.77 0-5 2.23-5 5v6c0 2.77 2.23 5 5 5h2v-2h-2c-1.662 0-3-1.338-3-3v-6c0-1.662 1.338-3 3-3s3 1.338 3 3v1h-2l3 4 3-4h-2v-1c0-2.77-2.23-5-5-5z' fill='#363636' overflow='visible' style='marker:none'/>
-    </g>
-</svg>
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M11.5 9L14 6H9z" stroke-width=".791" fill="#363636"/><path d="M10 1c1.108 0 2 .892 2 2v4h-1V3c0-.554-.446-1-1-1H4c-.554 0-1 .446-1 1v10c0 .554.446 1 1 1h6c.554 0 1-.446 1-1v-2h1v2c0 1.108-.892 2-2 2H4c-1.108 0-2-.892-2-2V3c0-1.108.892-2 2-2z" fill="#363636"/></svg>

@@ -1,6 +1,1 @@
-<svg height='16' width='16' xmlns='http://www.w3.org/2000/svg'>
-    <g color='#bebebe' transform='translate(-333 151)'>
-        
-        <path d='M344-143v2h-10v2h10v2l4-3zm0-6v2h-10v2h10v2l4-3z' fill='#363636' overflow='visible' style='marker:none'/>
-    </g>
-</svg>
+<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M11 1v2H0v1h11.002v2c.76-.348 1.534-.736 2.322-1.166A43.6 43.6 0 0015.582 3.5c-.725-.45-1.477-.89-2.258-1.32A43.094 43.094 0 0011 1zm0 9v2H0v1h11.002v2c.76-.348 1.534-.736 2.322-1.166a43.6 43.6 0 002.258-1.334c-.725-.45-1.477-.89-2.258-1.32A43.094 43.094 0 0011 10z" style="marker:none" color="#000" overflow="visible" fill="#363636"/></svg>

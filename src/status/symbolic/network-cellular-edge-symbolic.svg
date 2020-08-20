@@ -1,7 +1,1 @@
-<svg enable-background="new" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb">
- <g transform="translate(-281 283)">
-  <g transform="matrix(.85714 0 0 .85714 229.86 -485)" fill="#363636">
-   <path transform="translate(61,237)" d="m2.9998 0.99998s-2 0-2 2.0625v9.9375c0 2 2 2 2 2h10c2 0 2-2 2-2v-10s0-2-2-2zm3.0002 2 5.9998-2e-5 2e-4 2h-6v2h4v2h-4v2h6v2h-6s-2 0-2-2v-6c0-2 2-2 2-2z" color="#363636"/>
-  </g>
- </g>
-</svg>
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M3.717 2S2.003 2 2.003 3.766v8.518c0 1.714 1.714 1.714 1.714 1.714h8.571c1.714 0 1.714-1.714 1.714-1.714V3.714s0-1.715-1.714-1.715zm2.571 1.714h5.143v1.714H6.288v1.714h3.429v1.714H6.288v1.715h5.143v1.714H6.288s-1.714 0-1.714-1.714V5.428c0-1.714 1.714-1.714 1.714-1.714z" color="#363636" fill="#363636"/></svg>

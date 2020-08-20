@@ -1,5 +1,1 @@
-<svg height='16' width='16' xmlns='http://www.w3.org/2000/svg'>
-    <g color='#bebebe' transform='translate(-353 91)'>
-        <path d='M358-89c-2.77 0-5 2.23-5 5s2.23 5 5 5h3.344L364-76v-3c2.77 0 5-2.23 5-5s-2.23-5-5-5zm-1 4h8v2h-8z' fill='#363636' overflow='visible' style='marker:none'/>
-    </g>
-</svg>
+<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M2 1C.892 1 0 1.892 0 3v8c0 1.108.892 2 2 2h1.522L6 16l2-3h6c1.108 0 2-.892 2-2V3c0-1.108-.892-2-2-2zm0 1h12c.554 0 1 .446 1 1v8c0 .554-.446 1-1 1H7.566L6 14.4 4.033 12H2c-.554 0-1-.446-1-1V3c0-.554.446-1 1-1zm6 1C5.797 3 4 4.797 4 7c0 2.203 1.797 4 4 4 2.203 0 4-1.797 4-4 0-2.203-1.797-4-4-4zM5.5 6h5c.277 0 .5.223.5.5v1c0 .277-.223.5-.5.5h-5a.499.499 0 01-.5-.5v-1c0-.277.223-.5.5-.5zm-4.2 7c.153.017.322.021.524 0z" style="line-height:125%;-inkscape-font-specification:Ubuntu;text-align:center" font-weight="400" font-size="15" font-family="Ubuntu" letter-spacing="0" word-spacing="0" text-anchor="middle" fill="#363636" stroke-width=".087"/></svg>

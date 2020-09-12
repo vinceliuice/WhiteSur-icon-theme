@@ -1,10 +1,1 @@
-<svg width="22" height="22" version="1.1">
- <defs>
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#ffffff; } .ColorScheme-Highlight { color:#4285f4; }</style>
- </defs>
- <g style="fill:currentColor" class="ColorScheme-Text">
-  <path style="fill:currentColor" class="ColorScheme-Text" d="m20 4s-0.202 2.1521-4.021 3.8574c-0.035 0.917-0.164 1.8405-0.483 2.7186-0.525 1.447-1.598 2.766-3.303 3.442-2.7534 1.091-4.0868 2.461-4.777 3.601 1.1516-0.832 3.028-1.635 6.113-1.945 5.841-0.586 6.471-11.674 6.471-11.674z" opacity=".5"/>
-  <path style="fill:currentColor" class="ColorScheme-Text" d="m13.742 1s0.423 3.2186-3.242 6.002c0.302 0.8514 0.51 1.7741 0.5 2.7343-0.013 1.3087-0.471 2.6957-1.5762 3.8227-0.7436 0.757-1.2925 1.457-1.7011 2.091 0.9088-0.905 2.2087-1.812 4.1013-2.562 5.766-2.285 1.918-12.088 1.918-12.088z" opacity=".75"/>
-  <path style="fill:currentColor" class="ColorScheme-Text" d="m3.681 11.501c4.2462-4.997 3.2912-8.501 3.2912-8.501s5.4388 6.087 1.738 9.858c-4.1352 4.212-2.985 7.142-2.985 7.142s-4.4792-5.633-2.0442-8.499z"/>
- </g>
-</svg>
+<svg width="22" height="22"><defs><style id="current-color-scheme" type="text/css">.ColorScheme-Text{color:#fff}</style></defs><g class="ColorScheme-Text" fill="currentColor"><path class="ColorScheme-Text" d="M20 4s-.202 2.152-4.021 3.857c-.035.917-.164 1.84-.483 2.719-.525 1.447-1.598 2.766-3.303 3.442-2.753 1.091-4.087 2.461-4.777 3.601 1.152-.832 3.028-1.635 6.113-1.945C19.37 15.088 20 4 20 4z" opacity=".5"/><path class="ColorScheme-Text" d="M13.742 1s.423 3.219-3.242 6.002c.302.851.51 1.774.5 2.734a5.474 5.474 0 01-1.576 3.823 13.228 13.228 0 00-1.701 2.091c.908-.905 2.208-1.812 4.101-2.562C17.59 10.803 13.742 1 13.742 1z" opacity=".75"/><path class="ColorScheme-Text" d="M3.681 11.501C7.927 6.504 6.972 3 6.972 3s5.439 6.087 1.738 9.858C4.575 17.07 5.725 20 5.725 20s-4.479-5.633-2.044-8.499z"/></g></svg>

@@ -1,1 +1,7 @@
-<svg width="22" height="22" xmlns="http://www.w3.org/2000/svg"><g fill="#fff"><path d="M4 7c-1.108 0-2 .892-2 2v6c0 1.108.892 2 2 2h13c1.108 0 2-.892 2-2V9c0-1.108-.892-2-2-2zm0 1h13c.554 0 1 .446 1 1v6c0 .554-.446 1-1 1H4c-.554 0-1-.446-1-1V9c0-.554.446-1 1-1zM20 10v4a2 2 0 002-2 2 2 0 00-2-2z" fill-rule="evenodd" paint-order="stroke fill markers"/><path d="M10.834 8L7.5 13h3l-.75 3h.416l3.334-5h-3l.75-3z"/><path d="M4.482 9C4.215 9 4 9.243 4 9.545v4.91c0 .303.215.545.482.545h2.036c.267 0 .482-.242.482-.545v-.592a.998.998 0 01-.332-1.418L7 11.947V9.545C7 9.243 6.785 9 6.518 9H4.482z" fill-rule="evenodd" paint-order="stroke fill markers"/></g></svg>
+<svg width="22" height="22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-1,-1)" fill="#fff">
+  <path d="m4 7c-1.108 0-2 0.892-2 2v6c0 1.108 0.892 2 2 2h13c1.108 0 2-0.892 2-2v-6c0-1.108-0.892-2-2-2zm0 1h13c0.554 0 1 0.446 1 1v6c0 0.554-0.446 1-1 1h-13c-0.554 0-1-0.446-1-1v-6c0-0.554 0.446-1 1-1zm16 2v4a2 2 0 0 0 2-2 2 2 0 0 0-2-2z" fill-rule="evenodd" paint-order="stroke fill markers"/>
+  <path d="m10.834 8-3.334 5h3l-0.75 3h0.416l3.334-5h-3l0.75-3z"/>
+  <path d="M 4.482,9 C 4.215,9 4,9.243 4,9.545 v 4.91 C 4,14.758 4.215,15 4.482,15 H 6.518 C 6.785,15 7,14.758 7,14.455 V 13.863 A 0.998,0.998 0 0 1 6.668,12.445 L 7,11.947 V 9.545 C 7,9.243 6.785,9 6.518,9 Z" fill-rule="evenodd" paint-order="stroke fill markers"/>
+ </g>
+</svg>

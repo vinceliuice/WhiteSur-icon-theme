@@ -1,1 +1,6 @@
-<svg width="22" height="22"><defs><style id="current-color-scheme" type="text/css"></style></defs><path d="M11 2a9 9 0 00-9 9 9 9 0 009 9 9 9 0 009-9 9 9 0 00-9-9zM7.818 6.91L11 10.09l3.182-3.182.909.91L11.909 11l3.182 3.182-.91.909L11 11.909l-3.182 3.182-.909-.91L10.091 11 6.909 7.818z" fill="#ff2a2a"/></svg>
+<svg width="22" height="22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css"/>
+ </defs>
+ <path d="m11 2a9 9 0 0 0-9 9 9 9 0 0 0 9 9 9 9 0 0 0 9-9 9 9 0 0 0-9-9zm-3.182 4.91 3.182 3.18 3.182-3.182 0.909 0.91-3.182 3.182 3.182 3.182-0.91 0.909-3.181-3.182-3.182 3.182-0.909-0.91 3.182-3.181-3.182-3.182z" fill="#ff2a2a"/>
+</svg>

@@ -251,6 +251,7 @@ Type=Fixed
 
 [actions@2x/22]
 Size=22
+Scale=2
 Context=Actions
 Type=Fixed
 
@@ -353,6 +354,7 @@ Type=Fixed
 
 [devices@2x/scalable]
 Size=64
+Scale=2
 Context=Devices
 MinSize=22
 MaxSize=512

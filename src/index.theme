@@ -172,7 +172,7 @@ Type=Fixed
 [mimes/scalable]
 Size=64
 Context=MimeTypes
-MinSize=16
+MinSize=24
 MaxSize=512
 Type=Scalable
 
@@ -412,7 +412,7 @@ Type=Fixed
 Size=64
 Scale=2
 Context=MimeTypes
-MinSize=16
+MinSize=24
 MaxSize=512
 Type=Scalable
 

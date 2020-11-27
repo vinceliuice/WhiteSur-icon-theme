@@ -86,6 +86,8 @@ install() {
     ln -s ../../${name}/emblems/16 ${name}-dark/emblems/16
     ln -s ../../${name}/emblems/22 ${name}-dark/emblems/22
     ln -s ../../${name}/emblems/24 ${name}-dark/emblems/24
+    ln -s ../../${name}/mimes/16 ${name}-dark/mimes/16
+    ln -s ../../${name}/mimes/22 ${name}-dark/mimes/22
     ln -s ../../${name}/mimes/scalable ${name}-dark/mimes/scalable
     ln -s ../../${name}/apps/scalable ${name}-dark/apps/scalable
     ln -s ../../${name}/devices/scalable ${name}-dark/devices/scalable

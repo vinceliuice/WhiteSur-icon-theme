@@ -45,7 +45,7 @@ install() {
     mkdir -p                                                                               ${THEME_DIR}/status
     cp -r ${SRC_DIR}/src/{actions,animations,apps,categories,devices,emblems,mimes,places} ${THEME_DIR}
     cp -r ${SRC_DIR}/src/status/{16,22,24,32,symbolic}                                     ${THEME_DIR}/status
-    cp -r ${SRC_DIR}/links/{actions,apps,devices,emblems,mimes,places,status}              ${THEME_DIR}
+    cp -r ${SRC_DIR}/links/{actions,apps,categories,devices,emblems,mimes,places,status}   ${THEME_DIR}
     
     if [[ $DESKTOP_SESSION == '/usr/share/xsessions/budgie-desktop' ]]; then
       cp -r ${SRC_DIR}/src/status/symbolic-budgie/*.svg                                    ${THEME_DIR}/status/symbolic
@@ -78,6 +78,7 @@ install() {
     cp -r ${SRC_DIR}/links/places/{16,22,24,symbolic}                                  ${THEME_DIR}/places
     cp -r ${SRC_DIR}/links/status/{16,22,24,symbolic}                                  ${THEME_DIR}/status
     cp -r ${SRC_DIR}/links/apps/symbolic                                               ${THEME_DIR}/apps
+    cp -r ${SRC_DIR}/links/categories/symbolic                                         ${THEME_DIR}/categories
     cp -r ${SRC_DIR}/links/mimes/symbolic                                              ${THEME_DIR}/mimes
 
     cd ${dest}

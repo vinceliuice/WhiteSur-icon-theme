@@ -1,7 +1,11 @@
-<svg height='16' width='16' xmlns='http://www.w3.org/2000/svg'>
-    <g transform='translate(-613 23)'>
-        <path color='#363636' d='M615-9v-12c0-1 1-1 1-1h10s1 0 1 1v12c0 1-1 1-1 1h-10s-1 0-1-1zm1-.5c0 .5.5.5.5.5h9s.5 0 .5-.5v-11c0-.5-.5-.5-.5-.5h-9c-.5 0-.5.5-.5.5z' fill='#363636' overflow='visible' style='marker:none'/>
-        <path color='#000' d='M620.406-18a.517.517 0 0 0-.406.5v2.5h-1.5c-.369.011-.606.524-.375.813l2.5 3a.522.522 0 0 0 .75 0l2.5-3c.231-.289-.006-.802-.375-.813H622v-2.5a.52.52 0 0 0-.5-.5h-1a.506.506 0 0 0-.094 0z' fill='#363636' font-family='Sans' font-weight='400' overflow='visible' style='line-height:normal;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;marker:none'/>
-        
-    </g>
+<svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#363636;
+      }</style>
+ </defs>
+ <path d="m3 1c-1.108 0-2 0.892-2 2v10c0 1.108 0.892 2 2 2h9c1.108 0 2-0.892 2-2v-8h-1v8c0 0.554-0.446 1-1 1h-9c-0.554 0-1-0.446-1-1v-10c0-0.554 0.446-1 1-1h7v-1z" class="ColorScheme-Text" fill="currentColor"/>
+ <path d="m7 4v6.0859l-1.7988-1.7988-0.70703 0.70703 3.0059 3.0059 3.0059-3.0059-0.70703-0.70703-1.7988 1.7988v-6.0859h-1z" class="ColorScheme-Text" fill="currentColor"/>
+ <path d="m14 6-1-1h-2c-0.554 0-1-0.446-1-1v-2l-1-1v3c0 1.108 0.892 2 2 2z" class="ColorScheme-Text" fill="currentColor"/>
+ <path d="m10 1-0.70703 0.70703 4.707 4.707v-1.4141l-4-4z" class="ColorScheme-Text" fill="currentColor"/>
 </svg>

@@ -4,7 +4,7 @@
         color:#363636;
       }</style>
  </defs>
- <path class="ColorScheme-Text" fill="currentColor" d="m11.293 4-3.293 3.293v-2.293h-1v4h4v-1h-2.293l3.293-3.293z"/>
- <path d="m3.9512 10a2 2 0 0 0-1.9512 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2 2 2 0 0 0-0.048828 0zm0.048828 1a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1z" class="ColorScheme-Text" fill="currentColor"/>
- <path d="m4 2c-1.108 0-2 0.892-2 2v5h1v-5c0-0.554 0.446-1 1-1h8c0.554 0 1 0.446 1 1v8c0 0.554-0.446 1-1 1h-5v1h5c1.108 0 2-0.892 2-2v-8c0-1.108-0.892-2-2-2h-8z" class="ColorScheme-Text" fill="currentColor"/>
+ <path class="ColorScheme-Text" d="m11.293 4-3.293 3.293v-2.293h-1v4h4v-1h-2.293l3.293-3.293z" fill="currentColor"/>
+ <path class="ColorScheme-Text" d="m2.9512 11a2 2 0 0 0-1.9512 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2 2 2 0 0 0-0.048828 0zm0.048828 1a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1z" fill="currentColor"/>
+ <path class="ColorScheme-Text" d="m3 1c-1.108 0-2 0.892-2 2v6h1v-6c0-0.554 0.446-1 1-1h10c0.554 0 1 0.446 1 1v10c0 0.554-0.446 1-1 1h-6v1h6c1.108 0 2-0.892 2-2v-10c0-1.108-0.892-2-2-2z" fill="currentColor"/>
 </svg>

@@ -1,7 +1,4 @@
 <svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <style id="current-color-scheme" type="text/css"/>
- </defs>
- <path d="M 5.525,4.818 8,7.293 10.475,4.818 11.182,5.525 8.707,8 11.182,10.475 10.475,11.182 8,8.707 5.525,11.182 4.818,10.475 7.293,8 4.818,5.525 Z" fill="#f55" fill-rule="evenodd" paint-order="stroke fill markers"/>
- <path d="m8 0a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm-0.09375 1a7 7 0 0 1 0.09375 0 7 7 0 0 1 7 7 7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 6.9062-7z" fill="#f55" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+ <path d="M 5.525,4.818 8,7.293 10.475,4.818 11.182,5.525 8.707,8 11.182,10.475 10.475,11.182 8,8.707 5.525,11.182 4.818,10.475 7.293,8 4.818,5.525 Z" fill="#f55" class="error"/>
+ <path d="m8 0a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm-0.09375 1a7 7 0 0 1 0.09375 0 7 7 0 0 1 7 7 7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 6.9062-7z" class="error" fill="#f55"/>
 </svg>

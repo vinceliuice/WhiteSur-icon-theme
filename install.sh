@@ -94,9 +94,6 @@ install() {
     ln -s ../../${name}/devices/scalable ${name}-dark/devices/scalable
     ln -s ../../${name}/places/scalable ${name}-dark/places/scalable
     ln -s ../../${name}/status/32 ${name}-dark/status/32
-
-    cd ${THEME_DIR}
-    sed -i "s/Numix-Circle-Light/Numix-Circle/g" index.theme
   fi
 
   cd ${THEME_DIR}

@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /usr/bin/env bash
 
 ROOT_UID=0
 DEST_DIR=
@@ -14,21 +14,24 @@ SRC_DIR=$(cd $(dirname $0) && pwd)
 
 THEME_NAME=WhiteSur
 COLOR_VARIANTS=('' '-dark')
+THEME_VARIANTS=('' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-grey')
 
 usage() {
   printf "%s\n" "Usage: $0 [OPTIONS...]"
   printf "\n%s\n" "OPTIONS:"
   printf "  %-25s%s\n" "-d, --dest DIR" "Specify theme destination directory (Default: ${DEST_DIR})"
   printf "  %-25s%s\n" "-n, --name NAME" "Specify theme name (Default: ${THEME_NAME})"
+  printf "  %-25s%s\n" "-t, --theme VARIANTS" "Specify folder color [default|purple|pink|red|orange|yellow|green|grey|all] (Default: MacOS blue)"
   printf "  %-25s%s\n" "-h, --help" "Show this help"
 }
 
 install() {
   local dest=${1}
   local name=${2}
-  local color=${3}
+  local theme=${3}
+  local color=${4}
 
-  local THEME_DIR=${dest}/${name}${color}
+  local THEME_DIR=${dest}/${name}${theme}${color}
 
   [[ -d ${THEME_DIR} ]] && rm -rf ${THEME_DIR}
 
@@ -39,7 +42,7 @@ install() {
   cp -r ${SRC_DIR}/src/index.theme                                                     ${THEME_DIR}
 
   cd ${THEME_DIR}
-  sed -i "s/${name}/${name}${color}/g" index.theme
+  sed -i "s/${name}/${name}${theme}${color}/g" index.theme
 
   if [[ ${color} == '' ]]; then
     mkdir -p                                                                               ${THEME_DIR}/status
@@ -50,6 +53,10 @@ install() {
     if [[ $DESKTOP_SESSION == '/usr/share/xsessions/budgie-desktop' ]]; then
       cp -r ${SRC_DIR}/src/status/symbolic-budgie/*.svg                                    ${THEME_DIR}/status/symbolic
     fi
+  fi
+
+  if [[ ${color} == '' && ${theme} != '' ]]; then
+    cp -r ${SRC_DIR}/colors/color${theme}/*.svg                                        ${THEME_DIR}/places/scalable
   fi
 
   if [[ ${color} == '-dark' ]]; then
@@ -82,18 +89,18 @@ install() {
     cp -r ${SRC_DIR}/links/mimes/symbolic                                              ${THEME_DIR}/mimes
 
     cd ${dest}
-    ln -s ../${name}/animations ${name}-dark/animations
-    ln -s ../../${name}/categories/32 ${name}-dark/categories/32
-    ln -s ../../${name}/emblems/16 ${name}-dark/emblems/16
-    ln -s ../../${name}/emblems/22 ${name}-dark/emblems/22
-    ln -s ../../${name}/emblems/24 ${name}-dark/emblems/24
-    ln -s ../../${name}/mimes/16 ${name}-dark/mimes/16
-    ln -s ../../${name}/mimes/22 ${name}-dark/mimes/22
-    ln -s ../../${name}/mimes/scalable ${name}-dark/mimes/scalable
-    ln -s ../../${name}/apps/scalable ${name}-dark/apps/scalable
-    ln -s ../../${name}/devices/scalable ${name}-dark/devices/scalable
-    ln -s ../../${name}/places/scalable ${name}-dark/places/scalable
-    ln -s ../../${name}/status/32 ${name}-dark/status/32
+    ln -s ../${name}${theme}/animations ${name}${theme}-dark/animations
+    ln -s ../../${name}${theme}/categories/32 ${name}${theme}-dark/categories/32
+    ln -s ../../${name}${theme}/emblems/16 ${name}${theme}-dark/emblems/16
+    ln -s ../../${name}${theme}/emblems/22 ${name}${theme}-dark/emblems/22
+    ln -s ../../${name}${theme}/emblems/24 ${name}${theme}-dark/emblems/24
+    ln -s ../../${name}${theme}/mimes/16 ${name}${theme}-dark/mimes/16
+    ln -s ../../${name}${theme}/mimes/22 ${name}${theme}-dark/mimes/22
+    ln -s ../../${name}${theme}/mimes/scalable ${name}${theme}-dark/mimes/scalable
+    ln -s ../../${name}${theme}/apps/scalable ${name}${theme}-dark/apps/scalable
+    ln -s ../../${name}${theme}/devices/scalable ${name}${theme}-dark/devices/scalable
+    ln -s ../../${name}${theme}/places/scalable ${name}${theme}-dark/places/scalable
+    ln -s ../../${name}${theme}/status/32 ${name}${theme}-dark/status/32
   fi
 
   cd ${THEME_DIR}
@@ -108,7 +115,7 @@ install() {
   ln -sf status status@2x
 
   cd ${dest}
-  gtk-update-icon-cache ${name}${color}
+  gtk-update-icon-cache ${name}${theme}${color}
 }
 
 while [[ $# -gt 0 ]]; do
@@ -125,6 +132,57 @@ while [[ $# -gt 0 ]]; do
       name="${2}"
       shift 2
       ;;
+    -t|--theme)
+      shift
+      for theme in "${@}"; do
+        case "${theme}" in
+          default)
+            themes+=("${THEME_VARIANTS[0]}")
+            shift
+            ;;
+          purple)
+            themes+=("${THEME_VARIANTS[1]}")
+            shift
+            ;;
+          pink)
+            themes+=("${THEME_VARIANTS[2]}")
+            shift
+            ;;
+          red)
+            themes+=("${THEME_VARIANTS[3]}")
+            shift
+            ;;
+          orange)
+            themes+=("${THEME_VARIANTS[4]}")
+            shift
+            ;;
+          yellow)
+            themes+=("${THEME_VARIANTS[5]}")
+            shift
+            ;;
+          green)
+            themes+=("${THEME_VARIANTS[6]}")
+            shift
+            ;;
+          grey)
+            themes+=("${THEME_VARIANTS[7]}")
+            shift
+            ;;
+          all)
+            themes+=("${THEME_VARIANTS[@]}")
+            shift
+            ;;
+          -*|--*)
+            break
+            ;;
+          *)
+            prompt -e "ERROR: Unrecognized theme variant '$1'."
+            prompt -i "Try '$0 --help' for more information."
+            exit 1
+            ;;
+        esac
+      done
+      ;;
     -h|--help)
       usage
       exit 0
@@ -139,8 +197,10 @@ while [[ $# -gt 0 ]]; do
 done
 
 install_theme() {
-  for color in "${colors[@]-${COLOR_VARIANTS[@]}}"; do
-    install "${dest:-${DEST_DIR}}" "${name:-${THEME_NAME}}" "${color}"
+  for theme in "${themes[@]-${THEME_VARIANTS[0]}}"; do
+    for color in "${colors[@]-${COLOR_VARIANTS[@]}}"; do
+      install "${dest:-${DEST_DIR}}" "${name:-${THEME_NAME}}" "${theme}" "${color}"
+    done
   done
 }
 

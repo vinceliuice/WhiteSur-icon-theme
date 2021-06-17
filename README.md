@@ -11,6 +11,7 @@ Usage:  `./install.sh`  **[OPTIONS...]**
 |:--------------------|:-------------|
 |-d, --dest           | Specify theme destination directory (Default: $HOME/.themes)|
 |-n, --name           | Specify theme name (Default: WhiteSur)|
+|-a, --alternative | Install alternative icons for software center and file-manager|
 |-h, --help           | Show this help|
 
 > **Note for snaps:** To use these icons with snaps, the best way is to make a copy of the application's .desktop located in `/var/lib/snapd/desktop/applications/name-of-the-snap-application.desktop` into `$HOME/.local/share/applications/`. Then use any text editor and change the "Icon=" to "Icon=name-of-the-icon.svg"

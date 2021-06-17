@@ -22,8 +22,30 @@ usage() {
   printf "  %-25s%s\n" "-d, --dest DIR" "Specify theme destination directory (Default: ${DEST_DIR})"
   printf "  %-25s%s\n" "-n, --name NAME" "Specify theme name (Default: ${THEME_NAME})"
   printf "  %-25s%s\n" "-t, --theme VARIANTS" "Specify folder color [default|purple|pink|red|orange|yellow|green|grey|all] (Default: MacOS blue)"
+  printf "  %-25s%s\n" "-a, --alternative" "Install alternative icons for software center and file-manager"
   printf "  %-25s%s\n" "-h, --help" "Show this help"
 }
+
+# change the name of software and file-manager to use the alternative
+alternative() {
+  local dir="${SRC_DIR}/src/apps/scalable"
+  if [[ ${1} == 'unset' ]]; then
+    # Software
+    mv ${dir}/softwarecenter.svg ${dir}/softwarecenter-alternative.svg
+    mv ${dir}/softwarecenter-old.svg ${dir}/softwarecenter.svg
+    # File-manager
+    mv ${dir}/file-manager.svg ${dir}/file-manager-alternative.svg
+    mv ${dir}/file-manager-old.svg ${dir}/file-manager.svg
+  else
+    # Software
+    mv ${dir}/softwarecenter.svg ${dir}/softwarecenter-old.svg
+    mv ${dir}/softwarecenter-alternative.svg ${dir}/softwarecenter.svg
+    # File-manager
+    mv ${dir}/file-manager.svg ${dir}/file-manager-old.svg
+    mv ${dir}/file-manager-alternative.svg ${dir}/file-manager.svg
+  fi
+}
+
 
 install() {
   local dest=${1}
@@ -183,6 +205,10 @@ while [[ $# -gt 0 ]]; do
         esac
       done
       ;;
+    -a|--alternative)
+      alternative
+      alternative=true
+      ;;
     -h|--help)
       usage
       exit 0
@@ -197,11 +223,17 @@ while [[ $# -gt 0 ]]; do
 done
 
 install_theme() {
+  
   for theme in "${themes[@]-${THEME_VARIANTS[0]}}"; do
     for color in "${colors[@]-${COLOR_VARIANTS[@]}}"; do
       install "${dest:-${DEST_DIR}}" "${name:-${THEME_NAME}}" "${theme}" "${color}"
     done
   done
+
+  # restore the names in the source file
+  if [[ $alternative == true ]]; then
+    alternative 'unset'
+  fi
 }
 
 install_theme

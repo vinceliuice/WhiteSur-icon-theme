@@ -113,16 +113,16 @@ install() {
   fi
 
   (
-  cd ${THEME_DIR}
-  ln -sf actions actions@2x
-  ln -sf animations animations@2x
-  ln -sf apps apps@2x
-  ln -sf categories categories@2x
-  ln -sf devices devices@2x
-  ln -sf emblems emblems@2x
-  ln -sf mimes mimes@2x
-  ln -sf places places@2x
-  ln -sf status status@2x
+    cd ${THEME_DIR}
+    ln -sf actions actions@2x
+    ln -sf animations animations@2x
+    ln -sf apps apps@2x
+    ln -sf categories categories@2x
+    ln -sf devices devices@2x
+    ln -sf emblems emblems@2x
+    ln -sf mimes mimes@2x
+    ln -sf places places@2x
+    ln -sf status status@2x
   )
 
   gtk-update-icon-cache ${THEME_DIR}

@@ -1,4 +1,4 @@
-#! /usr/bin/env bash
+#!/bin/bash
 
 ROOT_UID=0
 DEST_DIR=
@@ -10,42 +10,25 @@ else
   DEST_DIR="$HOME/.local/share/icons"
 fi
 
-SRC_DIR=$(cd $(dirname $0) && pwd)
+SRC_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 THEME_NAME=WhiteSur
 COLOR_VARIANTS=('' '-dark')
 THEME_VARIANTS=('' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-grey')
 
 usage() {
-  printf "%s\n" "Usage: $0 [OPTIONS...]"
-  printf "\n%s\n" "OPTIONS:"
-  printf "  %-25s%s\n" "-d, --dest DIR" "Specify theme destination directory (Default: ${DEST_DIR})"
-  printf "  %-25s%s\n" "-n, --name NAME" "Specify theme name (Default: ${THEME_NAME})"
-  printf "  %-25s%s\n" "-t, --theme VARIANTS" "Specify folder color [default|purple|pink|red|orange|yellow|green|grey|all] (Default: MacOS blue)"
-  printf "  %-25s%s\n" "-a, --alternative" "Install alternative icons for software center and file-manager"
-  printf "  %-25s%s\n" "-h, --help" "Show this help"
-}
+cat << EOF
+  Usage: $0 [OPTION]...
 
-# change the name of software and file-manager to use the alternative
-alternative() {
-  local dir="${SRC_DIR}/src/apps/scalable"
-  if [[ ${1} == 'unset' ]]; then
-    # Software
-    mv ${dir}/softwarecenter.svg ${dir}/softwarecenter-alternative.svg
-    mv ${dir}/softwarecenter-old.svg ${dir}/softwarecenter.svg
-    # File-manager
-    mv ${dir}/file-manager.svg ${dir}/file-manager-alternative.svg
-    mv ${dir}/file-manager-old.svg ${dir}/file-manager.svg
-  else
-    # Software
-    mv ${dir}/softwarecenter.svg ${dir}/softwarecenter-old.svg
-    mv ${dir}/softwarecenter-alternative.svg ${dir}/softwarecenter.svg
-    # File-manager
-    mv ${dir}/file-manager.svg ${dir}/file-manager-old.svg
-    mv ${dir}/file-manager-alternative.svg ${dir}/file-manager.svg
-  fi
+  OPTIONS:
+    -d, --dest DIR          Specify destination directory (Default: $DEST_DIR)
+    -n, --name NAME         Specify theme name (Default: $THEME_NAME)
+    -t, --theme VARIANT     Specify theme color variant(s) [default|purple|pink|red|orange|yellow|green|grey|all] (Default: blue)
+    -c, --color VARIANT     Specify color variant(s) [standard|light|dark] (Default: All variants)s)
+    -a, --alternative       Install alternative icons for software center and file-manager
+    -h, --help              Show help
+EOF
 }
-
 
 install() {
   local dest=${1}
@@ -71,14 +54,18 @@ install() {
     cp -r ${SRC_DIR}/src/{actions,animations,apps,categories,devices,emblems,mimes,places} ${THEME_DIR}
     cp -r ${SRC_DIR}/src/status/{16,22,24,32,symbolic}                                     ${THEME_DIR}/status
     cp -r ${SRC_DIR}/links/{actions,apps,categories,devices,emblems,mimes,places,status}   ${THEME_DIR}
-    
+
     if [[ $DESKTOP_SESSION == '/usr/share/xsessions/budgie-desktop' ]]; then
       cp -r ${SRC_DIR}/src/status/symbolic-budgie/*.svg                                    ${THEME_DIR}/status/symbolic
     fi
-  fi
 
-  if [[ ${color} == '' && ${theme} != '' ]]; then
-    cp -r ${SRC_DIR}/colors/color${theme}/*.svg                                        ${THEME_DIR}/places/scalable
+    if [[ ${alternative:-} == 'true' ]]; then
+      cp -r ${SRC_DIR}/alternative/apps/*.svg                                              ${THEME_DIR}/apps/scalable
+    fi
+
+    if [[ ${theme} != '' ]]; then
+      cp -r ${SRC_DIR}/colors/color${theme}/*.svg                                          ${THEME_DIR}/places/scalable
+    fi
   fi
 
   if [[ ${color} == '-dark' ]]; then
@@ -125,6 +112,7 @@ install() {
     ln -s ../../${name}${theme}/status/32 ${name}${theme}-dark/status/32
   fi
 
+  (
   cd ${THEME_DIR}
   ln -sf actions actions@2x
   ln -sf animations animations@2x
@@ -135,24 +123,26 @@ install() {
   ln -sf mimes mimes@2x
   ln -sf places places@2x
   ln -sf status status@2x
+  )
 
-  cd ${dest}
-  gtk-update-icon-cache ${name}${theme}${color}
+  gtk-update-icon-cache ${THEME_DIR}
 }
 
-while [[ $# -gt 0 ]]; do
-  case "${1}" in
+while [[ "$#" -gt 0 ]]; do
+  case "${1:-}" in
     -d|--dest)
-      dest="${2}"
-      if [[ ! -d "${dest}" ]]; then
-        echo "ERROR: Destination directory does not exist."
-        exit 1
-      fi
+      dest="$2"
+      mkdir -p "$dest"
       shift 2
       ;;
     -n|--name)
       name="${2}"
       shift 2
+      ;;
+    -a|--alternative)
+      alternative='true'
+      echo "Installing 'alternative' version..."
+      shift
       ;;
     -t|--theme)
       shift
@@ -203,11 +193,8 @@ while [[ $# -gt 0 ]]; do
             exit 1
             ;;
         esac
+        # echo "Installing '${theme}' folder version..."
       done
-      ;;
-    -a|--alternative)
-      alternative
-      alternative=true
       ;;
     -h|--help)
       usage
@@ -219,21 +206,22 @@ while [[ $# -gt 0 ]]; do
       exit 1
       ;;
   esac
-  shift
 done
 
+if [[ "${#themes[@]}" -eq 0 ]] ; then
+  themes=("${THEME_VARIANTS[0]}")
+fi
+
+if [[ "${#colors[@]}" -eq 0 ]] ; then
+  colors=("${COLOR_VARIANTS[@]}")
+fi
+
 install_theme() {
-  
-  for theme in "${themes[@]-${THEME_VARIANTS[0]}}"; do
-    for color in "${colors[@]-${COLOR_VARIANTS[@]}}"; do
+  for theme in "${themes[@]}"; do
+    for color in "${colors[@]}"; do
       install "${dest:-${DEST_DIR}}" "${name:-${THEME_NAME}}" "${theme}" "${color}"
     done
   done
-
-  # restore the names in the source file
-  if [[ $alternative == true ]]; then
-    alternative 'unset'
-  fi
 }
 
 install_theme

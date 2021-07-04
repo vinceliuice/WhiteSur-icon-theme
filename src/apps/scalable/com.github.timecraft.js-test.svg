@@ -1,8 +1,8 @@
-<svg id="Sublime-Text" width="64" height="64" enable-background="new 0 0 1024 1024" image-rendering="optimizeSpeed" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg id="Sublime-Text" width="64" height="64" enable-background="new 0 0 1024 1024" image-rendering="optimizeSpeed" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
  <defs>
   <linearGradient id="linearGradient862-3" x1="7.9373" x2="7.9373" y1="15.081" y2="1.852" gradientTransform="matrix(3.7795 0 0 3.7795 .00014324 .031541)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#1a1a1a" offset="0"/>
-   <stop stop-color="#4d4d4d" offset="1"/>
+   <stop stop-color="#292929" offset="0"/>
+   <stop stop-color="#525252" offset="1"/>
   </linearGradient>
   <linearGradient id="linearGradient928" x1="27.535" x2="27.535" y1="19.009" y2="46.584" gradientTransform="matrix(.11943 0 0 .079621 77.681 9.5369)" gradientUnits="userSpaceOnUse">
    <stop stop-color="#FF9700" offset="0"/>

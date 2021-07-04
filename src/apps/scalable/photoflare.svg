@@ -24,7 +24,7 @@
    <stop stop-color="#fff" stop-opacity=".99471" offset="1"/>
   </linearGradient>
   <linearGradient id="linearGradient862" x1="7.9373" x2="7.9373" y1="15.081" y2="1.852" gradientTransform="scale(3.7796)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#262626" offset="0"/>
+   <stop stop-color="#2e2e2e" offset="0"/>
    <stop stop-color="#505050" offset="1"/>
   </linearGradient>
  </defs>

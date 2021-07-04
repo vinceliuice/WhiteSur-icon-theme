@@ -74,7 +74,7 @@
    <stop stop-color="#70787e" offset="1"/>
   </linearGradient>
   <linearGradient id="linearGradient2882" x1="28" x2="28" y1="60" y2="4" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#1f1f1f" offset="0"/>
+   <stop stop-color="#292929" offset="0"/>
    <stop stop-color="#525252" offset="1"/>
   </linearGradient>
   <filter id="filter1960" x="-.026308" y="-.2736" width="1.0526" height="1.5472" color-interpolation-filters="sRGB">

@@ -1,14 +1,14 @@
-<svg id="Apps-Visual-Studio-Code" width="64" height="64" enable-background="new 0 0 1024 1024" image-rendering="optimizeSpeed" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg id="Apps-Visual-Studio-Code" width="64" height="64" enable-background="new 0 0 1024 1024" image-rendering="optimizeSpeed" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
  <defs>
   <linearGradient id="d" x1="32" x2="32" y1="13" y2="51" gradientTransform="matrix(.99609 0 0 .99609 2 2)" gradientUnits="userSpaceOnUse">
    <stop stop-color="#fff" offset="0"/>
    <stop stop-color="#ccc" offset="1"/>
   </linearGradient>
-  <filter id="e" x="-.063829" y="-.056604" width="1.1277" height="1.1132" color-interpolation-filters="sRGB">
+  <filter id="e" x="-.063829" y="-.056605" width="1.1277" height="1.1132" color-interpolation-filters="sRGB">
    <feGaussianBlur stdDeviation="0.89623432"/>
   </filter>
   <linearGradient id="linearGradient862-3" x1="7.9373" x2="7.9373" y1="15.081" y2="1.852" gradientTransform="matrix(3.7795 0 0 3.7795 .00014324 .031541)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#1a1a1a" offset="0"/>
+   <stop stop-color="#292929" offset="0"/>
    <stop stop-color="#4d4d4d" offset="1"/>
   </linearGradient>
  </defs>

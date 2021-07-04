@@ -1,10 +1,10 @@
 <svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg">
  <defs>
-  <filter id="filter904" x="-.061616" y="-.058467" width="1.1232" height="1.1169" color-interpolation-filters="sRGB">
+  <filter id="filter904" x="-.061617" y="-.058466" width="1.1232" height="1.1169" color-interpolation-filters="sRGB">
    <feGaussianBlur stdDeviation="0.97558723"/>
   </filter>
   <linearGradient id="linearGradient862-3" x1="7.9373" x2="7.9373" y1="15.081" y2="1.852" gradientTransform="matrix(3.7795 0 0 3.7795 .00014324 .031541)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#1a1a1a" offset="0"/>
+   <stop stop-color="#292929" offset="0"/>
    <stop stop-color="#4d4d4d" offset="1"/>
   </linearGradient>
  </defs>

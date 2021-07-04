@@ -26,7 +26,7 @@
    <feGaussianBlur stdDeviation="0.21166249"/>
   </filter>
   <linearGradient id="linearGradient862-3" x1="7.9373" x2="7.9373" y1="15.081" y2="1.852" gradientTransform="matrix(.99997 0 0 .99997 3.7636e-5 .0083364)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#1a1a1a" offset="0"/>
+   <stop stop-color="#292929" offset="0"/>
    <stop stop-color="#4d4d4d" offset="1"/>
   </linearGradient>
  </defs>

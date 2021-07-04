@@ -8,11 +8,11 @@
    <stop stop-color="#1769cc" offset="0"/>
    <stop stop-color="#5ee6fb" offset="1"/>
   </linearGradient>
-  <filter id="i" x="-.059998" y="-.060002" width="1.12" height="1.12" color-interpolation-filters="sRGB">
+  <filter id="i" x="-.06" y="-.06" width="1.12" height="1.12" color-interpolation-filters="sRGB">
    <feGaussianBlur stdDeviation="0.69999792"/>
   </filter>
   <linearGradient id="linearGradient971" x1="30" x2="30" y1="57" y2="8" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#1f1f1f" offset="0"/>
+   <stop stop-color="#292929" offset="0"/>
    <stop stop-color="#525252" offset="1"/>
   </linearGradient>
   <filter id="filter955" x="-.071902" y="-.093049" width="1.1438" height="1.1861" color-interpolation-filters="sRGB">

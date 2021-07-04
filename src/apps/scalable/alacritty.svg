@@ -1,17 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
- <metadata>
-  <rdf:RDF>
-   <cc:Work rdf:about="">
-    <dc:format>image/svg+xml</dc:format>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:title/>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <linearGradient id="linearGradient862" x1="7.9373" x2="7.9373" y1="15.081" y2="1.852" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#1e1f1f" offset="0"/>
+   <stop stop-color="#2d2f2f" offset="0"/>
    <stop stop-color="#505353" offset="1"/>
   </linearGradient>
   <linearGradient id="c" x1="31.458" x2="31.458" y1="51.726" y2="62.898" gradientTransform="matrix(.36079 0 0 .36079 -2.8832 -9.4399)" gradientUnits="userSpaceOnUse">

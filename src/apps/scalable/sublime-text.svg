@@ -9,11 +9,11 @@
    <stop stop-color="#F48E00" offset=".57396"/>
    <stop stop-color="#CE6E00" offset="1"/>
   </linearGradient>
-  <filter id="c" x="-.041377" y="-.03186" width="1.0828" height="1.0637" color-interpolation-filters="sRGB">
+  <filter id="c" x="-.041377" y="-.062066" width="1.0828" height="1.1241" color-interpolation-filters="sRGB">
    <feGaussianBlur stdDeviation="6.7714073"/>
   </filter>
   <linearGradient id="linearGradient862-3" x1="7.9373" x2="7.9373" y1="15.081" y2="1.852" gradientTransform="matrix(3.7795 0 0 3.7795 .00014324 .031541)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#1a1a1a" offset="0"/>
+   <stop stop-color="#292929" offset="0"/>
    <stop stop-color="#4d4d4d" offset="1"/>
   </linearGradient>
   <linearGradient id="linearGradient1024" x1="20.308" x2="45.273" y1="31.404" y2="31.404" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1022"/>

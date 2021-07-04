@@ -12,7 +12,7 @@
   <linearGradient id="d" x1="409.57" x2="409.94" y1="542.8" y2="504.19" gradientTransform="matrix(.40907 0 0 .5294 -121.14 -251.83)" gradientUnits="userSpaceOnUse" xlink:href="#f"/>
   <linearGradient id="a" x1="409.57" x2="409.94" y1="542.8" y2="504.19" gradientTransform="matrix(.54543 0 0 .5294 -200.85 -251.83)" gradientUnits="userSpaceOnUse" xlink:href="#f"/>
   <linearGradient id="linearGradient865" x1="7.9373" x2="7.9373" y1="15.274" y2="1.5247" gradientTransform="scale(3.7796)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#242424" offset="0"/>
+   <stop stop-color="#2e2e2e" offset="0"/>
    <stop stop-color="#4e4e4e" offset="1"/>
   </linearGradient>
  </defs>

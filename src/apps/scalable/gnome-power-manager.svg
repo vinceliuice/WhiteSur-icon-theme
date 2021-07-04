@@ -28,7 +28,7 @@
   <linearGradient id="k" x1="21" x2="45" y1="6" y2="6" gradientTransform="translate(-.85366 10.945)" gradientUnits="userSpaceOnUse" xlink:href="#e"/>
   <linearGradient id="j" x1="21" x2="45" y1="6" y2="6" gradientTransform="matrix(.20833 0 0 .20833 25.155 13.89)" gradientUnits="userSpaceOnUse" xlink:href="#e"/>
   <linearGradient id="i" x1="34" x2="25" y1="8" y2="8" gradientTransform="translate(0,8.9806)" gradientUnits="userSpaceOnUse" xlink:href="#c"/>
-  <filter id="a" x="-.050573" y="-.12493" width="1.1011" height="1.2499" color-interpolation-filters="sRGB">
+  <filter id="a" x="-.050574" y="-.12493" width="1.1011" height="1.2499" color-interpolation-filters="sRGB">
    <feGaussianBlur stdDeviation="0.20821576"/>
   </filter>
   <linearGradient id="h" x1="38" x2="34" y1="4" y2="9" gradientTransform="translate(0,8.9806)" gradientUnits="userSpaceOnUse" xlink:href="#c"/>
@@ -53,15 +53,14 @@
   <filter id="r" x="-.15668" y="-.5148" width="1.3134" height="2.0296" color-interpolation-filters="sRGB">
    <feGaussianBlur stdDeviation="1.5015083"/>
   </filter>
-  <filter id="q" x="-.2568" y="-.033968" width="1.5136" height="1.0679" color-interpolation-filters="sRGB">
+  <filter id="q" x="-.2568" y="-.033969" width="1.5136" height="1.0679" color-interpolation-filters="sRGB">
    <feGaussianBlur stdDeviation="0.50573731"/>
   </filter>
   <filter id="p" x="-.31697" y="-.033136" width="1.6339" height="1.0663" color-interpolation-filters="sRGB">
    <feGaussianBlur stdDeviation="0.49758301"/>
   </filter>
-  <linearGradient id="linearGradient994" x1="28.542" x2="28.542" y1="58.41" y2="6.4782" gradientTransform="matrix(.058824 0 0 .058824 147.21 -23.453)" gradientUnits="userSpaceOnUse">
+  <linearGradient id="linearGradient994" x1="-2193.4" x2="-2193.4" y1="1377.3" y2="541.43" gradientTransform="matrix(.058824 0 0 .058824 147.21 -23.453)" gradientUnits="userSpaceOnUse">
    <stop stop-color="#262626" offset="0"/>
-   <stop stop-color="#333" offset=".50769"/>
    <stop stop-color="#4a4a4a" offset="1"/>
   </linearGradient>
  </defs>

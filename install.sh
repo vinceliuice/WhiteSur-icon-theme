@@ -26,6 +26,7 @@ cat << EOF
     -t, --theme VARIANT     Specify theme color variant(s) [default|purple|pink|red|orange|yellow|green|grey|all] (Default: blue)
     -c, --color VARIANT     Specify color variant(s) [standard|light|dark] (Default: All variants)s)
     -a, --alternative       Install alternative icons for software center and file-manager
+    -b, --bold              Install bold panel icons version
     -h, --help              Show help
 EOF
 }
@@ -53,6 +54,11 @@ install() {
     mkdir -p                                                                               ${THEME_DIR}/status
     cp -r ${SRC_DIR}/src/{actions,animations,apps,categories,devices,emblems,mimes,places} ${THEME_DIR}
     cp -r ${SRC_DIR}/src/status/{16,22,24,32,symbolic}                                     ${THEME_DIR}/status
+
+    if [[ ${bold:-} == 'true' ]]; then
+      cp -r ${SRC_DIR}/bold/*                                                              ${THEME_DIR}
+    fi
+
     cp -r ${SRC_DIR}/links/{actions,apps,categories,devices,emblems,mimes,places,status}   ${THEME_DIR}
 
     if [[ $DESKTOP_SESSION == '/usr/share/xsessions/budgie-desktop' ]]; then
@@ -142,6 +148,11 @@ while [[ "$#" -gt 0 ]]; do
     -a|--alternative)
       alternative='true'
       echo "Installing 'alternative' version..."
+      shift
+      ;;
+    -b|--bold)
+      bold='true'
+      echo "Installing 'bold' version..."
       shift
       ;;
     -t|--theme)

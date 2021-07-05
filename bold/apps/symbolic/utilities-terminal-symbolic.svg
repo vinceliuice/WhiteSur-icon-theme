@@ -1,0 +1,4 @@
+<svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <path d="M 3.71875,4 3,4.6875 5.625,7.5 3.03125,10.3125 3.71875,11 6.6875,7.84375 7,7.5 6.6875,7.15625 Z M 7,11 v 1 h 4 v -1 z" fill="#363636"/>
+ <path d="m3 1c-1.3591 0-2.5 1.1409-2.5 2.5v9c0 1.3591 1.1409 2.5 2.5 2.5h10c1.3591 0 2.5-1.1409 2.5-2.5v-9c0-1.3591-1.1409-2.5-2.5-2.5zm0 1.5h10c0.554 0 1 0.446 1 1v9c0 0.554-0.446 1-1 1h-10c-0.554 0-1-0.446-1-1v-9c0-0.554 0.446-1 1-1z" color="#000000" fill="#363636" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none;paint-order:fill markers stroke"/>
+</svg>

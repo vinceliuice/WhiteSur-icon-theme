@@ -86,6 +86,10 @@ install() {
     cp -r ${SRC_DIR}/src/places/{16,22,24,symbolic}                                    ${THEME_DIR}/places
     cp -r ${SRC_DIR}/src/status/{16,22,24,symbolic}                                    ${THEME_DIR}/status
 
+    if [[ ${bold:-} == 'true' ]]; then
+      cp -r ${SRC_DIR}/bold/*                                                          ${THEME_DIR}
+    fi
+
     if [[ $DESKTOP_SESSION == '/usr/share/xsessions/budgie-desktop' ]]; then
       cp -r ${SRC_DIR}/src/status/symbolic-budgie/*.svg                                ${THEME_DIR}/status/symbolic
     fi

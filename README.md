@@ -17,11 +17,13 @@ Usage:  `./install.sh`  **[OPTIONS...]**
 |-b, --bold           | Install bold panel icons version|
 |-h, --help           | Show this help|
 
+> **Note for snaps:** To use these icons with snaps, the best way is to make a copy of the application's .desktop located in `/var/lib/snapd/desktop/applications/name-of-the-snap-application.desktop` into `$HOME/.local/share/applications/`. Then use any text editor and change the "Icon=" to "Icon=name-of-the-icon.svg"
+
 > For more information, run: `./install.sh --help`
 
 ![1](bold-size.png?raw=true)
 
-> **Note for snaps:** To use these icons with snaps, the best way is to make a copy of the application's .desktop located in `/var/lib/snapd/desktop/applications/name-of-the-snap-application.desktop` into `$HOME/.local/share/applications/`. Then use any text editor and change the "Icon=" to "Icon=name-of-the-icon.svg"
+> Bold version suggested use in `High resolution display` like 4k display with 200% scale!
 
 ## Requirment
 You can use this with:

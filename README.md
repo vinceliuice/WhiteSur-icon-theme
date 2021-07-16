@@ -12,7 +12,6 @@ Usage:  `./install.sh`  **[OPTIONS...]**
 |-d, --dest           | Specify theme destination directory (Default: $HOME/.themes)|
 |-n, --name           | Specify theme name (Default: WhiteSur)|
 |-t, --theme          | Specify theme color variant(s) [default/purple/pink/red/orange/yellow/green/grey/all] (Default: blue)|
-|-c, --color          | Specify color variant(s) [standard/light/dark] (Default: All variants)s)|
 |-a, --alternative    | Install alternative icons for software center and file-manager|
 |-b, --bold           | Install bold panel icons version|
 |-h, --help           | Show this help|

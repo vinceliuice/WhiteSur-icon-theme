@@ -26,6 +26,7 @@ cat << EOF
     -t, --theme VARIANT     Specify theme color variant(s) [default|purple|pink|red|orange|yellow|green|grey|all] (Default: blue)
     -a, --alternative       Install alternative icons for software center and file-manager
     -b, --bold              Install bold panel icons version
+    --black                 Black panel icons version
     -h, --help              Show help
 EOF
 }
@@ -53,6 +54,10 @@ install() {
     mkdir -p                                                                               ${THEME_DIR}/status
     cp -r ${SRC_DIR}/src/{actions,animations,apps,categories,devices,emblems,mimes,places} ${THEME_DIR}
     cp -r ${SRC_DIR}/src/status/{16,22,24,32,symbolic}                                     ${THEME_DIR}/status
+
+    if [[ ${black:-} == 'true' ]]; then
+      sed -i "s/#ffffff/#363636/g" "${THEME_DIR}"/status/{16,22,24}/*
+    fi
 
     if [[ ${bold:-} == 'true' ]]; then
       cp -r ${SRC_DIR}/bold/*                                                              ${THEME_DIR}
@@ -156,6 +161,11 @@ while [[ "$#" -gt 0 ]]; do
     -b|--bold)
       bold='true'
       echo "Installing 'bold' version..."
+      shift
+      ;;
+    --black)
+      black='true'
+      echo "Installing 'black on panel' version..."
       shift
       ;;
     -t|--theme)

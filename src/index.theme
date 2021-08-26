@@ -118,7 +118,7 @@ Type=Fixed
 [devices/scalable]
 Size=64
 Context=Devices
-MinSize=22
+MinSize=32
 MaxSize=512
 Type=Scalable
 
@@ -195,7 +195,7 @@ Type=Fixed
 [places/scalable]
 Size=64
 Context=Places
-MinSize=22
+MinSize=32
 MaxSize=512
 Type=Scalable
 
@@ -343,7 +343,7 @@ Type=Fixed
 Size=64
 Scale=2
 Context=Devices
-MinSize=22
+MinSize=32
 MaxSize=512
 Type=Scalable
 
@@ -433,7 +433,7 @@ Type=Fixed
 Size=64
 Scale=2
 Context=Places
-MinSize=22
+MinSize=32
 MaxSize=512
 Type=Scalable
 

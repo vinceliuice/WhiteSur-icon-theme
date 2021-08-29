@@ -25,7 +25,7 @@ Usage:  `./install.sh`  **[OPTIONS...]**
 
 > Bold version suggested use in `High resolution display` like 4k display with 200% scale!
 
-## Requirment
+## Requirement
 You can use this with:
 
 ### GTK theme

@@ -91,7 +91,7 @@ Size=32
 Context=Categories
 Type=Scalable
 MinSize=32
-MaxSize=256
+MaxSize=512
 
 [categories/symbolic]
 Size=16

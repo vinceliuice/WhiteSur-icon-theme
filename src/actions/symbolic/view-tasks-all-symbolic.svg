@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Gnome Symbolic Icon Theme</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <title>Gnome Symbolic Icon Theme</title>
+ <g fill="#363636" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m3 1c-1.108 0-2 0.892-2 2v2c0 1.108 0.892 2 2 2h2c1.108 0 2-0.892 2-2v-2c0-1.108-0.892-2-2-2h-2zm0 1h2c0.554 0 1 0.446 1 1v2c0 0.554-0.446 1-1 1h-2c-0.554 0-1-0.446-1-1v-2c0-0.554 0.446-1 1-1z" style="paint-order:stroke fill markers"/>
+  <path d="m11 1c-1.108 0-2 0.892-2 2v2c0 1.108 0.892 2 2 2h2c1.108 0 2-0.892 2-2v-2c0-1.108-0.892-2-2-2zm0 1h2c0.554 0 1 0.446 1 1v2c0 0.554-0.446 1-1 1h-2c-0.554 0-1-0.446-1-1v-2c0-0.554 0.446-1 1-1z" style="paint-order:stroke fill markers"/>
+  <path d="m3 9c-1.108 0-2 0.892-2 2v2c0 1.108 0.892 2 2 2h2c1.108 0 2-0.892 2-2v-2c0-1.108-0.892-2-2-2zm0 1h2c0.554 0 1 0.446 1 1v2c0 0.554-0.446 1-1 1h-2c-0.554 0-1-0.446-1-1v-2c0-0.554 0.446-1 1-1z" style="paint-order:stroke fill markers"/>
+  <path d="m11 9c-1.108 0-2 0.892-2 2v2c0 1.108 0.892 2 2 2h2c1.108 0 2-0.892 2-2v-2c0-1.108-0.892-2-2-2zm0 1h2c0.554 0 1 0.446 1 1v2c0 0.554-0.446 1-1 1h-2c-0.554 0-1-0.446-1-1v-2c0-0.554 0.446-1 1-1z" style="paint-order:stroke fill markers"/>
+ </g>
+</svg>

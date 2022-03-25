@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+   <defs>
+      <linearGradient id="c" x1="46.427%" x2="46.427%" y1="94.696%" y2="5.413%">
+         <stop offset="0%" stop-color="#EEE"/>
+         <stop offset="100%" stop-color="#FDFCFC"/>
+      </linearGradient>
+      <filter id="b" width="113.5%" height="113.5%" x="-6.7%" y="-4.8%" filterUnits="objectBoundingBox">
+         <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+         <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+         <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
+      </filter>
+      <rect id="a" width="52" height="52" x="6" y="6" rx="11"/>
+   </defs>
+   <g fill="none" fill-rule="evenodd">
+      <g fill-rule="nonzero">
+         <use xlink:href="#a" fill="#000" filter="url(#b)"/>
+         <use xlink:href="#a" fill="url(#c)"/>
+      </g>
+      <g transform="translate(0 -1)">
+         <line x1="64" y1="65" y2="1" stroke="#F09" stroke-width=".1"/>
+         <line x1="6" x2="58" y1="33" y2="33" stroke="#F09" stroke-linecap="square" stroke-width=".1"/>
+         <line x1="6" x2="58" y1="43" y2="43" stroke="#F09" stroke-linecap="square" stroke-width=".1"/>
+         <line x1="6" x2="58" y1="23" y2="23" stroke="#F09" stroke-linecap="square" stroke-width=".1"/>
+         <line x2="64" y1="65" y2="1" stroke="#F09" stroke-width=".1"/>
+         <line x1="32" x2="32" y1="7" y2="59" stroke="#F09" stroke-linecap="square" stroke-width=".1"/>
+         <line x1="42" x2="42" y1="7" y2="59" stroke="#F09" stroke-linecap="square" stroke-width=".1"/>
+         <line x1="22" x2="22" y1="7" y2="59" stroke="#F09" stroke-linecap="square" stroke-width=".1"/>
+         <rect width="46" height="46" x="9" y="10" stroke="#F09" stroke-width=".1" rx="8"/>
+         <path stroke="#F09" stroke-dasharray="1" stroke-width=".1" d="M17,11 L47,11 C50.8659932,11 54,14.1340068 54,18 L54,48 C54,51.8659932 50.8659932,55 47,55 L17,55 C13.1340068,55 10,51.8659932 10,48 L10,18 C10,14.1340068 13.1340068,11 17,11 Z"/>
+         <rect width="52" height="52" x="6.002" y="7" stroke="#F09" stroke-width=".3" rx="11"/>
+         <rect width="58" height="58" x="3.002" y="4" stroke="gray" stroke-width=".1" rx="14"/>
+         <rect width="64" height="64" x=".002" y="1" stroke="gray" stroke-width=".1" rx="17"/>
+         <circle cx="32" cy="33" r="23" stroke="#F09" stroke-width=".1"/>
+         <circle cx="32" cy="33" r="14" stroke="#F09" stroke-width=".1"/>
+         <circle cx="32" cy="33" r="10" stroke="#F09" stroke-width=".1"/>
+         <path stroke="#009ED9" stroke-dasharray="1" stroke-width=".4" d="M47,62 C54.7319865,62 61,55.7319865 61,48 C61,40.2680135 54.7319865,34 47,34 C39.2680135,34 33,40.2680135 33,48 C33,55.7319865 39.2680135,62 47,62 Z"/>
+         <path fill="#009ED9" fill-opacity=".2" stroke="#009ED9" stroke-dasharray="1" stroke-width=".4" d="M38.5616289,-1.10120595 C40.2184831,-1.10120595 41.5616289,0.241939797 41.5616289,1.89879405 L41.5616289,61.898794 C41.5616289,63.5556483 40.2184831,64.898794 38.5616289,64.898794 C36.9047746,64.898794 35.5616289,63.5556483 35.5616289,61.898794 L35.5616289,1.89879405 C35.5616289,0.241939797 36.9047746,-1.10120595 38.5616289,-1.10120595 Z" transform="rotate(25.5 38.562 31.899)"/>
+      </g>
+   </g>
+</svg>

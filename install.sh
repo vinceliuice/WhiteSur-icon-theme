@@ -212,8 +212,8 @@ while [[ "$#" -gt 0 ]]; do
             break
             ;;
           *)
-            prompt -e "ERROR: Unrecognized theme variant '$1'."
-            prompt -i "Try '$0 --help' for more information."
+            echo "ERROR: Unrecognized theme variant '$1'."
+            echo "Try '$0 --help' for more information."
             exit 1
             ;;
         esac

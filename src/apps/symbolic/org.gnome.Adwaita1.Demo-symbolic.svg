@@ -1,0 +1,61 @@
+<svg width="16px" height="16px" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+ <filter id="a" x="0" y="0" width="1" height="1">
+  <feColorMatrix in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+ </filter>
+ <mask id="b">
+  <g filter="url(#a)">
+   <rect width="16" height="16" fill-opacity=".95"/>
+  </g>
+ </mask>
+ <clipPath id="c">
+  <rect width="192" height="152"/>
+ </clipPath>
+ <mask id="d">
+  <g filter="url(#a)">
+   <rect width="16" height="16" fill-opacity=".75"/>
+  </g>
+ </mask>
+ <clipPath id="e">
+  <rect width="192" height="152"/>
+ </clipPath>
+ <mask id="f">
+  <g filter="url(#a)">
+   <rect width="16" height="16" fill-opacity=".4"/>
+  </g>
+ </mask>
+ <clipPath id="g">
+  <rect width="192" height="152"/>
+ </clipPath>
+ <mask id="h">
+  <g filter="url(#a)">
+   <rect width="16" height="16" fill-opacity=".8"/>
+  </g>
+ </mask>
+ <linearGradient id="i" x1="16" x2="128" y1="96" y2="96" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#3584e4" offset="0"/>
+  <stop stop-color="#62a0ea" offset=".42868"/>
+  <stop stop-color="#c1d9f7" offset=".49999"/>
+  <stop stop-color="#62a0ea" offset=".57131"/>
+  <stop stop-color="#3584e4" offset="1"/>
+ </linearGradient>
+ <clipPath id="j">
+  <rect width="192" height="152"/>
+ </clipPath>
+ <g fill="#363636">
+  <path d="m1 7h8v8z"/>
+  <path d="m15 1h-6v6z" opacity=".75"/>
+  <path d="m9 7h5v5z" opacity=".5"/>
+ </g>
+ <g transform="translate(-168 -16)" clip-path="url(#c)" mask="url(#b)">
+  <path d="m36 68h36v36z" fill="#ffffff"/>
+ </g>
+ <g transform="translate(-168 -16)" clip-path="url(#e)" mask="url(#d)">
+  <path d="m96 44h-24v24z" fill="#ffffff"/>
+ </g>
+ <g transform="translate(-168 -16)" clip-path="url(#g)" mask="url(#f)">
+  <path d="m72 68h18v18z" fill="#ffffff"/>
+ </g>
+ <g transform="translate(-168 -16)" clip-path="url(#j)" mask="url(#h)">
+  <path d="m16.496 67c-1.1719 2.8867-0.58594 6.3086 1.7656 8.6562l48.082 48.082c3.1328 3.1367 8.1797 3.1367 11.312 0l48.082-48.082c2.3516-2.3477 2.9375-5.7695 1.7695-8.6562-0.39453 0.96484-0.98047 1.8711-1.7695 2.6562l-48.082 48.082c-3.1328 3.1367-8.1797 3.1367-11.312 0l-48.082-48.082c-0.78906-0.78516-1.375-1.6914-1.7656-2.6562z" fill="url(#i)"/>
+ </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient22874-3" x1="20" x2="20" y1="1" y2="61" gradientTransform="translate(-.022678 -1.0016)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f5f5f5" offset="0"/>
+   <stop stop-color="#e5e5e5" offset="1"/>
+  </linearGradient>
+ </defs>
+ <image width="64" height="64" image-rendering="optimizeQuality" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAS1JREFUeNrt2zFvgzAQhuH3gEhp s1Tq//+PXdq0cok75FgqFZxORrwnMSAh6+6xgemLWistFREBBPuoWhsHi63ncvAROOU1dj78DJS8 5i2IqWHBEXgGXoBLIvR6EmoO/g68AR/A978BcvdPOfxrQgydA9yAc96XiFg9BVsnYAG45PDTDr4D Q/b6mafgK2H+fLjlFTh1vvO/N21o/V4NDyy6lz/AQ/0OHLwEEEAAAQQQQAABBBBAAAEEEEAAAQQQ QAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEOCpAZSV51WE199sCsCQxbztB WLKDJXtfralhsSWJeQaeuEfReg5OzsA1ey5bm7YKUGutEVG4BxBhf9HZspUdPnx4Oo4en/8BQg5c ctAzvSEAAAAASUVORK5CYII= "/>
+ <rect x="9" y="1" width="46" height="60" rx="3" ry="3" fill="url(#linearGradient22874-3)"/>
+ <path d="m32.942-2.049h25.081v25.079h-25.081z" fill="none"/>
+ <path d="m19 21h6v32h-6z" color="#bebebe" fill="#68b723" opacity=".75" overflow="visible"/>
+ <path d="m29 37h6v16h-6z" fill="#c6262e" opacity=".75" overflow="visible"/>
+ <path d="m39 29h6v24h-6z" color="#bebebe" fill="#3689e6" opacity=".75" overflow="visible"/>
+</svg>

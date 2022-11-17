@@ -4,7 +4,7 @@
         color:#363636;
       }</style>
  </defs>
- <g transform="rotate(90,12,12)" fill="currentColor">
+ <g class="ColorScheme-Text" transform="rotate(90,12,12)" fill="currentColor">
   <path class="ColorScheme-Text" d="m9 4c-1.108 0-2 0.892-2 2v2c0 1.108 0.892 2 2 2h9c1.108 0 2-0.892 2-2v-2c0-1.108-0.892-2-2-2zm0 1h9c0.554 0 1 0.446 1 1v2c0 0.554-0.446 1-1 1h-9c-0.554 0-1-0.446-1-1v-2c0-0.554 0.446-1 1-1z"/>
   <path class="ColorScheme-Text" d="m9 14c-1.108 0-2 0.892-2 2v2c0 1.108 0.892 2 2 2h2c1.108 0 2-0.892 2-2v-2c0-1.108-0.892-2-2-2zm0 1h2c0.554 0 1 0.446 1 1v2c0 0.554-0.446 1-1 1h-2c-0.554 0-1-0.446-1-1v-2c0-0.554 0.446-1 1-1z"/>
   <rect class="ColorScheme-Text" x="4" y="4" width="1" height="16" rx=".5" ry=".5"/>

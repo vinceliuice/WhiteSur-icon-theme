@@ -4,6 +4,6 @@
         color:#363636;
       }</style>
  </defs>
- <path class="ColorScheme-Text" d="m2.992 5.003v12.002h16.018v-12.002zm1.0137 1.006h14v10.002h-14z" fill="currentColor"/>
- <path class="ColorScheme-Text" d="m5 11.012v1.0039h11.996v-1.0039h-11.996zm0 1.9922v1h6.0059v-1h-6.0059zm7.9883 0.001953v0.99805h4.0098v-0.99805h-4.0098z" fill="currentColor"/>
+ <path class="ColorScheme-Text" d="m5 11v1.0039h12v-1.0039zm0 2v1h6.0059v-1zm7.9883 2e-3v0.99805h4.0117v-0.99805z" fill="currentColor"/>
+ <path class="ColorScheme-Text" d="m5 5c-1.108 0-2 0.892-2 2v8c0 1.108 0.892 2 2 2h12c1.108 0 2-0.892 2-2v-8c0-1.108-0.892-2-2-2h-12zm0 1h12c0.554 0 1 0.446 1 1v8c0 0.554-0.446 1-1 1h-12c-0.554 0-1-0.446-1-1v-8c0-0.554 0.446-1 1-1z" fill="currentColor"/>
 </svg>

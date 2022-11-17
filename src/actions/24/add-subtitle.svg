@@ -1,20 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24" width="24" height="24">
-  <defs>
-    <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
         color:#363636;
       }</style>
-  </defs>
-  <g transform="translate(1,1)">
-    <g transform="matrix(4.4043 0 0 4.4043 -413.69 -41.824)" fill="currentColor">
-      <g transform="translate(-3.116 -3.5729)" fill="currentColor">
-        <path class="ColorScheme-Text" d="m97.724 14.205v2.7251h3.6368v-2.7251zm0.23016 0.22842h3.1786v2.271h-3.1786z" color="#363636" fill="currentColor"/>
-        <g transform="matrix(.36207 0 0 .39001 96.655 11.675)">
-          <g transform="matrix(1.0029 0 0 1.5833 -.034482 -7.0306)" fill="currentColor">
-            <path class="ColorScheme-Text" d="m4.2341 10.747v0.36937h7.5009v-0.36937zm0 0.73262v0.36736h3.7546v-0.36736z" color="#363636" stroke-width=".99947"/>
-            <path class="ColorScheme-Text" d="m9.2288 11.48v0.36736h2.5072v-0.36736z" color="#363636" stroke-width="1.0583"/>
-          </g>
-        </g>
-      </g>
-    </g>
-  </g>
+ </defs>
+ <path class="ColorScheme-Text" d="m6 12v1.0039h12v-1.0039zm0 2v1h6.0059v-1zm7.9883 2e-3v0.99805h4.0117v-0.99805z" fill="currentColor"/>
+ <path class="ColorScheme-Text" d="m6 6c-1.108 0-2 0.892-2 2v8c0 1.108 0.892 2 2 2h12c1.108 0 2-0.892 2-2v-8c0-1.108-0.892-2-2-2zm0 1h12c0.554 0 1 0.446 1 1v8c0 0.554-0.446 1-1 1h-12c-0.554 0-1-0.446-1-1v-8c0-0.554 0.446-1 1-1z" fill="currentColor"/>
 </svg>

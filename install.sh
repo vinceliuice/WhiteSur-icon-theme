@@ -27,6 +27,10 @@ cat << EOF
     -a, --alternative       Install alternative icons for software center and file-manager
     -b, --bold              Install bold panel icons version
     --black                 Black panel icons version
+
+    -r, --remove,
+    -u, --uninstall         Uninstall (remove) icon themes
+
     -h, --help              Show help
 EOF
 }
@@ -142,6 +146,19 @@ install() {
   gtk-update-icon-cache ${THEME_DIR}
 }
 
+uninstall() {
+  local dest=${1}
+  local name=${2}
+  local theme=${3}
+  local color=${4}
+
+  local THEME_DIR=${dest}/${name}${theme}${color}
+
+  [[ -d ${THEME_DIR} ]] && rm -rf ${THEME_DIR}
+
+  echo "Uninstalling '${THEME_DIR}'..."
+}
+
 while [[ "$#" -gt 0 ]]; do
   case "${1:-}" in
     -d|--dest)
@@ -166,6 +183,10 @@ while [[ "$#" -gt 0 ]]; do
     --black)
       black='true'
       echo "Installing 'black on panel' version..."
+      shift
+      ;;
+    -r|--remove|-u|--uninstall)
+      remove='true'
       shift
       ;;
     -t|--theme)
@@ -252,4 +273,16 @@ install_theme() {
   done
 }
 
-install_theme
+uninstall_theme() {
+  for theme in "${THEME_VARIANTS[@]}"; do
+    for color in "${COLOR_VARIANTS[@]}"; do
+      uninstall "${dest:-${DEST_DIR}}" "${name:-${THEME_NAME}}" "${theme}" "${color}"
+    done
+  done
+}
+
+if [[ "${remove}" == 'true' ]]; then
+  uninstall_theme
+else
+  install_theme
+fi

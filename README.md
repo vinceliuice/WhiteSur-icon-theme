@@ -12,7 +12,7 @@ Usage:  `./install.sh`  **[OPTIONS...]**
 |-d, --dest           | Specify theme destination directory (Default: $HOME/.themes)|
 |-n, --name           | Specify theme name (Default: WhiteSur)|
 |-t, --theme          | Specify theme color variant(s) [default/purple/pink/red/orange/yellow/green/grey/all] (Default: blue)|
-|-a, --alternative    | Install alternative icons for software center and file-manager|
+|-a, --alternative    | Install alternative icons (redesigned MacOS default icons)|
 |-b, --bold           | Install bold panel icons version|
 |--black              | Black panel icons version|
 |-r,--remove,-u,--uninstall | Uninstall (remove) icon themes|
@@ -22,7 +22,8 @@ Usage:  `./install.sh`  **[OPTIONS...]**
 
 > For more information, run: `./install.sh --help`
 
-![1](bold-size.png?raw=true)
+![alt](alt-version.png?raw=true)
+![bold](bold-size.png?raw=true)
 
 > Bold version suggested use in `High resolution display` like 4k display with 200% scale!
 

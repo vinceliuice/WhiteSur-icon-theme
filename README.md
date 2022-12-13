@@ -23,6 +23,7 @@ Usage:  `./install.sh`  **[OPTIONS...]**
 > For more information, run: `./install.sh --help`
 
 ![alt](alt-version.png?raw=true)
+
 ![bold](bold-size.png?raw=true)
 
 > Bold version suggested use in `High resolution display` like 4k display with 200% scale!

@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -eo pipefail
+
 ROOT_UID=0
 DEST_DIR=
 

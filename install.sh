@@ -16,6 +16,9 @@ THEME_NAME=WhiteSur
 COLOR_VARIANTS=('' '-dark')
 THEME_VARIANTS=('' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-grey' '-nord')
 
+themes=()
+colors=()
+
 usage() {
 cat << EOF
   Usage: $0 [OPTION]...
@@ -286,3 +289,5 @@ if [[ "${remove}" == 'true' ]]; then
 else
   install_theme
 fi
+
+exit 1

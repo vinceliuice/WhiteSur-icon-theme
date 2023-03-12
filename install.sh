@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -eo pipefail
+
 ROOT_UID=0
 DEST_DIR=
 
@@ -15,6 +17,9 @@ SRC_DIR="$(cd "$(dirname "$0")" && pwd)"
 THEME_NAME=WhiteSur
 COLOR_VARIANTS=('' '-dark')
 THEME_VARIANTS=('' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-grey' '-nord')
+
+themes=()
+colors=()
 
 usage() {
 cat << EOF
@@ -286,3 +291,5 @@ if [[ "${remove}" == 'true' ]]; then
 else
   install_theme
 fi
+
+exit 1

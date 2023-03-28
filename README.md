@@ -15,7 +15,7 @@ Usage:  `./install.sh`  **[OPTIONS...]**
 
 |  OPTIONS:           | |
 |:--------------------|:-------------|
-|-d, --dest           | Specify theme destination directory (Default: $HOME/.themes)|
+|-d, --dest           | Specify theme destination directory (Default: $HOME/.local/share/icons)|
 |-n, --name           | Specify theme name (Default: WhiteSur)|
 |-t, --theme          | Specify theme color variant(s) [default/purple/pink/red/orange/yellow/green/grey/all] (Default: blue)|
 |-a, --alternative    | Install alternative icons (redesigned MacOS default icons)|

@@ -56,8 +56,8 @@ install() {
   cp -r "${SRC_DIR}"/{COPYING,AUTHORS}                                                       ${THEME_DIR}
   cp -r "${SRC_DIR}"/src/index.theme                                                         ${THEME_DIR}
 
-  cd ${THEME_DIR}
-  sed -i "s/${name}/${name}${theme}${color}/g" index.theme
+  #cd ${THEME_DIR}
+  sed -i "s/${name}/${name}${theme}${color}/g" ${THEME_DIR}/index.theme
 
   if [[ ${color} == '' ]]; then
     mkdir -p                                                                                 ${THEME_DIR}/status
@@ -292,4 +292,4 @@ else
   install_theme
 fi
 
-exit 1
+#exit 0

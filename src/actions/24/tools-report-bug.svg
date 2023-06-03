@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <defs id="defs3051">
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
+<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
         color:#363636;
-      }
-      </style>
-  </defs>
- <path style="fill:currentColor;fill-opacity:1;stroke:none" 
-     d="M 4 4 L 4 20 L 5 20 L 20 20 L 20 19 L 20 4 L 19 4 L 5 4 L 4 4 z M 5 5 L 19 5 L 19 19 L 5 19 L 5 5 z M 6 6 L 6 7 L 7 7 L 7 6 L 6 6 z M 7 7 L 7 9 L 9 9 L 9 7 L 7 7 z M 9 7 L 10 7 L 10 6 L 9 6 L 9 7 z M 9 9 L 9 10 L 10 10 L 10 9 L 9 9 z M 7 9 L 6 9 L 6 10 L 7 10 L 7 9 z M 14 6 L 14 7 L 15 7 L 15 6 L 14 6 z M 15 7 L 15 9 L 17 9 L 17 7 L 15 7 z M 17 7 L 18 7 L 18 6 L 17 6 L 17 7 z M 17 9 L 17 10 L 18 10 L 18 9 L 17 9 z M 15 9 L 14 9 L 14 10 L 15 10 L 15 9 z M 10 12 L 10 14 L 14 14 L 14 12 L 10 12 z M 14 14 L 14 16 L 16 16 L 16 14 L 14 14 z M 16 16 L 16 18 L 18 18 L 18 16 L 16 16 z M 10 14 L 8 14 L 8 16 L 10 16 L 10 14 z M 8 16 L 6 16 L 6 18 L 8 18 L 8 16 z "
-     class="ColorScheme-Text"
-     />
+      }</style>
+ </defs>
+ <g class="ColorScheme-Text" transform="translate(4.0002 4)" fill="currentColor">
+  <circle cx="5" cy="6" r="1"/>
+  <circle cx="11" cy="6" r="1"/>
+  <path d="m8 9a5 5 0 0 0-4.5762 3h1.1172a4 4 0 0 1 3.459-2 4 4 0 0 1 3.459 2h1.1211a5 5 0 0 0-4.5801-3z"/>
+ </g>
+ <path class="ColorScheme-Text" d="m11.99 3a9 9 0 0 0-8.9902 9 9 9 0 0 0 9 9 9 9 0 0 0 9-9 9 9 0 0 0-9-9 9 9 0 0 0-0.0098 0zm0.0098 1a8 8 0 0 1 8 8 8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8z" fill="currentColor"/>
 </svg>

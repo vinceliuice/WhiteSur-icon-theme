@@ -1,0 +1,36 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="e" x1="8.467" x2="8.467" y1="4.498" y2="9.985" gradientTransform="matrix(.99995 0 0 .99995 .00026458 0)" gradientUnits="userSpaceOnUse">
+   <stop offset="0"/>
+   <stop stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="d" x1="8.467" x2="8.467" y1="294.62" y2="293.56" gradientTransform="matrix(.99995 0 0 .99995 .00026458 -280.06)" gradientUnits="userSpaceOnUse">
+   <stop stop-opacity=".1" offset="0"/>
+   <stop stop-opacity=".05" offset=".5"/>
+   <stop stop-color="#fff" stop-opacity=".15" offset="1"/>
+  </linearGradient>
+  <linearGradient id="c-1" x1="8.467" x2="8.467" y1="293.3" y2="292.77" gradientTransform="matrix(.99995 0 0 .99995 0 -280.06)" gradientUnits="userSpaceOnUse">
+   <stop stop-opacity=".1" offset="0"/>
+   <stop stop-color="#fff" stop-opacity=".15" offset="1"/>
+  </linearGradient>
+  <linearGradient id="b-2" x1="1.058" x2="15.875" y1="289.59" y2="289.59" gradientTransform="matrix(.99995 0 0 .99995 0 -280.06)" gradientUnits="userSpaceOnUse">
+   <stop stop-opacity=".1" offset="0"/>
+   <stop stop-opacity="0" offset=".108"/>
+   <stop stop-opacity="0" offset=".894"/>
+   <stop stop-opacity=".1" offset="1"/>
+  </linearGradient>
+  <linearGradient id="a-7" x1="6.879" x2="6.879" y1="285.36" y2="283.77" gradientTransform="matrix(.99995 0 0 .99995 .00026458 -280.06)" gradientUnits="userSpaceOnUse">
+   <stop offset="0"/>
+   <stop stop-opacity=".2" offset="1"/>
+  </linearGradient>
+ </defs>
+ <image x=".39687" y="1.8851" width="16.139" height="13.493" image-rendering="optimizeQuality" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAAzCAYAAAAkaACZAAAACXBIWXMAAA7KAAAOygExokLlAAAA GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAfFJREFUaIHtm9tuwjAMQE9LuT5M +/+/RNuA0dseHNOQFdayAkHOkUIBUeJTO0Egk/GbzI1baINjlGTB/QyYeWOMfAvU3miJVD7zjjkw B9bAyt3PGSbeAg1QAgc3Sjr5qCjcMUMk39zYuMdDS12zWgF74NONg3suqqwXdCW9RoTfgSXDs6xo tpfAArloH8AOyXrjvW5qLsXZO5dmeoaU9AYJWi/GWHK6/WDuxgIRP3Lfcg/jbXsGcJ5pDXJshsOJ M0Q0d++/Ar7o1nlz8ez+4Me8xn++QZZWSXDB/TWtu/WtwuHkBd3muHIBVC6YMNvhp8il97w2X0iD yO6QZbZ387dFcNIUwn4gM7qMq+y18v5r/rF7TIVc8NzN3wBNce2sidDqyZlmPQ8Vb+mqt0aW15EH SftMWUlD5yqQzVk36Cp/YBDPQCtMP1Fy9MYAKg/YkT4jSVshSVshSVtBpaP5gv8ITGfaFEnaCkna CknaCknaCknaCknaCknaCknaCknaCknaCr50VL1eE3Pm5v/uPaQn5BVRp1ODj/aB1EjrUUl/98+r 4rdvnto2tedEG1F2SA8Y/K+fLAZU+BvxOiCeFHSZ3gNbd8LY3tDY0JIuEeEt4lcD7VRdwLERdiXv 8ZbulP3esXGx/7xP6h7dg8+i958GP9BZjSVLAVZAAAAAAElFTkSuQmCC"/>
+ <path d="m2.2098 2.3812h2.6942c0.75034 0 0.78262 0.028574 1.5417 0.6297 0.7813 0.59027 0.94719 0.60694 1.8629 0.60694l6.4107-0.052386c0.63763-0.00503 1.1509 0.51355 1.1514 1.1514l0.0037 8.6827a1.1488 1.1488 0 0 1-1.1514 1.1517h-12.509a1.1491 1.1491 0 0 1-1.1514-1.1517l-0.00397-9.8669a1.1488 1.1488 0 0 1 1.1514-1.1514z" fill="#ff8180" stroke-width=".26458"/>
+ <path d="m2.2103 2.3812a1.1493 1.1493 0 0 0-1.1517 1.1517v2.0933a1.126 1.126 0 0 1 1.1284-1.1284h12.559a1.126 1.126 0 0 1 1.129 1.1284v-0.90936c0-0.6379-0.51381-1.1562-1.1517-1.1512l-6.4121 0.052122c-0.91597 0-1.0821-0.016933-1.8634-0.60721-0.7596-0.60112-0.79135-0.62943-1.5422-0.62943z" fill="url(#a-7)" opacity=".45" stroke-width=".26458"/>
+ <rect x="1.0583" y="4.4899" width="14.816" height="10.054" rx="1.1517" ry="1.1287" fill="url(#b-2)" stroke-width=".26458"/>
+ <path d="m2.2106 4.4978c-0.63816 0-1.1522 0.50323-1.1522 1.1287v0.23495c2.646e-4 -0.60879 0.51408-1.0991 1.1522-1.0991h12.512c0.6379 0 1.1517 0.49026 1.1517 1.0991v-0.23521c0-0.6252-0.51381-1.1284-1.1517-1.1284z" fill="#ffffff" opacity=".1" stroke-width=".26458"/>
+ <path d="m1.0583 12.699h14.816v0.52916h-14.816z" fill="url(#c-1)" stroke-width=".26458"/>
+ <path d="m1.0657 13.493c0.03757 0.5916 0.53127 1.0583 1.1446 1.0583h12.512c0.61329 0 1.107-0.46672 1.1446-1.0583h-14.801z" fill="url(#d)" stroke-width=".26458"/>
+ <rect x="1.0583" y="4.4899" width="14.816" height="10.054" rx="1.1517" ry="1.1287" fill="url(#e)" opacity=".05" stroke-width=".26458"/>
+ <path d="m7.928 10.281c-0.312 0.233-0.788 0.99-0.937 0.694-0.075-0.043-0.193-3.439-0.03-3.57 0.141-0.114 3.234 1.79 3.088 1.988-0.018 0.203-0.722 0.266-1.083 0.402l0.778 1.298-0.967 0.541" opacity=".15"/>
+</svg>

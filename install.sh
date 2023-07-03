@@ -15,7 +15,7 @@ fi
 SRC_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 THEME_NAME=WhiteSur
-COLOR_VARIANTS=('' '-dark')
+COLOR_VARIANTS=('' '-light' '-dark')
 THEME_VARIANTS=('' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-grey' '-nord')
 
 themes=()
@@ -30,8 +30,7 @@ cat << EOF
     -n, --name NAME         Specify theme name (Default: $THEME_NAME)
     -t, --theme VARIANT     Specify theme color variant(s) [default|purple|pink|red|orange|yellow|green|grey|nord|all] (Default: blue)
     -a, --alternative       Install alternative icons for software center and file-manager
-    -b, --bold              Install bold panel icons version
-    --black                 Black panel icons version
+    -b, --bold              Install bolder panel icons version (1.5px size)
 
     -r, --remove,
     -u, --uninstall         Uninstall (remove) icon themes
@@ -72,19 +71,45 @@ install() {
       cp -r "${SRC_DIR}"/bold/*                                                              ${THEME_DIR}
     fi
 
-    cp -r "${SRC_DIR}"/links/{actions,apps,categories,devices,emblems,mimes,places,status}   ${THEME_DIR}
-
     if [[ $DESKTOP_SESSION == '/usr/share/xsessions/budgie-desktop' ]]; then
       cp -r "${SRC_DIR}"/src/status/symbolic-budgie/*.svg                                    ${THEME_DIR}/status/symbolic
     fi
 
     if [[ ${alternative:-} == 'true' ]]; then
-      cp -r "${SRC_DIR}"/alternative/apps/*.svg                                              ${THEME_DIR}/apps/scalable
+      cp -r "${SRC_DIR}"/alternative/*                                                       ${THEME_DIR}
     fi
 
     if [[ ${theme} != '' ]]; then
       cp -r "${SRC_DIR}"/colors/color${theme}/*.svg                                          ${THEME_DIR}/places/scalable
     fi
+
+    cp -r "${SRC_DIR}"/links/{actions,apps,categories,devices,emblems,mimes,places,status}   ${THEME_DIR}
+  fi
+
+  if [[ ${color} == '-light' ]]; then
+    mkdir -p                                                                                 ${THEME_DIR}/status
+    cp -r "${SRC_DIR}"/src/status/{16,22,24}                                                 ${THEME_DIR}/status
+
+    if [[ ${bold:-} == 'true' ]]; then
+      cp -r "${SRC_DIR}"/bold/status/{16,22,24}                                             ${THEME_DIR}/status
+    fi
+
+    # Change icon color for light theme
+    sed -i "s/#ffffff/#363636/g" "${THEME_DIR}"/status/{16,22,24}/*
+
+    cp -r "${SRC_DIR}"/links/status/{16,22,24}                                               ${THEME_DIR}/status
+
+    cd ${dest}
+    ln -s ../${name}${theme}/actions ${name}${theme}-light/actions
+    ln -s ../${name}${theme}/animations ${name}${theme}-light/animations
+    ln -s ../${name}${theme}/apps ${name}${theme}-light/apps
+    ln -s ../${name}${theme}/categories ${name}${theme}-light/categories
+    ln -s ../${name}${theme}/devices ${name}${theme}-light/devices
+    ln -s ../${name}${theme}/emblems ${name}${theme}-light/emblems
+    ln -s ../${name}${theme}/mimes ${name}${theme}-light/mimes
+    ln -s ../${name}${theme}/places ${name}${theme}-light/places
+    ln -s ../../${name}${theme}/status/32 ${name}${theme}-light/status/32
+    ln -s ../../${name}${theme}/status/symbolic ${name}${theme}-light/status/symbolic
   fi
 
   if [[ ${color} == '-dark' ]]; then
@@ -97,10 +122,14 @@ install() {
     cp -r "${SRC_DIR}"/src/mimes/symbolic                                                    ${THEME_DIR}/mimes
     cp -r "${SRC_DIR}"/src/devices/{16,22,24,symbolic}                                       ${THEME_DIR}/devices
     cp -r "${SRC_DIR}"/src/places/{16,22,24,symbolic}                                        ${THEME_DIR}/places
-    cp -r "${SRC_DIR}"/src/status/{16,22,24,symbolic}                                        ${THEME_DIR}/status
+    cp -r "${SRC_DIR}"/src/status/symbolic                                                   ${THEME_DIR}/status
 
     if [[ ${bold:-} == 'true' ]]; then
       cp -r "${SRC_DIR}"/bold/*                                                              ${THEME_DIR}
+    fi
+
+    if [[ ${alternative:-} == 'true' ]]; then
+      cp -r "${SRC_DIR}"/alternative/apps/symbolic/*.svg                                     ${THEME_DIR}/apps/symbolic
     fi
 
     if [[ $DESKTOP_SESSION == '/usr/share/xsessions/budgie-desktop' ]]; then
@@ -108,14 +137,14 @@ install() {
     fi
 
     # Change icon color for dark theme
-    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,devices,places,status}/{16,22,24}/*
+    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,devices,places}/{16,22,24}/*
     sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/actions/32/*
     sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,apps,categories,emblems,devices,mimes,places,status}/symbolic/*
 
     cp -r "${SRC_DIR}"/links/actions/{16,22,24,32,symbolic}                                  ${THEME_DIR}/actions
     cp -r "${SRC_DIR}"/links/devices/{16,22,24,symbolic}                                     ${THEME_DIR}/devices
     cp -r "${SRC_DIR}"/links/places/{16,22,24,symbolic}                                      ${THEME_DIR}/places
-    cp -r "${SRC_DIR}"/links/status/{16,22,24,symbolic}                                      ${THEME_DIR}/status
+    cp -r "${SRC_DIR}"/links/status/symbolic                                                 ${THEME_DIR}/status
     cp -r "${SRC_DIR}"/links/apps/symbolic                                                   ${THEME_DIR}/apps
     cp -r "${SRC_DIR}"/links/categories/symbolic                                             ${THEME_DIR}/categories
     cp -r "${SRC_DIR}"/links/mimes/symbolic                                                  ${THEME_DIR}/mimes
@@ -132,6 +161,9 @@ install() {
     ln -s ../../${name}${theme}/apps/scalable ${name}${theme}-dark/apps/scalable
     ln -s ../../${name}${theme}/devices/scalable ${name}${theme}-dark/devices/scalable
     ln -s ../../${name}${theme}/places/scalable ${name}${theme}-dark/places/scalable
+    ln -s ../../${name}${theme}/status/16 ${name}${theme}-dark/status/16
+    ln -s ../../${name}${theme}/status/22 ${name}${theme}-dark/status/22
+    ln -s ../../${name}${theme}/status/24 ${name}${theme}-dark/status/24
     ln -s ../../${name}${theme}/status/32 ${name}${theme}-dark/status/32
   fi
 
@@ -183,11 +215,6 @@ while [[ "$#" -gt 0 ]]; do
     -b|--bold)
       bold='true'
       echo "Installing 'bold' version..."
-      shift
-      ;;
-    --black)
-      black='true'
-      echo "Installing 'black on panel' version..."
       shift
       ;;
     -r|--remove|-u|--uninstall)

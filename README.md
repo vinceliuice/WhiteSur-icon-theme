@@ -20,7 +20,6 @@ Usage:  `./install.sh`  **[OPTIONS...]**
 |-t, --theme          | Specify theme color variant(s) [default/purple/pink/red/orange/yellow/green/grey/all] (Default: blue)|
 |-a, --alternative    | Install alternative icons (redesigned MacOS default icons)|
 |-b, --bold           | Install bold panel icons version|
-|--black              | Black panel icons version|
 |-r,--remove,-u,--uninstall | Uninstall (remove) icon themes|
 |-h, --help           | Show this help|
 

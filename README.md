@@ -20,6 +20,8 @@ Usage:  `./install.sh`  **[OPTIONS...]**
 
 > **Note for snaps:** To use these icons with snaps, the best way is to make a copy of the application's .desktop located in `/var/lib/snapd/desktop/applications/name-of-the-snap-application.desktop` into `$HOME/.local/share/applications/`. Then use any text editor and change the "Icon=" to "Icon=name-of-the-icon.svg"
 
+**Note for flatpaks:** To use these icons, change icon names inside `/var/lib/flatpak/exports/share` .desktop file.
+
 > For more information, run: `./install.sh --help`
 
 ![alt](alt-version.png?raw=true)

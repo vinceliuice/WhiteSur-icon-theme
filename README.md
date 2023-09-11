@@ -3,18 +3,23 @@
 
 MacOS Big Sur like icon theme for linux desktops
 
+## Donate
+
+If you like my project, you can buy me a coffee:
+
+<span class="paypal"><a href="https://www.paypal.me/vinceliuice" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span>
+
 ## Install tips
 
 Usage:  `./install.sh`  **[OPTIONS...]**
 
 |  OPTIONS:           | |
 |:--------------------|:-------------|
-|-d, --dest           | Specify theme destination directory (Default: $HOME/.themes)|
+|-d, --dest           | Specify theme destination directory (Default: $HOME/.local/share/icons)|
 |-n, --name           | Specify theme name (Default: WhiteSur)|
 |-t, --theme          | Specify theme color variant(s) [default/purple/pink/red/orange/yellow/green/grey/all] (Default: blue)|
 |-a, --alternative    | Install alternative icons (redesigned MacOS default icons)|
 |-b, --bold           | Install bold panel icons version|
-|--black              | Black panel icons version|
 |-r,--remove,-u,--uninstall | Uninstall (remove) icon themes|
 |-h, --help           | Show this help|
 

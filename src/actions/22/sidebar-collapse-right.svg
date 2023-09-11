@@ -1,11 +1,9 @@
-<svg viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
-    <style type="text/css" id="current-color-scheme">
-        .ColorScheme-Text {
+<svg version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
             color:#363636;
-        }
-    </style>
-    <g class="ColorScheme-Text" fill="currentColor">
-        <path d="m19 3v16h-16v-16zm-5 1h-10v14h10z" stroke-linecap="square" stroke-linejoin="round"/>
-        <path d="m7.353516 6.6464844 4.353515 4.3535156-4.353515 4.353516-.707032-.707032 3.646485-3.646484-3.646485-3.6464844z"/>
-    </g>
+        }</style>
+ <g class="ColorScheme-Text" transform="matrix(-1,0,0,1,22,0)" fill="currentColor">
+  <path d="m6 3c-1.662 0-3 1.338-3 3v10c0 1.662 1.338 3 3 3h10c1.662 0 3-1.338 3-3v-10c0-1.662-1.338-3-3-3zm0 1h1v14h-1c-1.108 0-2-0.892-2-2v-10c0-1.108 0.892-2 2-2zm2 0h8c1.108 0 2 0.892 2 2v10c0 1.108-0.892 2-2 2h-8z"/>
+  <path d="m14.646 6.6465-4.3535 4.3535 4.3535 4.3535 0.70703-0.70703-3.6465-3.6465 3.6465-3.6465z"/>
+ </g>
 </svg>

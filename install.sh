@@ -60,7 +60,7 @@ install() {
 
   if [[ ${color} == '' ]]; then
     mkdir -p                                                                                 ${THEME_DIR}/status
-    cp -r "${SRC_DIR}"/src/{actions,animations,apps,categories,devices,emblems,mimes,places} ${THEME_DIR}
+    cp -r "${SRC_DIR}"/src/{actions,animations,apps,categories,devices,emblems,mimes,places,preferences} ${THEME_DIR}
     cp -r "${SRC_DIR}"/src/status/{16,22,24,32,symbolic}                                     ${THEME_DIR}/status
 
     if [[ ${black:-} == 'true' ]]; then
@@ -83,7 +83,7 @@ install() {
       cp -r "${SRC_DIR}"/colors/color${theme}/*.svg                                          ${THEME_DIR}/places/scalable
     fi
 
-    cp -r "${SRC_DIR}"/links/{actions,apps,categories,devices,emblems,mimes,places,status}   ${THEME_DIR}
+    cp -r "${SRC_DIR}"/links/{actions,apps,categories,devices,emblems,mimes,places,status,preferences}   ${THEME_DIR}
   fi
 
   if [[ ${color} == '-light' ]]; then
@@ -108,6 +108,7 @@ install() {
     ln -s ../${name}${theme}/emblems ${name}${theme}-light/emblems
     ln -s ../${name}${theme}/mimes ${name}${theme}-light/mimes
     ln -s ../${name}${theme}/places ${name}${theme}-light/places
+    ln -s ../${name}${theme}/preferences ${name}${theme}-light/preferences
     ln -s ../../${name}${theme}/status/32 ${name}${theme}-light/status/32
     ln -s ../../${name}${theme}/status/symbolic ${name}${theme}-light/status/symbolic
   fi
@@ -161,6 +162,7 @@ install() {
     ln -s ../../${name}${theme}/apps/scalable ${name}${theme}-dark/apps/scalable
     ln -s ../../${name}${theme}/devices/scalable ${name}${theme}-dark/devices/scalable
     ln -s ../../${name}${theme}/places/scalable ${name}${theme}-dark/places/scalable
+    ln -s ../${name}${theme}/preferences ${name}${theme}-dark/preferences
     ln -s ../../${name}${theme}/status/16 ${name}${theme}-dark/status/16
     ln -s ../../${name}${theme}/status/22 ${name}${theme}-dark/status/22
     ln -s ../../${name}${theme}/status/24 ${name}${theme}-dark/status/24
@@ -177,6 +179,7 @@ install() {
     ln -sf emblems emblems@2x
     ln -sf mimes mimes@2x
     ln -sf places places@2x
+    ln -sf preferences preferences@2x
     ln -sf status status@2x
   )
 

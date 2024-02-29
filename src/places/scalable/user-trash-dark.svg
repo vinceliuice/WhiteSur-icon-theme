@@ -1,0 +1,31 @@
+<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <clipPath id="q"/>
+  <filter id="r" x="-.2402" y="-.031935" width="1.4804" height="1.0639" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation=".506"/>
+  </filter>
+  <linearGradient id="n" x1="170.46" x2="289.66" y1="713.63" y2="713.63" gradientTransform="translate(-57.076 -241.47) scale(.38718)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#3e3e3e" offset="0"/>
+   <stop stop-color="#525252" offset=".18157"/>
+   <stop stop-color="#454545" offset=".48185"/>
+   <stop stop-color="#454545" offset=".744"/>
+   <stop stop-color="#737373" offset="1"/>
+  </linearGradient>
+  <linearGradient id="m" x1="170.46" x2="289.66" y1="704.73" y2="704.73" gradientTransform="translate(-57.076 -241.47) scale(.38718)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#6b6b6b" offset="0"/>
+   <stop stop-color="#404040" offset=".254"/>
+   <stop stop-color="#434343" offset=".43343"/>
+   <stop stop-color="#595959" offset=".744"/>
+   <stop stop-color="#3d3d3d" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient35" x1="53.432" x2="47.832" y1="42.43" y2="41.736" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ffffff" stop-opacity=".15" offset="0"/>
+   <stop stop-color="#ffffff" stop-opacity="0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <path d="m32.001 3c-12.744 0-23.076 2.583-23.076 5.77l0.04 0.33c0.688 3.032 10.737 5.438 23.036 5.438 12.3 0 22.352-2.407 23.036-5.439l0.04-0.33c0-3.186-10.332-5.769-23.077-5.769z" fill="url(#m)" opacity=".542"/>
+ <path d="m8.924 8.768 5.525 44.978c0 4.16 7.869 7.533 17.575 7.533 9.707 0 17.576-3.372 17.576-7.533l5.476-44.978c-1e-3 3.186-10.332 5.769-23.076 5.769s-23.075-2.583-23.076-5.769z" fill="url(#n)" opacity=".915"/>
+ <path transform="translate(-52.098 -356.18) scale(1.4634)" d="m44.938 285.23c3.496-11.623-4.516-41.02-4.159-37.78z" clip-path="url(#q)" fill="#9d9da9" fill-rule="evenodd" filter="url(#r)" opacity=".064"/>
+ <path d="m8.924 8.768 5.525 44.978c0 4.16 7.869 7.533 17.575 7.533 9.707 0 17.576-3.372 17.576-7.533l5.476-44.978c-1e-3 3.186-10.332 5.769-23.076 5.769s-23.075-2.583-23.076-5.769z" fill="url(#linearGradient35)"/>
+ <image x="10.285" y="50.301" width="42" height="11" image-rendering="optimizeQuality" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAALCAYAAAAJMx/IAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAP1JREFUOMvVlVsPwiAMhU+BLUZ9 Mv7/3+iru1BfijkSGJhpjCQNbBnN19PLRFXxDytU3ovtv4pC6Kw1UAHgbNcMWHMHXwCUTCjdUjQY bIKJ2UW2T0EngRyBLq3UewAjwSZbDTrtcSesZJCeQGOrRhPQQLBCcAvZbO/XTlippNkTqJAAsaXo 3SCOAA7mJIHMACb7xtvZUSA96nEfMCAoU3NP1wPAzfbRzNPzQHXsSNlYUVUKKrpC40QS4sWPdMzR AOAK4EKBLeRwsvOSp6sAWRo9SiU11bIibwx8B+AE4GyqgmqVm6u1crh0fxNEdvyZAtWWFNKLbLxx g/QG9VwPk/Ns/g7qjewAAAAASUVORK5CYII= "/>
+</svg>

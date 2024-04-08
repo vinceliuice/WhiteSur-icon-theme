@@ -86,6 +86,7 @@ install() {
     fi
 
     cp -r "${SRC_DIR}"/links/{actions,apps,categories,devices,emblems,mimes,places,status,preferences} "${THEME_DIR}"
+    ln -s "${THEME_DIR}"/preferences/32 "${THEME_DIR}"/preferences/22
   fi
 
   if [[ ${color} == '-light' ]]; then
@@ -157,6 +158,7 @@ install() {
 
     cd ${dest}
     ln -s ../${name}${theme}/animations ${name}${theme}-dark/animations
+    ln -s ../${name}${theme}/preferences ${name}${theme}-dark/preferences
     ln -s ../../${name}${theme}/categories/32 ${name}${theme}-dark/categories/32
     ln -s ../../${name}${theme}/emblems/16 ${name}${theme}-dark/emblems/16
     ln -s ../../${name}${theme}/emblems/22 ${name}${theme}-dark/emblems/22
@@ -166,7 +168,6 @@ install() {
     ln -s ../../${name}${theme}/mimes/scalable ${name}${theme}-dark/mimes/scalable
     ln -s ../../${name}${theme}/apps/scalable ${name}${theme}-dark/apps/scalable
     ln -s ../../${name}${theme}/devices/scalable ${name}${theme}-dark/devices/scalable
-    ln -s ../${name}${theme}/preferences ${name}${theme}-dark/preferences
     ln -s ../../${name}${theme}/status/16 ${name}${theme}-dark/status/16
     ln -s ../../${name}${theme}/status/22 ${name}${theme}-dark/status/22
     ln -s ../../${name}${theme}/status/24 ${name}${theme}-dark/status/24

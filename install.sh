@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# set -eo pipefail
+set -eo pipefail
 
 ROOT_UID=0
 DEST_DIR=
@@ -131,7 +131,10 @@ install() {
     mv -f "${THEME_DIR}"/places/scalable/user-trash-full-dark.svg "${THEME_DIR}"/places/scalable/user-trash-full.svg
 
     if [[ ${bold:-} == 'true' ]]; then
-      cp -r "${SRC_DIR}"/bold/*                                                              "${THEME_DIR}"
+      cp -r "${SRC_DIR}"/bold/actions/symbolic/*.svg                                         "${THEME_DIR}"/actions/symbolic
+      cp -r "${SRC_DIR}"/bold/apps/symbolic/*.svg                                            "${THEME_DIR}"/apps/symbolic
+      cp -r "${SRC_DIR}"/bold/devices/symbolic/*.svg                                         "${THEME_DIR}"/devices/symbolic
+      cp -r "${SRC_DIR}"/bold/status/symbolic/*.svg                                          "${THEME_DIR}"/status/symbolic
     fi
 
     if [[ ${alternative:-} == 'true' ]]; then

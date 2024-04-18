@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -eo pipefail
+# set -eo pipefail
 
 ROOT_UID=0
 DEST_DIR=
@@ -99,7 +99,6 @@ install() {
 
     # Change icon color for light theme
     sed -i "s/#ffffff/#363636/g" "${THEME_DIR}"/status/{16,22,24}/*
-
     cp -r "${SRC_DIR}"/links/status/{16,22,24}                                               "${THEME_DIR}"/status
 
     cd ${dest}
@@ -297,11 +296,11 @@ while [[ "$#" -gt 0 ]]; do
   esac
 done
 
-if [[ "${#themes[@]}" -eq 0 ]] ; then
+if [[ "${#themes[@]}" -eq 0 ]]; then
   themes=("${THEME_VARIANTS[0]}")
 fi
 
-if [[ "${#colors[@]}" -eq 0 ]] ; then
+if [[ "${#colors[@]}" -eq 0 ]]; then
   colors=("${COLOR_VARIANTS[@]}")
 fi
 

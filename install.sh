@@ -63,8 +63,6 @@ install() {
     cp -r "${SRC_DIR}"/src/{actions,animations,apps,categories,devices,emblems,mimes,places,preferences} "${THEME_DIR}"
     cp -r "${SRC_DIR}"/src/status/{16,22,24,32,symbolic}                                     "${THEME_DIR}"/status
 
-    rm -rf "${THEME_DIR}"/places/scalable/user-trash{'','-full'}-dark.svg
-
     if [[ ${black:-} == 'true' ]]; then
       sed -i "s/#ffffff/#363636/g" "${THEME_DIR}"/status/{16,22,24}/*
     fi
@@ -84,6 +82,8 @@ install() {
     if [[ ${theme} != '' ]]; then
       cp -r "${SRC_DIR}"/colors/color${theme}/*.svg                                          "${THEME_DIR}"/places/scalable
     fi
+
+    rm -rf "${THEME_DIR}"/places/scalable/user-trash{'','-full'}-dark.svg
 
     cp -r "${SRC_DIR}"/links/{actions,apps,categories,devices,emblems,mimes,places,status,preferences} "${THEME_DIR}"
     ln -s "${THEME_DIR}"/preferences/32 "${THEME_DIR}"/preferences/22
@@ -127,9 +127,6 @@ install() {
     cp -r "${SRC_DIR}"/src/places/{16,22,24,scalable,symbolic}                               "${THEME_DIR}"/places
     cp -r "${SRC_DIR}"/src/status/symbolic                                                   "${THEME_DIR}"/status
 
-    mv -f "${THEME_DIR}"/places/scalable/user-trash-dark.svg "${THEME_DIR}"/places/scalable/user-trash.svg
-    mv -f "${THEME_DIR}"/places/scalable/user-trash-full-dark.svg "${THEME_DIR}"/places/scalable/user-trash-full.svg
-
     if [[ ${bold:-} == 'true' ]]; then
       cp -r "${SRC_DIR}"/bold/actions/symbolic/*.svg                                         "${THEME_DIR}"/actions/symbolic
       cp -r "${SRC_DIR}"/bold/apps/symbolic/*.svg                                            "${THEME_DIR}"/apps/symbolic
@@ -139,11 +136,15 @@ install() {
 
     if [[ ${alternative:-} == 'true' ]]; then
       cp -r "${SRC_DIR}"/alternative/apps/symbolic/*.svg                                     "${THEME_DIR}"/apps/symbolic
+      cp -r "${SRC_DIR}"/alternative/places/scalable/*.svg                                   "${THEME_DIR}"/places/scalable
     fi
 
     if [[ $DESKTOP_SESSION == '/usr/share/xsessions/budgie-desktop' ]]; then
       cp -r "${SRC_DIR}"/src/status/symbolic-budgie/*.svg                                    "${THEME_DIR}"/status/symbolic
     fi
+
+    mv -f "${THEME_DIR}"/places/scalable/user-trash-dark.svg "${THEME_DIR}"/places/scalable/user-trash.svg
+    mv -f "${THEME_DIR}"/places/scalable/user-trash-full-dark.svg "${THEME_DIR}"/places/scalable/user-trash-full.svg
 
     # Change icon color for dark theme
     sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,devices,places}/{16,22,24}/*

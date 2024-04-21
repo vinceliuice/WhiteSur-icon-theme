@@ -139,6 +139,10 @@ install() {
       cp -r "${SRC_DIR}"/alternative/places/scalable/*.svg                                   "${THEME_DIR}"/places/scalable
     fi
 
+    if [[ ${theme} != '' ]]; then
+      cp -r "${SRC_DIR}"/colors/color${theme}/*.svg                                          "${THEME_DIR}"/places/scalable
+    fi
+
     if [[ $DESKTOP_SESSION == '/usr/share/xsessions/budgie-desktop' ]]; then
       cp -r "${SRC_DIR}"/src/status/symbolic-budgie/*.svg                                    "${THEME_DIR}"/status/symbolic
     fi

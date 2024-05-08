@@ -93,9 +93,7 @@ Type=Fixed
 [apps/32]
 Size=32
 Context=Applications
-MinSize=32
-MaxSize=256
-Type=Scalable
+Type=Fixed
 
 [apps/scalable]
 Size=64
@@ -345,9 +343,7 @@ Type=Fixed
 Size=32
 Scale=2
 Context=Applications
-MinSize=32
-MaxSize=256
-Type=Scalable
+Type=Fixed
 
 [apps@2x/scalable]
 Size=64

@@ -32,6 +32,18 @@
   <defs
      id="defs2">
     <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#bb5ec8;stop-opacity:1;"
+         offset="0"
+         id="stop6" />
+      <stop
+         style="stop-color:#3480de;stop-opacity:1;"
+         offset="1"
+         id="stop7" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient83"
        gradientTransform="matrix(1.333333,0,0,1,-169.66667,-224)"
        gradientUnits="userSpaceOnUse"
@@ -1004,13 +1016,7 @@
       <stop
          offset="0"
          stop-color="#c061cb"
-         id="stop30-1"
-         style="stop-color:#923b9b;stop-opacity:1;" />
-      <stop
-         offset="0.09151287"
-         stop-color="#c061cb"
-         id="stop6"
-         style="stop-color:#ae58c9;stop-opacity:1;" />
+         id="stop30-1" />
       <stop
          offset="1"
          stop-color="#3584e4"
@@ -1104,12 +1110,12 @@
     </filter>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#v"
+       xlink:href="#linearGradient1"
        id="linearGradient7"
        x1="4"
-       y1="16.970703"
+       y1="25.503906"
        x2="60.001953"
-       y2="16.970703"
+       y2="25.503906"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <image

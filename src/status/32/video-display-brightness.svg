@@ -9,7 +9,7 @@
         color:#3DAEE6;
       }
       .ColorScheme-ViewText {
-        color:#7B7C7E;
+        color:#363636;
       }
       .ColorScheme-ViewBackground{
         color:#FCFCFC;
@@ -21,7 +21,7 @@
         color:#1E92FF;
       }
       .ColorScheme-ButtonText {
-        color:#7B7C7E;
+        color:#363636;
       }
       .ColorScheme-ButtonBackground{
         color:#EFF0F1;

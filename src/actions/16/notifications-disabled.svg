@@ -1,11 +1,10 @@
 <svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-    <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+ <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
             color:#363636;
         }
         .ColorScheme-NegativeText {
             color:#da4453;
         }</style>
-    <circle cx="9.148" cy="2.5" r="0"/>
-    <path class="ColorScheme-NegativeText" d="M 2,2.7071118 2.7071065,2 14,13.266998 13.292891,14 Z" fill="currentColor"/>
-    <path d="m8 2a1 1 0 0 0-1 1 1 1 0 0 0 0.0136719 0.1699219 3 3 0 0 0-1.2734375 0.8632812l0.7070312 0.7070313a2 2 0 0 1 1.5527344-0.7402344 2 2 0 0 1 2 2c0 1.5854753 0.542693 2.6545091 1.371094 3.6640625l1.335937 1.3359375h0.292969v-1c-1.335506-1.335506-2-2.132154-2-4a3 3 0 0 0-2.015625-2.8300781 1 1 0 0 0 0.015625-0.1699219 1 1 0 0 0-1-1zm-3.0351562 4.671875c-0.149308 1.4098615-0.8014687 2.1647502-1.9648438 3.328125v1h6.2929688l-1-1h-2.2929688-1.6386719c0.673578-0.755548 1.182577-1.5239094 1.4433594-2.4882812l-0.8398437-0.8398438zm1.6230468 5.328125a1.5 1.5 0 0 0-0.0878906 0.5 1.5 1.5 0 0 0 1.5 1.5 1.5 1.5 0 0 0 1.5-1.5 1.5 1.5 0 0 0-0.0878906-0.5h-2.8242188z" class="ColorScheme-Text" fill="currentColor"/>
+ <path class="ColorScheme-Text" d="m8 0a1 1 0 0 0-0.99414 1.0996 4.988 4.988 0 0 0-4.0059 4.9004v4.5l-2 2v0.5h14v-0.5l-2-2v-4.5a4.987 4.987 0 0 0-4.0059-4.9004 1 1 0 0 0-0.99414-1.0996zm0 2a4 4 0 0 1 4 4v4.9219l1 1.0781h-10l1-1.0781v-4.9219a4 4 0 0 1 4-4zm-2 12a2 2 0 0 0 2 2 2 2 0 0 0 2-2h-3.7305z" fill="currentColor" opacity=".35"/>
+ <rect class="ColorScheme-Text" transform="rotate(45)" x=".31371" y="-.5" width="22" height="1" rx=".5" ry=".5" fill="currentColor"/>
 </svg>

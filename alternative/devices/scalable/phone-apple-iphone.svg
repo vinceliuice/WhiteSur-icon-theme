@@ -1,0 +1,16 @@
+<svg version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="linearGradient4" x1="42.226" x2="42.226" y1="33.557" y2="29.437" gradientTransform="matrix(4.0863 0 0 4.0001 -159.77 -117.75)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#353535" offset="0"/>
+   <stop stop-color="#979797" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="scale(3.7796)" stroke-width=".26458">
+  <rect x="3.7041" width="9.5248" height="16.933" rx="1.852" ry="1.852" fill="#1a1a1a" style="paint-order:stroke fill markers"/>
+  <rect x="4.2333" y=".52916" width="8.4665" height="15.875" rx="1.3229" ry="1.3229" fill="url(#linearGradient4)" style="paint-order:stroke fill markers"/>
+  <rect x="6.0853" y="15.61" width="4.7624" height=".26458" rx=".13229" ry=".13229" fill="#ffffff" opacity=".5" style="paint-order:stroke fill markers"/>
+  <path d="m5.5567 0.44906c-0.77548 0-1.4025 0.62699-1.4025 1.4025v13.228c0 0.77548 0.62699 1.4025 1.4025 1.4025h5.8202c0.77548 0 1.4025-0.62699 1.4025-1.4025v-13.228c0-0.77548-0.62699-1.4025-1.4025-1.4025h-5.8202zm-5.167e-4 0.080097h5.8207c0.73288 0 1.3229 0.59001 1.3229 1.3229v13.229c0 0.73288-0.59001 1.3229-1.3229 1.3229h-5.8207c-0.73288 0-1.3229-0.59001-1.3229-1.3229v-13.229c0-0.73288 0.59001-1.3229 1.3229-1.3229z" color="#000000" fill="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none;paint-order:stroke fill markers"/>
+  <path d="m5.5561 0.52916c-0.73288 0-1.3229 0.59001-1.3229 1.3229v13.229c0 0.73288 0.59001 1.3229 1.3229 1.3229h5.8207c0.73288 0 1.3229-0.59001 1.3229-1.3229v-13.229c0-0.73288-0.59001-1.3229-1.3229-1.3229h-5.8207zm5.167e-4 0.080097h5.8202c0.69028 0 1.2443 0.552 1.2443 1.2423v13.228c0 0.69028-0.55406 1.2443-1.2443 1.2443h-5.8202c-0.69028 0-1.2443-0.55406-1.2443-1.2443v-13.228c0-0.69028 0.55406-1.2423 1.2443-1.2423z" color="#000000" fill="#ffffff" opacity=".15" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none;paint-order:stroke fill markers"/>
+ </g>
+ <rect x="26" y="4" width="12" height="3" rx="1.5" ry="1.5" fill="#1a1a1a" style="paint-order:markers fill stroke"/>
+</svg>

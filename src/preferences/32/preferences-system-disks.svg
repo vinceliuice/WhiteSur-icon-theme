@@ -1,0 +1,23 @@
+<svg version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="b" x1="12" x2="12" y1="48" y2="10" gradientTransform="matrix(.55555 0 0 .54843 -1.778 -1.325)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#eef1f2" offset="0"/>
+   <stop stop-color="#f9fafb" offset="1"/>
+  </linearGradient>
+  <linearGradient id="a-0" x1="7.937" x2="7.937" y1="15.081" y2="1.852" gradientTransform="matrix(1.8897 0 0 1.8897 0 .015)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#888" offset="0"/>
+   <stop stop-color="#aaa" offset="1"/>
+  </linearGradient>
+ </defs>
+ <image x=".5" y="1" width="31" height="31" image-rendering="optimizeQuality" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAPdJREFUSMftl7GuwjAMRY9NXlk6 8P9fycBCaWsGbJTmwQIkMORKVqWo6rm+zWCLmVFKRATI61VZlD0ASXkmIjsgAXtgAHZvwBdgAs7A bGbLQ7h3m4DR6++DnV+Ak9ccKaTsxQQcHJzehJaKNBNwdDNoFnXZ8Scl/t0RGJ13g2dxJ+pqw1ER Ub9cNTp+lsBeRFT9YGgAzg0MgARcG8M14DQE5wbuF+4r6vAO7/AO7/CqcGvMtYAbsDY0cOcFfGoM nwBTM1t9rr40MBBj9NnM1vjnc8zUleEbjnLbZZZsqK+RwGZxiM0lFa6O/qy6sfzWrlZzS/VL/U9X YfxzIl867ocAAAAASUVORK5CYII="/>
+ <rect x="2" y="2" width="28" height="28" rx="7" ry="7" fill="url(#a-0)"/>
+ <path d="m9 2c-3.878 0-7 3.122-7 7v14c0 3.878 3.122 7 7 7h14c3.878 0 7-3.122 7-7v-14c0-3.878-3.122-7-7-7zm0 0.5h14c3.601 0 6.5 2.899 6.5 6.5v14c0 3.601-2.899 6.5-6.5 6.5h-14a6.486 6.486 0 0 1-6.5-6.5v-14c0-3.601 2.899-6.5 6.5-6.5z" fill="#ffffff" opacity=".15"/>
+ <path d="m11 27c-1.108 0-2 0.892-2 2v1h14v-1c0-1.108-0.892-2-2-2z" opacity=".5"/>
+ <path d="m11 4.064c-2.761 0-5 2.21-5 4.936v5c0.706 0.623 1.11 1.565 1.111 2.5 0 0.935-0.405 1.877-1.111 2.5v3l3 3h14l3-3v-3c-0.706-0.623-1.11-1.565-1.111-2.5 0-0.935 0.405-1.877 1.111-2.5v-5c0-2.726-2.239-4.936-5-4.936z" fill="url(#b)"/>
+ <rect x="11" y="28" width="6" height="1" rx=".5" ry=".5" fill="#f6b44d" fill-rule="evenodd" style="paint-order:stroke fill markers"/>
+ <rect x="18" y="28" width="3" height="1" rx=".5" ry=".5" fill="#f6b44d" fill-rule="evenodd" style="paint-order:stroke fill markers"/>
+ <circle cx="9.5" cy="7.5" r=".5" fill="#444444" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+ <circle cx="22.5" cy="7.5" r=".5" fill="#444444" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+ <circle cx="9.5" cy="21.5" r=".5" fill="#444444" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+ <circle cx="22.5" cy="21.5" r=".5" fill="#444444" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</svg>

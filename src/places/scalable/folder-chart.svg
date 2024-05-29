@@ -1,0 +1,44 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+      color:#333333;
+    }
+    .ColorScheme-Highlight {
+      color:#60c0f0;
+    }</style>
+  <linearGradient id="e" x1="1.058" x2="15.875" y1="289.59" y2="289.59" gradientTransform="matrix(3.7796 0 0 3.7796 0 -1058.6)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#46a2d7" stop-opacity=".5" offset="0"/>
+   <stop stop-color="#46a2d7" stop-opacity="0" offset=".108"/>
+   <stop stop-color="#46a2d7" stop-opacity=".096" offset=".894"/>
+   <stop stop-color="#46a2d7" stop-opacity=".5" offset="1"/>
+  </linearGradient>
+  <linearGradient id="d" x1="8.467" x2="8.467" y1="294.62" y2="293.56" gradientTransform="matrix(3.7795 0 0 3.7795 0 -1058.5)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#008ea2" stop-opacity=".251" offset="0"/>
+   <stop stop-color="#008ea2" stop-opacity=".15" offset=".757"/>
+   <stop stop-color="#fff" stop-opacity=".15" offset="1"/>
+  </linearGradient>
+  <linearGradient id="c" x1="8.467" x2="8.467" y1="293.3" y2="292.77" gradientTransform="matrix(3.7796 0 0 3.7796 0 -1058.6)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#008ea2" stop-opacity=".25" offset="0"/>
+   <stop stop-color="#fff" stop-opacity=".15" offset="1"/>
+  </linearGradient>
+  <linearGradient id="b" x1="445.28" x2="445.28" y1="179.28" y2="200.07" gradientTransform="matrix(1.4724 0 0 1.4432 -625.6 -239.78)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#60c0f0" offset="0"/>
+   <stop stop-color="#83d4fb" offset="1"/>
+  </linearGradient>
+  <linearGradient id="a" x1="6.879" x2="6.879" y1="285.36" y2="283.77" gradientTransform="matrix(3.7795 0 0 3.7795 0 -1058.5)" gradientUnits="userSpaceOnUse">
+   <stop offset="0"/>
+   <stop stop-opacity="0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <image x="1.9994" y="7.442" width="60.001" height="50" image-rendering="optimizeQuality" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAyCAYAAAAA9rgCAAAACXBIWXMAAA7XAAAO1wFxhj+8AAAA GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAbVJREFUaIHtml9TglAQRw9/jMrR 6a3v//2q0azMFOhhuXJLRgHv5G3dM8PgqHA57C68/BIOSbxtCLW3RUvy63MOFMAESOkvXQMlsAW+ gB2RiifevgDmwANwB2QDz7UD1sASWAEboApzmeHIaSs7Bx6Bmff9EGpgCtwjN2+B3ICSiKqdN/sC qewMaeehsjTH3CCd4UbjBXhHWv0S0gdrukpOkDYeU1kf1y3T5pwF0uJviHTVdREd5+izzilqZMxK vNFyglmznSPrkyKyGdLia2Sm+1T61BsiPXGsYwd8Ijd7TXOzc++PoWT9xSe07V0RpsJD3hwbpMOe kNEq86OHhMG1+SVm2D1TSuR1Wf2FsCN0B/Vd8xZ5GC+Ar2PzoIWMdrSSaxAG7xllwtoxYe2YsHZM WDsmrB0T1o4Ja8eEtWPC2jFh7ZiwdkxYOyasHRPWjglr52qFo48MnsneL6WNDfYJnPxHasStBGon vEWiPdFmJEfislofNJEpl82q+RkzukQAJTROdgU8I3mtKvd+WNJmm8aES2OjRLp2AbzSdG+o+HBs uLndIgXcj2qX0NiAeGx0Bta/AZSga/2YDpsuAAAAAElFTkSuQmCC"/>
+ <g stroke-width="3.7796">
+  <path d="m8.3529 8.9955h10.186c2.8347 0 2.9594 0.10961 5.8281 2.3811 2.9556 2.23 3.5831 2.2942 7.0452 2.2942l24.235-0.20032a4.3314 4.3314 0 0 1 4.3541 4.3541v25.588a4.3465 4.3465 0 0 1-4.3541 4.3541h-47.294a4.3465 4.3465 0 0 1-4.3503-4.3541v-30.063a4.3465 4.3465 0 0 1 4.3503-4.3541z" fill="#46a2d7"/>
+  <path d="m8.3529 8.9992a4.3465 4.3465 0 0 0-4.3541 4.3541v10.647h55.999v-6.1721c0-2.4114-1.9389-4.373-4.3503-4.3541l-24.239 0.20032c-3.4621 0-4.0895-0.06425-7.0414-2.298-2.8725-2.2678-2.9897-2.3774-5.8281-2.3774z" fill="url(#a)" opacity=".35"/>
+  <rect x="3.9988" y="16.97" width="56.002" height="38" rx="4.3541" ry="4.2672" fill="url(#b)"/>
+  <path d="m3.9988 48.001h56.002v1.9994h-56.002z" fill="url(#c)"/>
+  <path d="m4.0253 51.002a4.2936 4.2936 0 0 0 4.3276 3.9988h47.294c2.3169 0 4.184-1.7613 4.3276-3.9988h-55.946z" fill="url(#d)"/>
+  <rect x="3.9988" y="16.97" width="56.002" height="38" rx="4.3541" ry="4.2672" fill="url(#e)"/>
+  <path d="m8.3529 17.001c-2.4114 0-4.3541 1.9011-4.3541 4.2634v0.89199c0-2.3056 1.9427-4.1576 4.3541-4.1576h47.294c2.4114 0 4.3541 1.852 4.3541 4.1576v-0.88821c0-2.366-1.9427-4.271-4.3541-4.271z" fill="#ffffff" opacity=".1"/>
+ </g>
+ <path d="m39 25v20h2v-20zm-12 8v12h2v-12zm4 4v8h2v-8zm4 3v5h2v-5zm-12 2v3h2v-3zm-2 4v1h22v-1z" fill="#000000" opacity=".15"/>
+</svg>

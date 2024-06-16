@@ -1,0 +1,16 @@
+<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="a" x1="7.937" x2="7.937" y1="15.081" y2="1.852" gradientTransform="scale(3.7796)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f1efeb" offset="0"/>
+      <stop stop-color="#fdfcfc" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient15" x1="7.937" x2="7.937" y1="15.081" y2="1.852" gradientTransform="matrix(3.7112 0 0 3.7794 .57894 -.97)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#333" offset="0"/>
+      <stop stop-color="#424242" offset="1"/>
+    </linearGradient>
+  </defs>
+  <image x="1.5589" y="1" width="60.881" height="62" image-rendering="optimizeQuality" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAPdJREFUSMftl7GuwjAMRY9NXlk6 8P9fycBCaWsGbJTmwQIkMORKVqWo6rm+zWCLmVFKRATI61VZlD0ASXkmIjsgAXtgAHZvwBdgAs7A bGbLQ7h3m4DR6++DnV+Ak9ccKaTsxQQcHJzehJaKNBNwdDNoFnXZ8Scl/t0RGJ13g2dxJ+pqw1ER Ub9cNTp+lsBeRFT9YGgAzg0MgARcG8M14DQE5wbuF+4r6vAO7/AO7/CqcGvMtYAbsDY0cOcFfGoM nwBTM1t9rr40MBBj9NnM1vjnc8zUleEbjnLbZZZsqK+RwGZxiM0lFa6O/qy6sfzWrlZzS/VL/U9X YfxzIl867ocAAAAASUVORK5CYII="/>
+  <rect x="4.5048" y="3" width="54.989" height="56" rx="13.747" ry="14" fill="url(#a)" style="fill:url(#linearGradient15);stroke-width:1.9819"/>
+  <path d="m18.252 3c-7.616 0-13.747 6.244-13.747 14v28c0 7.756 6.1313 14 13.747 14h27.495c7.616 0 13.747-6.244 13.747-14v-28c0-7.756-6.1313-14-13.747-14zm0 1h27.495c7.072 0 12.765 5.798 12.765 13v28c0 7.202-5.6933 13-12.765 13h-27.495a12.738 12.972 0 0 1-12.765-13v-28c0-7.202 5.6933-13 12.765-13z" fill="#fff" opacity=".06" style="stroke-width:1.9819"/>
+  <path class="ColorScheme-Text" d="m23.906 43.953h16.188a1.1562 1.1775 0 1 1 0 2.355h-16.188a1.1562 1.1775 0 1 1 0-2.355zm-5.7812-28.26c-2.5622 0-4.625 2.1007-4.625 4.71v16.485c0 2.6093 2.0628 4.71 4.625 4.71h27.75c2.5622 0 4.625-2.1007 4.625-4.71v-16.485c0-2.6093-2.0628-4.71-4.625-4.71zm0 2.355h27.75c1.2811 0 2.3125 1.0503 2.3125 2.355v16.485c0 1.3047-1.0314 2.355-2.3125 2.355h-27.75c-1.2811 0-2.3125-1.0503-2.3125-2.355v-16.485c0-1.3047 1.0314-2.355 2.3125-2.355z" color="#363636" fill="#fff" style="stroke-width:2.3337"/>
+</svg>

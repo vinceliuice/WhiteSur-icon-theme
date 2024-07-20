@@ -2,7 +2,7 @@
   <defs id="defs3051">
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
-        color:#ffffff;
+        color:#f2f2f2;
       }
       .ColorScheme-PositiveText {
         color:#27ae60;
@@ -19,6 +19,6 @@
    d="M 7 6 L 7 10 A 4 3.9999852 0 0 0 11 14 A 4 3.9999852 0 0 0 15 10 L 15 6 L 11 6 L 7 6 z "
       />
       <path
-         style="opacity:1;fill:#ffffff"
+         style="opacity:1;fill:#f2f2f2"
          d="M 10.5 7 L 10.5 11.085938 L 8.7070312 9.2929688 L 8 10 L 11 13 L 14 10 L 13.292969 9.2929688 L 11.5 11.085938 L 11.5 7 L 10.5 7 z "/>
 </svg>

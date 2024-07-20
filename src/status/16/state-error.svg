@@ -2,7 +2,7 @@
   <defs id="defs3051">
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
-        color:#ffffff;
+        color:#f2f2f2;
       }
       .ColorScheme-NegativeText {
         color:#da4453;
@@ -23,7 +23,7 @@
        d="m 8.0000348,1042.3622 5.9999302,0 c 0.554019,0 1.000035,0.446 1.000035,1 l 0,5.9999 c 0,0.5541 -0.446016,1.0001 -1.000035,1.0001 l -5.9999302,0 C 7.4460155,1050.3622 7,1049.9162 7,1049.3621 l 0,-5.9999 c 0,-0.554 0.4460155,-1 1.0000348,-1 z"
        id="rect4153-8" />
     <path
-       style="fill:#ffffff;stroke-opacity:1"
+       style="fill:#f2f2f2;stroke-opacity:1"
        d="m 9,1043.3622 -1,1 2,2 -2,2 1,1 2,-2 2,2 1,-1 -2,-2 2,-2 -1,-1 -2,2 -2,-2 z"
        id="path4141" />
   </g>

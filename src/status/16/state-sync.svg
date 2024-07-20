@@ -2,7 +2,7 @@
   <defs id="defs3051">
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
-        color:#ffffff;
+        color:#f2f2f2;
       }
       .ColorScheme-Highlight {
         color:#3daee9;
@@ -20,7 +20,7 @@
         class="ColorScheme-Highlight"
         />
     <path
-       style="opacity:1;fill:#ffffff"
+       style="opacity:1;fill:#f2f2f2"
        d="M 11.050781 7.0039062 A 3 3 0 0 0 8.8789062 7.8789062 A 3 3 0 0 0 8.5546875 11.738281 L 9.2792969 11.013672 A 2 2 0 0 1 9.5859375 8.5859375 A 2 2 0 0 1 12.015625 8.2773438 L 12.734375 7.5585938 A 3 3 0 0 0 11.050781 7.0039062 z M 13.445312 8.2617188 L 12.720703 8.9863281 A 2 2 0 0 1 12.414062 11.414062 A 2 2 0 0 1 9.984375 11.722656 L 9.265625 12.441406 A 3 3 0 0 0 13.121094 12.121094 A 3 3 0 0 0 13.445312 8.2617188 z "
        />
 </svg>

@@ -3,7 +3,7 @@
             color:#27ae60;
         }
         .ColorScheme-Text {
-            color:#ffffff;
+            color:#f2f2f2;
         }</style>
   <g transform="translate(1,1)">
     <rect id="rect3" class="ColorScheme-PositiveText" x="3" y="3" width="16" height="16" rx="1.4545455" fill="currentColor"/>

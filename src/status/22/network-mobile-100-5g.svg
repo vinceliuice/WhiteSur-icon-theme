@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="22" height="22">
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
-        color:#ffffff;
+        color:#f2f2f2;
       }
       .ColorScheme-Background {
         color:#eff0f1;
@@ -11,7 +11,7 @@
         color:#3498db;
       }
       .ColorScheme-ViewText {
-        color:#ffffff;
+        color:#f2f2f2;
       }
       .ColorScheme-ViewBackground {
         color:#fcfcfc;
@@ -23,7 +23,7 @@
         color:#3daee9;
       }
       .ColorScheme-ButtonText {
-        color:#ffffff;
+        color:#f2f2f2;
       }
       .ColorScheme-ButtonBackground {
         color:#eff0f1;

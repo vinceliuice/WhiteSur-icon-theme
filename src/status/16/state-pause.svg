@@ -2,7 +2,7 @@
   <defs id="defs3051">
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
-        color:#ffffff;
+        color:#f2f2f2;
       }
       .ColorScheme-NeutralText {
         color:#f67400;
@@ -19,7 +19,7 @@
    d="M 11 6 C 8.784 6 7 7.784 7 10 C 7 12.216 8.784 14 11 14 C 13.216 14 15 12.216 15 10 C 15 7.784 13.216 6 11 6 z "
       />
   <path
-     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-linecap:round"
+     style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke-linecap:round"
      d="M 9 8 L 9 12 L 10 12 L 10 8 L 9 8 z M 12 8 L 12 12 L 13 12 L 13 8 L 12 8 z "
      id="rect4521" />
 </svg>

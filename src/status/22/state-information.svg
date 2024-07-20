@@ -2,7 +2,7 @@
   <defs id="defs3051">
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
-        color:#ffffff;
+        color:#f2f2f2;
       }
       .ColorScheme-Highlight {
         color:#3daee9;
@@ -22,7 +22,7 @@
        d="m 441.71429,540.29071 a 4.5,4.5 0 0 1 -4.5,4.5 4.5,4.5 0 0 1 -4.5,-4.5 4.5,4.5 0 0 1 4.5,-4.5 4.5,4.5 0 0 1 4.5,4.5 z"
        id="path4509" />
     <path
-       style="opacity:1;fill:#ffffff"
+       style="opacity:1;fill:#f2f2f2"
        d="M 15 11.992188 L 15 12.992188 L 16 12.992188 L 16 11.992188 L 15 11.992188 z M 15 13.992188 L 15 16.992188 L 16 16.992188 L 16 13.992188 L 15 13.992188 z "
        transform="translate(421.71429,525.79074)"
        id="rect4241" />

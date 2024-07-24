@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="22" height="22">
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
+<svg width="22" height="22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
         color:#f2f2f2;
       }
       .ColorScheme-Background {
@@ -12,10 +10,6 @@
       }
       .ColorScheme-ButtonText {
         color:#f2f2f2;
-      }
-      </style>
-    <g transform="translate(0,10.00001) translate(0,-10)" id="22-22-keyboard-layout">
-    <rect style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" id="rect4209" width="22" height="22" x="0" y="0"/>
-    <path style="fill:currentColor;fill-opacity:1;stroke:none" d="m 13,1033.3622 0,1 0,1 c 0,0.554 -0.446,1 -1,1 -1.108,0 -2,0.892 -2,2 l -8,0 0,11 18,0 0,-11 -9,0 c 0,-0.554 0.446,-1 1,-1 1.108,0 2,-0.892 2,-2 l 0,-1 0,-1 -1,0 z m -10,6 7,0 1,0 8,0 0,1 -16,0 0,-1 z m 0,2 16,0 0,7 -4,0 -8,0 -4,0 0,-7 z m 1,1 0,1 2,0 0,-1 -2,0 z m 3,0 0,1 2,0 0,-1 -2,0 z m 3,0 0,1 2,0 0,-1 -2,0 z m 3,0 0,1 2,0 0,-1 -2,0 z m 3,0 0,1 2,0 0,-1 -2,0 z m -12,2 0,1 2,0 0,-1 -2,0 z m 3,0 0,1 2,0 0,-1 -2,0 z m 3,0 0,1 2,0 0,-1 -2,0 z m 3,0 0,1 2,0 0,-1 -2,0 z m 3,0 0,1 2,0 0,-1 -2,0 z m -12,2 0,1 2,0 0,-1 -2,0 z m 3,0 0,1 8,0 0,-1 -8,0 z m 9,0 0,1 2,0 0,-1 -2,0 z" transform="translate(0,-1030.3622)" class="ColorScheme-Text" id="path4211"/>
-  </g>
+      }</style>
+ <path class="ColorScheme-Text" d="m13 0c0 0.554-0.446 1-1 1-1.108 0-2 0.892-2 2v1h-7c-1.662 0-3 1.338-3 3v8c0 1.662 1.338 3 3 3h16c1.662 0 3-1.338 3-3v-8c0-1.662-1.338-3-3-3h-8v-1c0-0.554 0.446-1 1-1 1.108 0 2-0.892 2-2h-1zm-10 5h7 1 8c1.108 0 2 0.892 2 2v8c0 1.108-0.892 2-2 2h-16c-1.108 0-2-0.892-2-2v-8c0-1.108 0.892-2 2-2zm0 2v2h3v-2h-3zm4 0v2h2v-2h-2zm3 0v2h2v-2h-2zm3 0v2h2v-2h-2zm3 0v2h3v-2h-3zm-13 3v2h4v-2h-4zm5 0v2h2v-2h-2zm3 0v2h2v-2h-2zm3 0v2h5v-2h-5zm-11 3v2h2v-2h-2zm3 0v2h10v-2h-10zm11 0v2h2v-2h-2z" fill="currentColor"/>
 </svg>

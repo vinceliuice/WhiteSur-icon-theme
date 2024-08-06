@@ -319,7 +319,7 @@ Scale=2
 Context=Animations
 Type=Fixed
 
-[preferences/22]
+[preferences@2x/22]
 Size=22
 Scale=2
 Context=Applications
@@ -333,13 +333,13 @@ MinSize=32
 MaxSize=256
 Type=Scalable
 
-[apps/22]
+[apps@2x/22]
 Size=22
 Scale=2
 Context=Applications
 Type=Fixed
 
-[apps/32]
+[apps@2x/32]
 Size=32
 Scale=2
 Context=Applications

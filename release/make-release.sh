@@ -6,14 +6,6 @@ THEME_NAME=WhiteSur
 
 _THEME_VARIANTS=('' '-red' '-pink' '-purple' '-green' '-yellow' '-orange' '-grey' '-nord')
 
-if [ ! -z "${COMPA_VARIANTS:-}" ]; then
-  IFS=', ' read -r -a _COMPA_VARIANTS <<< "${COMPA_VARIANTS:-}"
-fi
-
-if [ ! -z "${COLOR_VARIANTS:-}" ]; then
-  IFS=', ' read -r -a _COLOR_VARIANTS <<< "${COLOR_VARIANTS:-}"
-fi
-
 if [ ! -z "${THEME_VARIANTS:-}" ]; then
   IFS=', ' read -r -a _THEME_VARIANTS <<< "${THEME_VARIANTS:-}"
 fi

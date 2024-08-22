@@ -64,7 +64,7 @@ install() {
     cp -r "${SRC_DIR}"/src/status/{16,22,24,32,symbolic}                                     "${THEME_DIR}"/status
 
     if [[ ${black:-} == 'true' ]]; then
-      sed -i "s/#ffffff/#363636/g" "${THEME_DIR}"/status/{16,22,24}/*
+      sed -i "s/#f2f2f2/#363636/g" "${THEME_DIR}"/status/{16,22,24}/*
     fi
 
     if [[ ${bold:-} == 'true' ]]; then
@@ -98,7 +98,7 @@ install() {
     fi
 
     # Change icon color for light theme
-    sed -i "s/#ffffff/#363636/g" "${THEME_DIR}"/status/{16,22,24}/*
+    sed -i "s/#f2f2f2/#363636/g" "${THEME_DIR}"/status/{16,22,24}/*
     cp -r "${SRC_DIR}"/links/status/{16,22,24}                                               "${THEME_DIR}"/status
 
     cd ${dest}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <linearGradient id="linearGradient1115" x1="-29.448" x2="-29.448" y1="4.6371" y2="59.494" gradientTransform="translate(63.693)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" offset="0"/>
+   <stop stop-color="#ccd4da" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect x="4.5" y="4.5" width="55" height="55" ry="13" fill="url(#linearGradient1115)" image-rendering="optimizeSpeed" stroke-width=".47291"/>
+ <g transform="matrix(1.5721 0 0 1.5721 -36.389 -2.5873)">
+  <path d="m35 24s0.2-3 3-3h11c2.8 0 3 3 3 3 0 5-3 8-9 8-5 0-8-3-8-8z" fill="#275b7b"/>
+  <circle cx="38" cy="15" r="3" fill="#31739b"/>
+  <circle cx="49" cy="15" r="3" fill="#31739b"/>
+ </g>
+</svg>

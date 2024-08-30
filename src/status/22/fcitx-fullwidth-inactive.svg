@@ -1,21 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="22" height="22">
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#f2f2f2;
-      }
-      .ColorScheme-Background {
-        color:#eff0f1;
-      }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#f2f2f2;
-      }
-      </style>
-    <g transform="translate(154,-81.999973) translate(-154,-88)" id="fcitx-fullwidth-inactive">
-    <rect y="170" x="-2.4709701e-09" height="22" width="22" id="rect4222" style="fill:none;fill-opacity:1;stroke:none"/>
-    <path class="ColorScheme-Text" style="fill:currentColor;fill-opacity:1;stroke:none" d="M 167.56641 91.431641 A 8 7.9999995 0 0 1 168 94 A 8 7.9999995 0 0 1 160 102 A 8 7.9999995 0 0 1 157.43359 101.56836 A 8 7.9999995 0 0 0 165 107 A 8 7.9999995 0 0 0 173 99 A 8 7.9999995 0 0 0 167.56641 91.431641 z " transform="translate(-154,81.999973)" id="ellipse4224"/>
-  </g>
+<svg width="22" height="22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#f2f2f2; } .ColorScheme-Highlight { color:#4285f4; }</style>
+ </defs>
+ <path class="ColorScheme-Text" d="m12.793 3.207a8 8 0 0 1 0.20703 1.793 8 8 0 0 1-8 8 8 8 0 0 1-1.7793-0.2207 8 8 0 0 0 7.7793 6.2207 8 8 0 0 0 8-8 8 8 0 0 0-6.207-7.793zm1.1797 1.5606c2.3928 1.1414 4.0261 3.4897 4.0273 6.2324 0 3.8772-3.1211 6.9989-6.998 7-2.7374-7e-3 -5.0796-1.6377-6.2188-4.0254 0.069011 2e-3 0.13599 0.0246 0.20508 0.0254a1.0001 1.0001 0 0 0 0.011719 0c4.9587 0 9-4.0413 9-9a1.0001 1.0001 0 0 0 0-2e-3c-1.48e-4 -0.0776-0.02519-0.15296-0.02734-0.23047z" fill="currentColor"/>
 </svg>

@@ -1,22 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="22" height="22">
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#f2f2f2;
-      }
-      .ColorScheme-Background {
-        color:#eff0f1;
-      }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#f2f2f2;
-      }
-      </style>
-    <g transform="translate(154,-59.999974) translate(-154,-110)" id="fcitx-punc-inactive">
-    <rect y="170" x="-2.4709701e-09" height="22" width="22" id="rect4231" style="fill:none;fill-opacity:1;stroke:none"/>
-    <circle cy="180.5" cx="7.5" id="ellipse4233" class="ColorScheme-Text" style="fill:currentColor;fill-opacity:1;stroke:none" r="1.5"/>
-    <path class="ColorScheme-Text" style="fill:currentColor;fill-opacity:1;stroke:none" d="m 14.5,178.99997 a 1.5,1.5 0 0 0 -1.5,1.5 1.5,1.5 0 0 0 1.5,1.5 1.5,1.5 0 0 0 0.04688,-0.002 c -0.53325,0.93921 -1.34766,1.60156 -1.34766,1.60156 l 0.60156,0.80078 c 0,0 1.96734,-1.42635 2.16211,-3.57226 A 1.5,1.5 0 0 0 16,180.49997 a 1.5,1.5 0 0 0 -1.5,-1.5 z" id="circle4235"/>
-  </g>
+<svg width="22" height="22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#f2f2f2; } .ColorScheme-Highlight { color:#4285f4; }</style>
+ </defs>
+ <path class="ColorScheme-Text" d="m6.4981 5c-1.933 0-3.5 1.567-3.5 3.5s1.567 3.5 3.5 3.5 3.5-1.567 3.5-3.5-1.567-3.5-3.5-3.5zm9 0c-1.933 0-3.5 1.567-3.5 3.5s1.567 3.5 3.5 3.5c0.60372-0.0027 1.1965-0.16146 1.7207-0.46094-1.0016 2.1056-2.8794 3.6937-5.2207 4.4218v1.0391c3.773-1.0388 6.5399-4.1356 6.9609-7.9824 0.0028-0.022774 0.0054-0.045575 0.0078-0.0684 0.0153-0.14999 0.02706-0.30109 0.03516-0.45313h-0.0039c-0.0022-1.9314-1.5686-3.496-3.5-3.496z" fill="currentColor"/>
 </svg>

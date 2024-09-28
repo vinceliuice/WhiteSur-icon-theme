@@ -1,7 +1,7 @@
 [Icon Theme]
 Name=WhiteSur
 Comment=MacOSX style icon theme for linux.
-Inherits=hicolor
+Inherits=hicolor,breeze
 Example=folder
 
 # KDE/Plasma Stuff

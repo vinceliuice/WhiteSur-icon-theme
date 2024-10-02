@@ -1,0 +1,47 @@
+<svg width="16px" height="16px" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+ <filter id="a" x="0" y="0" width="1" height="1">
+  <feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+ </filter>
+ <mask id="b">
+  <g filter="url(#a)">
+   <path d="m-1.6-1.6h19.2v19.2h-19.2z" fill-opacity=".5"/>
+  </g>
+ </mask>
+ <clipPath id="c">
+  <path d="m0 0h1600v1200h-1600z"/>
+ </clipPath>
+ <mask id="d">
+  <g filter="url(#a)">
+   <path d="m-1.6-1.6h19.2v19.2h-19.2z" fill-opacity=".7"/>
+  </g>
+ </mask>
+ <clipPath id="e">
+  <path d="m0 0h1600v1200h-1600z"/>
+ </clipPath>
+ <mask id="f">
+  <g filter="url(#a)">
+   <path d="m-1.6-1.6h19.2v19.2h-19.2z" fill-opacity=".35"/>
+  </g>
+ </mask>
+ <clipPath id="g">
+  <path d="m0 0h1600v1200h-1600z"/>
+ </clipPath>
+ <g mask="url(#b)">
+  <g transform="translate(-80 -416)" clip-path="url(#c)">
+   <path d="m550 182c-0.35156 0.003906-0.69531 0.10156-1 0.28125v3.4375c0.30469 0.17969 0.64844 0.27734 1 0.28125 1.1055 0 2-0.89453 2-2s-0.89453-2-2-2zm0 5c-0.33984 0-0.67969 0.058594-1 0.17578v6.8242h4v-4c0-1.6562-1.3438-3-3-3z"/>
+  </g>
+ </g>
+ <g mask="url(#d)">
+  <g transform="translate(-80 -416)" clip-path="url(#e)">
+   <path d="m569 182v4c1.1055 0 2-0.89453 2-2s-0.89453-2-2-2zm0 5v7h3v-4c0-1.6562-1.3438-3-3-3z"/>
+  </g>
+ </g>
+ <g mask="url(#f)">
+  <g transform="translate(-80 -416)" clip-path="url(#g)">
+   <path d="m573 182.27v3.4492c0.61328-0.35547 0.99609-1.0078 1-1.7188 0-0.71484-0.38281-1.375-1-1.7305zm0 4.9062v6.8242h2v-4c0-1.2695-0.80078-2.4023-2-2.8242z"/>
+  </g>
+ </g>
+ <path d="m3.957 2c-1.0842 0-1.957 0.87284-1.957 1.957v9.043h1v-9c0-0.554 0.446-1 1-1h9c0.554 0 1 0.446 1 1v2h1v-2.043c0-1.0842-0.87284-1.957-1.957-1.957z" fill="#363636" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="paint-order:stroke fill markers"/>
+ <rect y="12" width="10" height="1" rx="0" ry="0" fill="#363636" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="paint-order:stroke fill markers"/>
+ <path d="m12 7c-0.554 0-1 0.446-1 1v5c0 0.554 0.446 1 1 1h3c0.554 0 1-0.446 1-1v-5c0-0.554-0.446-1-1-1h-3zm0 1h3v5h-3v-5z" fill="#363636" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="paint-order:stroke fill markers"/>
+</svg>

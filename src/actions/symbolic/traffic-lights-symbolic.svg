@@ -1,0 +1,33 @@
+<svg width="16px" height="16px" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+ <filter id="a" x="0" y="0" width="1" height="1">
+  <feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+ </filter>
+ <mask id="b">
+  <g filter="url(#a)">
+   <path d="m-1.6-1.6h19.2v19.2h-19.2z" fill-opacity=".5"/>
+  </g>
+ </mask>
+ <clipPath id="c">
+  <path d="m0 0h1600v1200h-1600z"/>
+ </clipPath>
+ <mask id="d">
+  <g filter="url(#a)">
+   <path d="m-1.6-1.6h19.2v19.2h-19.2z" fill-opacity=".7"/>
+  </g>
+ </mask>
+ <clipPath id="e">
+  <path d="m0 0h1600v1200h-1600z"/>
+ </clipPath>
+ <mask id="f">
+  <g filter="url(#a)">
+   <path d="m-1.6-1.6h19.2v19.2h-19.2z" fill-opacity=".35"/>
+  </g>
+ </mask>
+ <clipPath id="g">
+  <path d="m0 0h1600v1200h-1600z"/>
+ </clipPath>
+ <path d="m8 0c-2.77 0-5 2.23-5 5v6c0 2.77 2.23 5 5 5 2.77 0 5-2.23 5-5v-6c0-2.77-2.23-5-5-5zm0 1c2.216 0 4 1.784 4 4v6c0 2.216-1.784 4-4 4-2.216 0-4-1.784-4-4v-6c0-2.216 1.784-4 4-4z" fill="#363636" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="paint-order:stroke fill markers"/>
+ <path d="m8 2a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2zm0 1a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1z" fill="#363636" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="paint-order:stroke fill markers"/>
+ <path d="m8 6a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2zm0 1a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1z" fill="#363636" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="paint-order:stroke fill markers"/>
+ <path d="m8 10a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2zm0 1a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1z" fill="#363636" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="paint-order:stroke fill markers"/>
+</svg>

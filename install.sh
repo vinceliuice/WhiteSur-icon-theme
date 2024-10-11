@@ -60,7 +60,7 @@ install() {
 
   if [[ ${color} == '' ]]; then
     mkdir -p                                                                                 "${THEME_DIR}"/status
-    cp -r "${SRC_DIR}"/src/{actions,animations,apps,categories,devices,emblems,mimes,places,preferences} "${THEME_DIR}"
+    cp -r "${SRC_DIR}"/src/{actions,animations,apps,categories,devices,emotes,emblems,mimes,places,preferences} "${THEME_DIR}"
     cp -r "${SRC_DIR}"/src/status/{16,22,24,32,symbolic}                                     "${THEME_DIR}"/status
 
     if [[ ${black:-} == 'true' ]]; then
@@ -85,7 +85,7 @@ install() {
 
     rm -rf "${THEME_DIR}"/places/scalable/user-trash{'','-full'}-dark.svg
 
-    cp -r "${SRC_DIR}"/links/{actions,apps,categories,devices,emblems,mimes,places,status,preferences} "${THEME_DIR}"
+    cp -r "${SRC_DIR}"/links/{actions,apps,categories,devices,emotes,emblems,mimes,places,status,preferences} "${THEME_DIR}"
     ln -s "${THEME_DIR}"/preferences/32 "${THEME_DIR}"/preferences/22
   fi
 
@@ -107,6 +107,7 @@ install() {
     ln -s ../${name}${theme}/apps ${name}${theme}-light/apps
     ln -s ../${name}${theme}/categories ${name}${theme}-light/categories
     ln -s ../${name}${theme}/devices ${name}${theme}-light/devices
+    ln -s ../${name}${theme}/emotes ${name}${theme}-light/emotes
     ln -s ../${name}${theme}/emblems ${name}${theme}-light/emblems
     ln -s ../${name}${theme}/mimes ${name}${theme}-light/mimes
     ln -s ../${name}${theme}/places ${name}${theme}-light/places
@@ -166,6 +167,7 @@ install() {
 
     cd ${dest}
     ln -s ../${name}${theme}/animations ${name}${theme}-dark/animations
+    ln -s ../${name}${theme}/emotes ${name}${theme}-dark/emotes
     ln -s ../${name}${theme}/preferences ${name}${theme}-dark/preferences
     ln -s ../../${name}${theme}/categories/32 ${name}${theme}-dark/categories/32
     ln -s ../../${name}${theme}/emblems/16 ${name}${theme}-dark/emblems/16
@@ -189,6 +191,7 @@ install() {
     ln -sf apps apps@2x
     ln -sf categories categories@2x
     ln -sf devices devices@2x
+    ln -sf emotes emotes@2x
     ln -sf emblems emblems@2x
     ln -sf mimes mimes@2x
     ln -sf places places@2x

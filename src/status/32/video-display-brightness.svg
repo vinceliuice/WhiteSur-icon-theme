@@ -1,6 +1,6 @@
 <svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg">
  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
-        color:#363636;
+        color:#f2f2f2;
       }
       .ColorScheme-Background{
         color:#EFF0F1;
@@ -9,7 +9,7 @@
         color:#3DAEE6;
       }
       .ColorScheme-ViewText {
-        color:#363636;
+        color:#f2f2f2;
       }
       .ColorScheme-ViewBackground{
         color:#FCFCFC;
@@ -21,7 +21,7 @@
         color:#1E92FF;
       }
       .ColorScheme-ButtonText {
-        color:#363636;
+        color:#f2f2f2;
       }
       .ColorScheme-ButtonBackground{
         color:#EFF0F1;

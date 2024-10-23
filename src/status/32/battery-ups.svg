@@ -14,7 +14,7 @@
      id="defs10" />
   <sodipodi:namedview
      id="namedview8"
-     pagecolor="#363636"
+     pagecolor="#f2f2f2"
      bordercolor="#000000"
      borderopacity="0.25"
      inkscape:showpageshadow="2"
@@ -35,13 +35,13 @@
      type="text/css"
      id="current-color-scheme">
       .ColorScheme-Text {
-        color:#363636;
+        color:#f2f2f2;
       }
       .ColorScheme-Background{
         color:#eff0f1;
       }
       .ColorScheme-ButtonText {
-        color:#363636;
+        color:#f2f2f2;
       }
 </style>
   <g

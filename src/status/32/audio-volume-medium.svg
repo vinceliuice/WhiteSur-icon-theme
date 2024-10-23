@@ -1,6 +1,6 @@
 <svg version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
  <defs>
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#363636; }</style>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#f2f2f2; }</style>
  </defs>
  <g id="audio" class="ColorScheme-Text" fill="currentColor">
   <path d="m12.858 24c0.6591 0 1.1425-0.61168 1.1425-1.2621v-13.421c0-0.65918-0.4834-1.317-1.1601-1.317-0.4483 0-0.7734 0.18457-1.2481 0.65039l-3.8984 3.2705c-0.05274 0.05273-0.12305 0.0791-0.20215 0.0791h-2.4873c-1.3008 0-2.0039 0.72073-2.0039 2.083v3.834c0 1.3623 0.70312 2.083 2.0039 2.083h2.4873c0.0791 0 0.14062 0.0264 0.20215 0.0791l3.8984 3.3144c0.4395 0.4219 0.8086 0.6065 1.2657 0.6065z"/>

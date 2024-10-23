@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="32" height="32">
     <style type="text/css" id="current-color-scheme">.ColorScheme-Text {
-        color:#363636;
+        color:#f2f2f2;
       }
       .ColorScheme-Background {
         color:#eff0f1;
@@ -10,7 +10,7 @@
         color:#3daee9;
       }
       .ColorScheme-ButtonText {
-        color:#363636;
+        color:#f2f2f2;
       }
     </style>
     <g id="input-combo-on" transform="translate(19,111.99999) translate(-38,-224)">

@@ -435,7 +435,7 @@ MinSize=16
 MaxSize=512
 Type=Scalable
 
-[emotes/22]
+[emotes@2x/22]
 Size=22
 Scale=2
 Context=Emotes

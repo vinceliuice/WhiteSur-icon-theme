@@ -1,1 +1,90 @@
-<svg width="64" xmlns="http://www.w3.org/2000/svg" height="64" fill="none"><g xmlns:xlink="http://www.w3.org/1999/xlink" style="fill: rgb(0, 0, 0);"><defs><pattern patternUnits="userSpaceOnUse" x="1.559" y="1.999" width="63.926" height="65.101" id="a"><image href="https://design.penpot.app/assets/by-file-media-id/7e3dac9f-07b8-8055-8005-a192a4e1aafd" preserveAspectRatio="none" width="60.882" height="62.001"/><rect width="63.926" height="65.101" fill="none"/><image href="https://design.penpot.app/assets/by-file-media-id/7e3dac9f-07b8-8055-8005-a192a4e1aafd" preserveAspectRatio="none" width="60.882" height="62.001"/></pattern></defs><rect width="60.882" height="62.001" x="1.559" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" ry="0" fill="url(#a)" rx="0" y="1.999" class="fills"/><defs><linearGradient x1="7.937" y1="15.081" x2="7.937" y2="1.852" id="b" gradientTransform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000) scale(3.7796)" gradientUnits="userSpaceOnUse"><stop stop-color="#363636" offset="0"/><stop stop-color="#6c6c6c" offset="1"/></linearGradient></defs><rect width="56" height="56" x="4" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" style="fill: url(&quot;#b&quot;);" ry="13" fill="url(#b)" rx="13" y="4" class="fills"/><path d="M32.055,37.797C35.253,37.797,37.845,35.211,37.845,32.020C37.845,28.830,35.253,26.243,32.055,26.243C28.857,26.243,26.265,28.830,26.265,32.020C26.265,35.211,28.857,37.797,32.055,37.797ZL32.055,37.797ZM36.687,32.020C36.687,34.572,34.613,36.642,32.055,36.642C29.497,36.642,27.423,34.572,27.423,32.020C27.423,29.468,29.497,27.398,32.055,27.398C34.613,27.398,36.687,29.468,36.687,32.020ZL36.687,32.020ZM42.092,32.020C42.092,37.550,37.598,42.033,32.055,42.033C26.512,42.033,22.018,37.550,22.018,32.020C22.018,26.490,26.512,22.007,32.055,22.007C37.598,22.007,42.092,26.490,42.092,32.020ZL42.092,32.020ZM32.055,40.108C36.532,40.108,40.162,36.487,40.162,32.020C40.162,27.553,36.532,23.932,32.055,23.932C27.578,23.932,23.948,27.553,23.948,32.020C23.948,36.487,27.578,40.108,32.055,40.108ZL32.055,40.108ZM47.110,32.020C47.110,40.315,40.370,47.040,32.055,47.040C23.740,47.040,17.000,40.315,17.000,32.020C17.000,23.725,23.740,17.000,32.055,17.000C40.370,17.000,47.110,23.725,47.110,32.020ZL47.110,32.020ZM32.055,44.344C38.877,44.344,44.408,38.826,44.408,32.020C44.408,25.214,38.877,19.696,32.055,19.696C25.233,19.696,19.702,25.214,19.702,32.020C19.702,38.826,25.233,44.344,32.055,44.344ZL32.055,44.344Z" style="fill: rgb(255, 255, 255);" class="fills"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="64"
+   height="64"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <g
+     style="fill:#000000"
+     id="g3">
+    <defs
+       id="defs2">
+      <pattern
+         patternUnits="userSpaceOnUse"
+         x="1.559"
+         y="1.999"
+         width="63.926"
+         height="65.101"
+         id="a">
+        <image
+           href="https://design.penpot.app/assets/by-file-media-id/7e3dac9f-07b8-8055-8005-a192a4e1aafd"
+           preserveAspectRatio="none"
+           width="60.882"
+           height="62.001"
+           id="image1" />
+        <rect
+           width="63.926"
+           height="65.101"
+           fill="none"
+           id="rect1" />
+        <image
+           href="https://design.penpot.app/assets/by-file-media-id/7e3dac9f-07b8-8055-8005-a192a4e1aafd"
+           preserveAspectRatio="none"
+           width="60.882"
+           height="62.001"
+           id="image2" />
+      </pattern>
+    </defs>
+    <rect
+       width="60.882"
+       height="62.000999"
+       x="1.559"
+       ry="0"
+       fill="url(#a)"
+       rx="0"
+       y="1.999"
+       class="fills"
+       id="rect2" />
+    <defs
+       id="defs3">
+      <linearGradient
+         x1="7.9369998"
+         y1="15.081"
+         x2="7.9369998"
+         y2="1.852"
+         id="b"
+         gradientTransform="scale(3.7796)"
+         gradientUnits="userSpaceOnUse">
+        <stop
+           stop-color="#363636"
+           offset="0"
+           id="stop2" />
+        <stop
+           stop-color="#6c6c6c"
+           offset="1"
+           id="stop3" />
+      </linearGradient>
+    </defs>
+    <rect
+       width="56"
+       height="56"
+       x="4"
+       style="fill:url(#b)"
+       ry="13"
+       fill="url(#b)"
+       rx="13"
+       y="4"
+       class="fills"
+       id="rect3" />
+    <path
+       d="m 32.055,37.797 c 3.198,0 5.79,-2.586 5.79,-5.777 0,-3.19 -2.592,-5.777 -5.79,-5.777 -3.198,0 -5.79,2.587 -5.79,5.777 0,3.191 2.592,5.777 5.79,5.777 z m 0,0 z m 4.632,-5.777 c 0,2.552 -2.074,4.622 -4.632,4.622 -2.558,0 -4.632,-2.07 -4.632,-4.622 0,-2.552 2.074,-4.622 4.632,-4.622 2.558,0 4.632,2.07 4.632,4.622 z m 0,0 z m 5.405,0 c 0,5.53 -4.494,10.013 -10.037,10.013 -5.543,0 -10.037,-4.483 -10.037,-10.013 0,-5.53 4.494,-10.013 10.037,-10.013 5.543,0 10.037,4.483 10.037,10.013 z m 0,0 z m -10.037,8.088 c 4.477,0 8.107,-3.621 8.107,-8.088 0,-4.467 -3.63,-8.088 -8.107,-8.088 -4.477,0 -8.107,3.621 -8.107,8.088 0,4.467 3.63,8.088 8.107,8.088 z m 0,0 z M 47.11,32.02 c 0,8.295 -6.74,15.02 -15.055,15.02 C 23.74,47.04 17,40.315 17,32.02 17,23.725 23.74,17 32.055,17 40.37,17 47.11,23.725 47.11,32.02 Z m 0,0 z M 32.055,44.344 c 6.822,0 12.353,-5.518 12.353,-12.324 0,-6.806 -5.531,-12.324 -12.353,-12.324 -6.822,0 -12.353,5.518 -12.353,12.324 0,6.806 5.531,12.324 12.353,12.324 z m 0,0 z"
+       style="fill:#ffffff"
+       class="fills"
+       id="path3" />
+  </g>
+</svg>

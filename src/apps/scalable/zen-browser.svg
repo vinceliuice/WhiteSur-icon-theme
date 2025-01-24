@@ -1,90 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="64"
-   height="64"
-   fill="none"
-   version="1.1"
-   id="svg3"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs4" />
-  <g
-     style="fill:#000000"
-     id="g3">
-    <defs
-       id="defs2">
-      <pattern
-         patternUnits="userSpaceOnUse"
-         x="1.559"
-         y="1.999"
-         width="63.926"
-         height="65.101"
-         id="a">
-        <image
-           href="https://design.penpot.app/assets/by-file-media-id/7e3dac9f-07b8-8055-8005-a192a4e1aafd"
-           preserveAspectRatio="none"
-           width="60.882"
-           height="62.001"
-           id="image1" />
-        <rect
-           width="63.926"
-           height="65.101"
-           fill="none"
-           id="rect1" />
-        <image
-           href="https://design.penpot.app/assets/by-file-media-id/7e3dac9f-07b8-8055-8005-a192a4e1aafd"
-           preserveAspectRatio="none"
-           width="60.882"
-           height="62.001"
-           id="image2" />
-      </pattern>
-    </defs>
-    <rect
-       width="60.882"
-       height="62.000999"
-       x="1.559"
-       ry="0"
-       fill="url(#a)"
-       rx="0"
-       y="1.999"
-       class="fills"
-       id="rect2" />
-    <defs
-       id="defs3">
-      <linearGradient
-         x1="7.9369998"
-         y1="15.081"
-         x2="7.9369998"
-         y2="1.852"
-         id="b"
-         gradientTransform="scale(3.7796)"
-         gradientUnits="userSpaceOnUse">
-        <stop
-           stop-color="#363636"
-           offset="0"
-           id="stop2" />
-        <stop
-           stop-color="#6c6c6c"
-           offset="1"
-           id="stop3" />
-      </linearGradient>
-    </defs>
-    <rect
-       width="56"
-       height="56"
-       x="4"
-       style="fill:url(#b)"
-       ry="13"
-       fill="url(#b)"
-       rx="13"
-       y="4"
-       class="fills"
-       id="rect3" />
-    <path
-       d="m 32.055,37.797 c 3.198,0 5.79,-2.586 5.79,-5.777 0,-3.19 -2.592,-5.777 -5.79,-5.777 -3.198,0 -5.79,2.587 -5.79,5.777 0,3.191 2.592,5.777 5.79,5.777 z m 0,0 z m 4.632,-5.777 c 0,2.552 -2.074,4.622 -4.632,4.622 -2.558,0 -4.632,-2.07 -4.632,-4.622 0,-2.552 2.074,-4.622 4.632,-4.622 2.558,0 4.632,2.07 4.632,4.622 z m 0,0 z m 5.405,0 c 0,5.53 -4.494,10.013 -10.037,10.013 -5.543,0 -10.037,-4.483 -10.037,-10.013 0,-5.53 4.494,-10.013 10.037,-10.013 5.543,0 10.037,4.483 10.037,10.013 z m 0,0 z m -10.037,8.088 c 4.477,0 8.107,-3.621 8.107,-8.088 0,-4.467 -3.63,-8.088 -8.107,-8.088 -4.477,0 -8.107,3.621 -8.107,8.088 0,4.467 3.63,8.088 8.107,8.088 z m 0,0 z M 47.11,32.02 c 0,8.295 -6.74,15.02 -15.055,15.02 C 23.74,47.04 17,40.315 17,32.02 17,23.725 23.74,17 32.055,17 40.37,17 47.11,23.725 47.11,32.02 Z m 0,0 z M 32.055,44.344 c 6.822,0 12.353,-5.518 12.353,-12.324 0,-6.806 -5.531,-12.324 -12.353,-12.324 -6.822,0 -12.353,5.518 -12.353,12.324 0,6.806 5.531,12.324 12.353,12.324 z m 0,0 z"
-       style="fill:#ffffff"
-       class="fills"
-       id="path3" />
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g fill="#000">
+  <defs>
+   <pattern id="a" x="1.559" y="1.999" width="63.926" height="65.101" patternUnits="userSpaceOnUse">
+    <image width="60.882" height="62.001" href="https://design.penpot.app/assets/by-file-media-id/7e3dac9f-07b8-8055-8005-a192a4e1aafd" preserveAspectRatio="none"/>
+    <rect width="63.926" height="65.101" fill="none"/>
+    <image width="60.882" height="62.001" href="https://design.penpot.app/assets/by-file-media-id/7e3dac9f-07b8-8055-8005-a192a4e1aafd" preserveAspectRatio="none"/>
+   </pattern>
+  </defs>
+  <rect class="fills" x="1.559" y="1.999" width="60.882" height="62.001" rx="0" ry="0" fill="url(#a)"/>
+  <defs>
+   <linearGradient id="b" x1="7.937" x2="7.937" y1="15.081" y2="1.852" gradientTransform="scale(3.7796)" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#363636" offset="0"/>
+    <stop stop-color="#6c6c6c" offset="1"/>
+   </linearGradient>
+  </defs>
+  <rect class="fills" x="4" y="4" width="56" height="56" rx="13" ry="13" fill="url(#b)"/>
+  <path class="fills" d="m32.055 37.797c3.198 0 5.79-2.586 5.79-5.777 0-3.19-2.592-5.777-5.79-5.777s-5.79 2.587-5.79 5.777c0 3.191 2.592 5.777 5.79 5.777zm4.632-5.777c0 2.552-2.074 4.622-4.632 4.622s-4.632-2.07-4.632-4.622 2.074-4.622 4.632-4.622 4.632 2.07 4.632 4.622zm5.405 0c0 5.53-4.494 10.013-10.037 10.013s-10.037-4.483-10.037-10.013 4.494-10.013 10.037-10.013 10.037 4.483 10.037 10.013zm-10.037 8.088c4.477 0 8.107-3.621 8.107-8.088s-3.63-8.088-8.107-8.088-8.107 3.621-8.107 8.088 3.63 8.088 8.107 8.088zm15.055-8.088c0 8.295-6.74 15.02-15.055 15.02s-15.055-6.725-15.055-15.02 6.74-15.02 15.055-15.02 15.055 6.725 15.055 15.02zm-15.055 12.324c6.822 0 12.353-5.518 12.353-12.324s-5.531-12.324-12.353-12.324-12.353 5.518-12.353 12.324 5.531 12.324 12.353 12.324z" fill="#fff"/>
+ </g>
 </svg>

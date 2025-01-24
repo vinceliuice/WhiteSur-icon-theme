@@ -1,21 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="64" height="64" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
- <g fill="#000">
-  <defs>
-   <pattern id="a" x="1.559" y="1.999" width="63.926" height="65.101" patternUnits="userSpaceOnUse">
-    <image width="60.882" height="62.001" href="https://design.penpot.app/assets/by-file-media-id/8233eca0-468b-80cb-8005-a196ec49b474" preserveAspectRatio="none"/>
-    <rect width="63.926" height="65.101" fill="none"/>
-    <image width="60.882" height="62.001" href="https://design.penpot.app/assets/by-file-media-id/8233eca0-468b-80cb-8005-a196ec49b474" preserveAspectRatio="none"/>
-   </pattern>
-  </defs>
-  <rect class="fills" x="1.559" y="1.999" width="60.882" height="62.001" rx="0" ry="0" fill="url(#a)"/>
-  <defs>
-   <linearGradient id="b" x1="7.937" x2="7.937" y1="15.081" y2="1.852" gradientTransform="scale(3.7796)" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#0e71de" offset="0"/>
-    <stop stop-color="#25c9ff" offset="1"/>
-   </linearGradient>
-  </defs>
-  <rect class="fills" x="4" y="4" width="56" height="56" rx="13" ry="13" fill="url(#b)"/>
-  <path class="fills" d="m32.055 37.797c3.198 0 5.79-2.586 5.79-5.777 0-3.19-2.592-5.777-5.79-5.777s-5.79 2.587-5.79 5.777c0 3.191 2.592 5.777 5.79 5.777zm4.632-5.777c0 2.552-2.074 4.622-4.632 4.622s-4.632-2.07-4.632-4.622 2.074-4.622 4.632-4.622 4.632 2.07 4.632 4.622zm5.405 0c0 5.53-4.494 10.013-10.037 10.013s-10.037-4.483-10.037-10.013 4.494-10.013 10.037-10.013 10.037 4.483 10.037 10.013zm-10.037 8.088c4.477 0 8.107-3.621 8.107-8.088s-3.63-8.088-8.107-8.088-8.107 3.621-8.107 8.088 3.63 8.088 8.107 8.088zm15.055-8.088c0 8.295-6.74 15.02-15.055 15.02s-15.055-6.725-15.055-15.02 6.74-15.02 15.055-15.02 15.055 6.725 15.055 15.02zm-15.055 12.324c6.822 0 12.353-5.518 12.353-12.324s-5.531-12.324-12.353-12.324-12.353 5.518-12.353 12.324 5.531 12.324 12.353 12.324z" fill="#fff"/>
- </g>
-</svg>
+<svg width="64" height="64" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg"><g fill="#000"><defs><pattern id="a" x="1.559" y="1.999" width="63.926" height="65.101" patternUnits="userSpaceOnUse"><image width="60.882" height="62.001" href="https://design.penpot.app/assets/by-file-media-id/8233eca0-468b-80cb-8005-a196ec49b474" preserveAspectRatio="none"/><rect width="63.926" height="65.101" fill="none"/><image width="60.882" height="62.001" href="https://design.penpot.app/assets/by-file-media-id/8233eca0-468b-80cb-8005-a196ec49b474" preserveAspectRatio="none"/></pattern></defs><rect class="fills" x="1.559" y="1.999" width="60.882" height="62.001" rx="0" ry="0" fill="url(#a)"/><defs><linearGradient id="b" x1="7.937" x2="7.937" y1="15.081" y2="1.852" gradientTransform="scale(3.7796)" gradientUnits="userSpaceOnUse"><stop stop-color="#0e71de" offset="0"/><stop stop-color="#25c9ff" offset="1"/></linearGradient></defs><rect class="fills" x="4" y="4" width="56" height="56" rx="13" ry="13" fill="url(#b)"/><path class="fills" d="m32.055 37.797c3.198 0 5.79-2.586 5.79-5.777 0-3.19-2.592-5.777-5.79-5.777s-5.79 2.587-5.79 5.777c0 3.191 2.592 5.777 5.79 5.777zm4.632-5.777c0 2.552-2.074 4.622-4.632 4.622s-4.632-2.07-4.632-4.622 2.074-4.622 4.632-4.622 4.632 2.07 4.632 4.622zm5.405 0c0 5.53-4.494 10.013-10.037 10.013s-10.037-4.483-10.037-10.013 4.494-10.013 10.037-10.013 10.037 4.483 10.037 10.013zm-10.037 8.088c4.477 0 8.107-3.621 8.107-8.088s-3.63-8.088-8.107-8.088-8.107 3.621-8.107 8.088 3.63 8.088 8.107 8.088zm15.055-8.088c0 8.295-6.74 15.02-15.055 15.02s-15.055-6.725-15.055-15.02 6.74-15.02 15.055-15.02 15.055 6.725 15.055 15.02zm-15.055 12.324c6.822 0 12.353-5.518 12.353-12.324s-5.531-12.324-12.353-12.324-12.353 5.518-12.353 12.324 5.531 12.324 12.353 12.324z" fill="#fff"/></g></svg>

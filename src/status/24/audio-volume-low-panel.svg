@@ -1,6 +1,6 @@
 <svg width="24" height="24" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg">
  <title>Paper Symbolic Icon Theme</title>
- <g transform="translate(3.9998 3.9996)" enable-background="new" fill="#ffffff">
+ <g transform="translate(3.9998 3.9996)" enable-background="new" fill="#f2f2f2">
   <rect y="6" width="5" height="4" ry="1" fill-rule="evenodd" style="paint-order:normal"/>
   <path d="m6 3-3 3v4l3 3z"/>
   <g fill-rule="evenodd">

@@ -3,7 +3,7 @@
 
 MacOS Big Sur like icon theme for linux desktops
 
-## Donate
+### Donate
 
 If you like my project, you can buy me a coffee:
 

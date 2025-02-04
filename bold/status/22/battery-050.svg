@@ -1,0 +1,13 @@
+<svg width="22" height="22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+                color:#f2f2f2;
+            }</style>
+ </defs>
+ <g class="ColorScheme-Text" transform="translate(1 -18.609)" fill="currentColor">
+  <rect x="2" y="5" width="7" height="6" rx=".59136" ry=".59136"/>
+  <path d="m2 3c-1.108 0-2 0.892-2 2v6c0 1.108 0.892 2 2 2h13c1.108 0 2-0.892 2-2v-6c0-1.108-0.892-2-2-2zm0 1h13c0.554 0 1 0.446 1 1v6c0 0.554-0.446 1-1 1h-13c-0.554 0-1-0.446-1-1v-6c0-0.554 0.446-1 1-1zm16 2v4a2 2 0 0 0 2-2 2 2 0 0 0-2-2z"/>
+ </g>
+ <path class="ColorScheme-Text" d="m3 5c-1.662 0-3 1.338-3 3v6c0 1.662 1.338 3 3 3h14c1.662 0 3-1.338 3-3v-6c0-1.662-1.338-3-3-3zm0 1h14c1.108 0 2 0.892 2 2v6c0 1.108-0.892 2-2 2h-14c-1.108 0-2-0.892-2-2v-6c0-1.108 0.892-2 2-2zm18 3v4c0.554 0 1-0.446 1-1v-2c0-0.554-0.446-1-1-1z" fill="currentColor" opacity=".5"/>
+ <rect class="ColorScheme-Text" x="2" y="7" width="8" height="8" rx="1" ry="1" fill="currentColor"/>
+</svg>

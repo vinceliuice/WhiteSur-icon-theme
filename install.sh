@@ -151,11 +151,11 @@ install() {
     mv -f "${THEME_DIR}"/places/scalable/user-trash-full-dark.svg "${THEME_DIR}"/places/scalable/user-trash-full.svg
 
     # Change icon color for dark theme
-    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,devices,places}/{16,22,24}/*
-    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/apps/{22,32}/*
-    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/categories/22/*
-    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,devices}/32/*
-    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,apps,categories,emblems,devices,mimes,places,status}/symbolic/*
+    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,devices,places}/{16,22,24}/*.svg
+    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/apps/{22,32}/*.svg
+    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/categories/22/*.svg
+    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,devices}/32/*.svg
+    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,apps,categories,emblems,devices,mimes,places,status}/symbolic/*.svg
 
     cp -r "${SRC_DIR}"/links/actions/{16,22,24,32,symbolic}                                  "${THEME_DIR}"/actions
     cp -r "${SRC_DIR}"/links/devices/{16,22,24,32,symbolic}                                  "${THEME_DIR}"/devices

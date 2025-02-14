@@ -16,7 +16,7 @@ SRC_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 THEME_NAME=WhiteSur
 COLOR_VARIANTS=('' '-light' '-dark')
-THEME_VARIANTS=('' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-grey' '-nord')
+THEME_VARIANTS=('' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-grey' '-nord' '-material')
 
 themes=()
 colors=()
@@ -28,7 +28,7 @@ cat << EOF
   OPTIONS:
     -d, --dest DIR          Specify destination directory (Default: $DEST_DIR)
     -n, --name NAME         Specify theme name (Default: $THEME_NAME)
-    -t, --theme VARIANT     Specify theme color variant(s) [default|purple|pink|red|orange|yellow|green|grey|nord|all] (Default: blue)
+    -t, --theme VARIANT     Specify theme color variant(s) [default|purple|pink|red|orange|yellow|green|grey|nord|material|all] (Default: blue)
     -a, --alternative       Install alternative icons for software center and file-manager
     -b, --bold              Install bolder panel icons version (1.5px size)
 
@@ -278,6 +278,10 @@ while [[ "$#" -gt 0 ]]; do
             ;;
           nord)
             themes+=("${THEME_VARIANTS[8]}")
+            shift
+            ;;
+          material)
+            themes+=("${THEME_VARIANTS[9]}")
             shift
             ;;
           all)

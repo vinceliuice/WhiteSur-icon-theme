@@ -1,8 +1,6 @@
 <svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
  <defs>
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
-        color:#363636;
-      }</style>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#363636; } </style>
  </defs>
  <g class="ColorScheme-Text" transform="matrix(-1 0 0 1 16 0)" fill="currentColor">
   <path d="m2.091 1.307 3.304 3.307c-0.732 0.273-1.5 0.527-2.306 0.764-0.8 0.231-1.592 0.436-2.375 0.612 0.183-0.776 0.39-1.565 0.621-2.366 0.237-0.805 0.49-1.577 0.756-2.316z"/>

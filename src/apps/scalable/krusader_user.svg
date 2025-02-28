@@ -1,1 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 16.933 16.933"><defs><linearGradient id="e" x1="1.058" x2="15.875" y1="289.59" y2="289.59" gradientTransform="translate(0 -280.07)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#46a2d7" stop-opacity=".5"/><stop offset=".108" stop-color="#46a2d7" stop-opacity="0"/><stop offset=".894" stop-color="#46a2d7" stop-opacity=".096"/><stop offset="1" stop-color="#46a2d7" stop-opacity=".5"/></linearGradient><linearGradient id="d" x1="8.467" x2="8.467" y1="294.62" y2="293.56" gradientTransform="translate(0 -280.06)scale(.99998)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#008ea2" stop-opacity=".251"/><stop offset=".757" stop-color="#008ea2" stop-opacity=".15"/><stop offset="1" stop-color="#fff" stop-opacity=".15"/></linearGradient><linearGradient id="c" x1="8.467" x2="8.467" y1="293.3" y2="292.77" gradientTransform="translate(0 -280.07)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#008ea2" stop-opacity=".25"/><stop offset="1" stop-color="#fff" stop-opacity=".15"/></linearGradient><linearGradient id="b" x1="445.28" x2="445.28" y1="179.28" y2="200.07" gradientTransform="matrix(.38956 0 0 .38184 -165.52 -63.44)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#60c0f0"/><stop offset="1" stop-color="#83d4fb"/></linearGradient><linearGradient id="a" x1="6.879" x2="6.879" y1="285.36" y2="283.77" gradientTransform="translate(0 -280.06)scale(.99998)" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" stop-opacity="0"/></linearGradient></defs><image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAyCAYAAAAA9rgCAAAACXBIWXMAAA7XAAAO1wFxhj+8AAAA GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAbVJREFUaIHtml9TglAQRw9/jMrR 6a3v//2q0azMFOhhuXJLRgHv5G3dM8PgqHA57C68/BIOSbxtCLW3RUvy63MOFMAESOkvXQMlsAW+ gB2RiifevgDmwANwB2QDz7UD1sASWAEboApzmeHIaSs7Bx6Bmff9EGpgCtwjN2+B3ICSiKqdN/sC qewMaeehsjTH3CCd4UbjBXhHWv0S0gdrukpOkDYeU1kf1y3T5pwF0uJviHTVdREd5+izzilqZMxK vNFyglmznSPrkyKyGdLia2Sm+1T61BsiPXGsYwd8Ijd7TXOzc++PoWT9xSe07V0RpsJD3hwbpMOe kNEq86OHhMG1+SVm2D1TSuR1Wf2FsCN0B/Vd8xZ5GC+Ar2PzoIWMdrSSaxAG7xllwtoxYe2YsHZM WDsmrB0T1o4Ja8eEtWPC2jFh7ZiwdkxYOyasHRPWjglr52qFo48MnsneL6WNDfYJnPxHasStBGon vEWiPdFmJEfislofNJEpl82q+RkzukQAJTROdgU8I3mtKvd+WNJmm8aES2OjRLp2AbzSdG+o+HBs uLndIgXcj2qX0NiAeGx0Bta/AZSga/2YDpsuAAAAAElFTkSuQmCC" width="15.875" height="13.229" x=".529" y="1.969" image-rendering="optimizeQuality" preserveAspectRatio="none"/><path fill="#46a2d7" d="M2.21 2.38h2.695c.75 0 .783.029 1.542.63.782.59.948.607 1.864.607l6.412-.053a1.146 1.146 0 0 1 1.152 1.152v6.77a1.15 1.15 0 0 1-1.152 1.152H2.21a1.15 1.15 0 0 1-1.151-1.152V3.532A1.15 1.15 0 0 1 2.21 2.38"/><path fill="url(#a)" d="M2.21 2.381a1.15 1.15 0 0 0-1.152 1.152V6.35h14.816V4.717c0-.638-.513-1.157-1.151-1.152l-6.413.053c-.916 0-1.082-.017-1.863-.608-.76-.6-.791-.629-1.542-.629z" opacity=".35"/><rect width="14.817" height="10.054" x="1.058" y="4.49" fill="url(#b)" rx="1.152" ry="1.129"/><path fill="url(#c)" d="M1.058 12.7h14.817v.529H1.058z"/><path fill="url(#d)" d="M1.065 13.494a1.136 1.136 0 0 0 1.145 1.058h12.513c.613 0 1.107-.466 1.145-1.058H1.066z"/><rect width="14.817" height="10.054" x="1.058" y="4.49" fill="url(#e)" rx="1.152" ry="1.129"/><path fill="#fff" d="M2.21 4.498c-.638 0-1.152.503-1.152 1.128v.236c0-.61.514-1.1 1.152-1.1h12.513c.638 0 1.152.49 1.152 1.1v-.235c0-.626-.514-1.13-1.152-1.13z" opacity=".1"/><path d="M7.928 10.281c-.312.233-.788.99-.937.694-.075-.043-.193-3.439-.03-3.57.141-.114 3.234 1.79 3.088 1.988-.018.203-.722.266-1.083.402l.778 1.298-.967.541" opacity=".15"/></svg>
+<svg width="48" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 0 48 48" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="a" y1="543.8" y2="503.8" x2="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#c6cdd1"/>
+   <stop offset="1" stop-color="#e0e5e7"/>
+  </linearGradient>
+  <linearGradient id="b" y1="521.15" x1="394.22" y2="533.41" gradientUnits="userSpaceOnUse" x2="416.85" gradientTransform="translate(-397.34-509.87)">
+   <stop stop-color="#292c2f"/>
+   <stop offset="1" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="c" y1="510.8" x1="389.57" y2="541.8" gradientUnits="userSpaceOnUse" x2="427.57" gradientTransform="translate(-384.57-499.8)">
+   <stop/>
+   <stop offset="1" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient xlink:href="#b" id="d" y1="528.87" x1="394.34" y2="539.87" gradientUnits="userSpaceOnUse" x2="417.34" gradientTransform="translate(-377.34-509.87)"/>
+ </defs>
+ <g transform="translate(-384.57-499.8)">
+  <rect width="40" x="388.57" y="503.8" fill="url(#a)" rx="0" height="40"/>
+  <rect width="40" x="388.57" y="542.8" fill="#99a1a7" height="1"/>
+  <path opacity=".2" fill="url(#c)" fill-rule="evenodd" d="m42.842 11.11l-17.842 14.566v16.328l2 2h17v-31.734zm-19.842 16.199l-18 14.695 2 2h18l-2-2z" transform="translate(384.57 499.8)"/>
+  <g stroke-width=".1">
+   <rect width="40" x="388.57" y="503.8" fill="#566069" height="5"/>
+   <rect width="3" x="424.57" y="504.8" fill="#eff0f1" rx="1.5" height="3"/>
+   <rect width="40" x="388.57" y="508.8" fill="#1d99f3" rx="0" height="1"/>
+  </g>
+  <g fill="#ffffff" color-rendering="auto" shape-rendering="auto" color-interpolation-filters="linearRGB" image-rendering="auto" text-rendering="auto" color-interpolation="sRGB" color="#000000">
+   <path id="e" d="m389.57 510.8h18v31h-18z"/>
+   <use x="20" xlink:href="#e"/>
+  </g>
+  <path opacity=".2" fill="url(#b)" fill-rule="evenodd" d="m8 12l-2 4 17 8.576v-5.576zm0 8l-2 4 17 9v-5.695z" transform="translate(384.57 499.8)"/>
+  <g fill="#1d99f3">
+   <path id="f" d="m390.57 511.8h2v1h2v3h-4z"/>
+   <use y="8" xlink:href="#f"/>
+  </g>
+  <path opacity=".2" fill="url(#d)" fill-rule="evenodd" d="m28 12l-2 4 17 8.576v-5.576zm0 8l-2 4 17 9v-5.695zm0 8l-2 4 17 9v-5.695z" transform="translate(384.57 499.8)"/>
+  <g fill="#1d99f3">
+   <use x="20" xlink:href="#f"/>
+   <use x="20" y="8" xlink:href="#f"/>
+   <use x="20" y="16" xlink:href="#f"/>
+  </g>
+ </g>
+</svg>

@@ -1,8 +1,42 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
- <path d="m2.2092 2.3801h2.695c0.75008 0 0.78315 0.029104 1.5422 0.62996 0.6969 0.52598 0.94798 0.42994 1.864 0.42994h6.4123a1.1456 1.1456 0 0 1 1.152 1.1509v8.8089a1.1501 1.1501 0 0 1-1.152 1.152h-12.513a1.1501 1.1501 0 0 1-1.1509-1.152v-9.8677a1.1501 1.1501 0 0 1 1.1509-1.152z" color="#60c0f0" fill="#d06968" stroke-width=".26458" style="-inkscape-stroke:none;paint-order:markers fill stroke"/>
- <rect x="1.0583" y="4.4981" width="14.816" height="10.054" rx="1.152" ry="1.129" color="#60c0f0" fill="#fc7f7e" stroke-width=".26458"/>
- <path d="m2.21 4.4981c-0.63816 0-1.152 0.50296-1.152 1.1279v0.26511c0-0.62493 0.51381-1.129 1.152-1.129h12.513c0.6379 0 1.152 0.50402 1.152 1.129v-0.26511c0-0.62493-0.51408-1.1279-1.152-1.1279z" fill="#ffffff" opacity=".08" stroke-width=".26458"/>
- <path d="m2.2092 2.3801a1.1501 1.1501 0 0 0-1.1509 1.152v9.868a1.1501 1.1501 0 0 0 1.1514 1.1517h12.513a1.1496 1.1496 0 0 0 1.1517-1.1517v-8.8086a1.1456 1.1456 0 0 0-1.1517-1.1514h-6.4126c-0.91623 0-1.1668 0.096042-1.864-0.42994-0.75907-0.60112-0.79215-0.6297-1.542-0.6297h-2.6953m-5.292e-4 0.079109 5.292e-4 5.292e-4h2.6953c0.37385 0 0.55561 0.00741 0.73685 0.083077 0.18097 0.075934 0.3757 0.22912 0.75537 0.52969l0.00159 0.00106c0.35401 0.26722 0.60747 0.38364 0.88528 0.42729 0.27781 0.043655 0.57149 0.01852 1.0266 0.01852h6.4131a1.0655 1.0655 0 0 1 1.0721 1.0715v8.8091a1.0689 1.0689 0 0 1-1.0726 1.0721h-12.513a1.0689 1.0689 0 0 1-1.0715-1.0723v-9.868a1.07 1.07 0 0 1 1.0707-1.0729z" color="#60c0f0" opacity=".1" stroke-width=".26458" style="-inkscape-stroke:none;paint-order:markers fill stroke"/>
- <path d="m2.2103 4.4187a1.2303 1.2303 0 0 0-1.152 0.78315v0.42491c0-0.62546 0.51355-1.1284 1.152-1.1284h12.513c0.63816 0 1.1517 0.50296 1.1517 1.1284v-0.42359a1.2276 1.2276 0 0 0-1.1517-0.78447z" color="#60c0f0" opacity=".1" stroke-width=".26458" style="-inkscape-stroke:none"/>
- <path d="M7.928 10.281c-.312.233-.788.99-.937.694-.075-.043-.193-3.439-.03-3.57.141-.114 3.234 1.79 3.088 1.988-.018.203-.722.266-1.083.402l.778 1.298-.967.541" opacity=".15"/>
+<svg width="48" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 0 48 48" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="a" y1="543.8" y2="503.8" x2="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#c6cdd1"/>
+   <stop offset="1" stop-color="#e0e5e7"/>
+  </linearGradient>
+  <linearGradient id="b" y1="510.8" x1="389.57" y2="541.8" gradientUnits="userSpaceOnUse" x2="427.57" gradientTransform="translate(-384.57-499.8)">
+   <stop/>
+   <stop offset="1" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="c" y1="521.15" x1="394.22" y2="533.41" gradientUnits="userSpaceOnUse" x2="416.85" gradientTransform="translate(-12.764-10.07)">
+   <stop stop-color="#292c2f"/>
+   <stop offset="1" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient xlink:href="#c" id="d" y1="528.87" x1="394.34" y2="539.87" gradientUnits="userSpaceOnUse" x2="417.34" gradientTransform="translate(7.236-10.07)"/>
+ </defs>
+ <g transform="translate(-384.57-499.8)">
+  <rect width="40" x="388.57" y="503.8" fill="url(#a)" rx="0" height="40"/>
+  <rect width="40" x="388.57" y="542.8" fill="#99a1a7" height="1"/>
+  <path opacity=".2" fill="url(#b)" fill-rule="evenodd" d="m42.842 11.11l-17.842 14.566v16.328l2 2h17v-31.734zm-19.842 16.199l-18 14.695 2 2h18l-2-2z" transform="translate(384.57 499.8)"/>
+  <g stroke-width=".1">
+   <rect width="40" x="388.57" y="503.8" fill="#566069" height="5"/>
+   <rect width="3" x="424.57" y="504.8" fill="#eff0f1" rx="1.5" height="3"/>
+   <rect width="40" x="388.57" y="508.8" fill="#da4453" rx="0" height="1"/>
+  </g>
+  <g fill="#ffffff" color-rendering="auto" shape-rendering="auto" color-interpolation-filters="linearRGB" image-rendering="auto" text-rendering="auto" color-interpolation="sRGB" color="#000000">
+   <path id="e" d="m389.57 510.8h18v31h-18z"/>
+   <use x="20" xlink:href="#e"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path opacity=".2" fill="url(#c)" d="m392.57 511.8l-2 4 17 8.576v-5.576zm0 8l-2 4 17 9v-5.695z"/>
+   <path opacity=".2" fill="url(#d)" d="m412.57 511.8l-2 4 17 8.576v-5.576zm0 8l-2 4 17 9v-5.695zm0 8l-2 4 17 9v-5.695z"/>
+  </g>
+  <g fill="#da4453">
+   <path id="f" d="m390.57 511.8h2v1h2v3h-4z"/>
+   <use y="8" xlink:href="#f"/>
+   <use x="20" xlink:href="#f"/>
+   <use x="20" y="8" xlink:href="#f"/>
+   <use x="20" y="16" xlink:href="#f"/>
+  </g>
+ </g>
 </svg>

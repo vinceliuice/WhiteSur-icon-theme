@@ -26,7 +26,7 @@ for theme in "${_THEME_VARIANTS[@]}"; do
 done
 }
 
-cd .. && ./install.sh -d $THEME_DIR -t all -a
+cd .. && ./install.sh -d $THEME_DIR -t all
 
 cd $THEME_DIR && Tar_themes && Clear_theme
 

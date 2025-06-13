@@ -15,9 +15,13 @@ for theme in "${_THEME_VARIANTS[@]}"; do
   rm -rf "${THEME_NAME}${theme}.tar.xz"
 done
 
+rm -rf "01-${THEME_NAME}.tar.xz"
+
 for theme in "${_THEME_VARIANTS[@]}"; do
   tar -Jcvf "${THEME_NAME}${theme}.tar.xz" "${THEME_NAME}${theme}"{'','-light','-dark'}
 done
+
+mv "${THEME_NAME}.tar.xz" "01-${THEME_NAME}.tar.xz"
 }
 
 Clear_theme() {

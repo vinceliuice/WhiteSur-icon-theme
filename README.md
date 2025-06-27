@@ -1,4 +1,4 @@
-<img src="https://github.com/vinceliuice/Sierra-gtk-theme/blob/imgs/logo.png" alt="Logo" align="right" /> WhiteSur Icon Theme
+<img src="logo.png" alt="Logo" align="right" /> WhiteSur Icon Theme
 ======
 
 MacOS Big Sur like icon theme for linux desktops

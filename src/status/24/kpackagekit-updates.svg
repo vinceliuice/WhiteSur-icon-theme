@@ -20,7 +20,7 @@
         <path style="opacity:1;fill:#2ecc71;fill-opacity:1;stroke:none" d="M 16,3 A 3,3 0 0 0 13,6 3,3 0 0 0 16,9 3,3 0 0 0 19,6 3,3 0 0 0 16,3 Z" id="path4180" inkscape:connector-curvature="0"/>
         <path style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none" d="m 16,4 2,2 -1,0 0,2 -2,0 0,-2 -1,0 1,-1 1,-1 z" id="path4167" inkscape:connector-curvature="0" class="ColorScheme-Background"/>
       </g>
-      <rect style="opacity:1;fill:none;fill-opacity:0.59905659;stroke:none" id="rect4212" width="22" height="22" x="0" y="-2.6645353e-15"/>
+      <rect style="opacity:1;fill:none;fill-opacity:0.59905659;stroke:none" id="rect4212" width="24" height="24" x="0" y="-2.6645353e-15"/>
     </g>
   </g>
 </svg>

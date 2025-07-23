@@ -18,7 +18,7 @@
       </style>
   <g transform="translate(1,1)">
     <g transform="translate(-44) translate(66,-22)" id="network-wireless-available">
-      <rect style="opacity:0.55;fill:none;fill-opacity:1;stroke:none;stroke-width:3.56737041px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect4517" width="22" height="22" x="-22" y="22"/>
+      <rect style="opacity:0.55;fill:none;fill-opacity:1;stroke:none;stroke-width:3.56737041px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="rect4517" width="24" height="24" x="-22" y="22"/>
       <g transform="translate(-51.97466,12.97765)" id="g4527">
         <path class="ColorScheme-Text" style="opacity:0.35;fill:currentColor;fill-opacity:1;stroke:none" d="m 40.97466,12.02235 c -4.155,0 -7.90594,1.67156 -10.61719,4.38281 l 0.70899,0.70899 c 2.5305,-2.5305 6.0302,-4.0918 9.9082,-4.0918 3.878,0 7.3777,1.5613 9.9082,4.0918 l 0.70899,-0.70899 C 48.8806,13.69391 45.12966,12.02235 40.97466,12.02235 Z" id="path4519"/>
         <path class="ColorScheme-Text" style="opacity:0.35;fill:currentColor;fill-opacity:1;stroke:none" d="m 40.97466,16.02235 c -3.047,0 -5.79691,1.22659 -7.78516,3.21484 l 0.70704,0.70704 c 1.8075,-1.80751 4.30812,-2.92188 7.07812,-2.92188 2.77,0 5.27062,1.11437 7.07813,2.92188 l 0.70703,-0.70704 c -1.98825,-1.98825 -4.73816,-3.21484 -7.78516,-3.21484 z" id="path4521"/>

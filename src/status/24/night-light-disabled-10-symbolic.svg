@@ -30,5 +30,5 @@
   <path
      id="path2"
      d="M 5.3535156,5.2363281 4.4121094,6.1777344 5.7617188,7.5273438 6.703125,6.5859375 Z"
-     style="color:#bebebe;overflow:visible;opacity:1;isolation:auto;mix-blend-mode:normal;vector-effect:none;fill:#f2f2f2;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none" />
+     style="overflow:visible;opacity:1;isolation:auto;mix-blend-mode:normal;vector-effect:none;fill:#f2f2f2;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none" />
 </svg>

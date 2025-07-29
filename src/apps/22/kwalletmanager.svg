@@ -1,0 +1,32 @@
+<svg width="22" height="22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient20" x1="50" x2="14" y1="31" y2="31" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ffb90b" offset="0"/>
+   <stop stop-color="#ffd00d" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient22" x1="49.515" x2="14" y1="24" y2="24" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#0796e7" offset="0"/>
+   <stop stop-color="#1cabfd" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient25" x1="32" x2="32" y1="16" y2="37" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#dcd8cf" offset="0"/>
+   <stop stop-color="#bea397" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient26" x1="14" x2="50" y1="32" y2="32" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fa6f58" offset="0"/>
+   <stop stop-color="#f95946" offset="1"/>
+  </linearGradient>
+  <linearGradient id="a" x1="7.937" x2="7.937" y1="15.081" y2="1.852" gradientTransform="matrix(1.8897 0 0 1.8897 0 .016)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#333" offset="0"/>
+   <stop stop-color="#424242" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect width="22" height="22" rx="6" ry="6" fill="url(#a)"/>
+ <g transform="matrix(.38095 0 0 .38095 -1.1905 -1.1905)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+  <rect x="11" y="16" width="42" height="32" rx="5" ry="5" fill="url(#linearGradient25)" style="paint-order:fill markers stroke"/>
+  <rect x="14" y="19" width="36" height="16" rx="2.4749" ry="2.4749" fill="url(#linearGradient22)" style="paint-order:fill markers stroke"/>
+  <rect x="14" y="23" width="36" height="16" rx="2.4749" ry="2.4749" fill="url(#linearGradient20)" style="paint-order:fill markers stroke"/>
+  <rect x="14" y="27" width="36" height="18" rx="2.4749" ry="2.4749" fill="url(#linearGradient26)" style="paint-order:fill markers stroke"/>
+  <path d="m11 32v11c0 2.77 2.23 5 5 5h32c2.77 0 5-2.23 5-5v-11h-9c-2.0308 0-4.6053 6.51e-4 -7.3594 3.6465-2.3082 3.0556-6.9731 3.0556-9.2812 0-2.754-3.6458-5.3286-3.6465-7.3594-3.6465z" fill="#d8d2c9" style="paint-order:fill markers stroke"/>
+ </g>
+</svg>

@@ -26,8 +26,8 @@ FollowsColorScheme=true
 KDE-Extensions=.svg
 
 # Directory list
-Directories=actions/16,actions/22,actions/24,actions/32,actions/symbolic,animations/16,animations/22,animations/24,apps/22,apps/32,apps/scalable,apps/symbolic,categories/22,categories/32,categories/symbolic,places/symbolic,places/scalable,places/16,places/22,places/24,mimes/16,mimes/22,mimes/scalable,mimes/symbolic,devices/16,devices/22,devices/24,devices/32,devices/scalable,devices/symbolic,emotes/22,emblems/16,emblems/22,emblems/24,emblems/symbolic,status/16,status/22,status/24,status/32,status/symbolic,preferences/22,preferences/32
-ScaledDirectories=actions@2x/16,actions@2x/22,actions@2x/24,actions@2x/32,actions@2x/symbolic,animations@2x/16,animations@2x/22,animations@2x/24,apps@2x/22,apps@2x/32,apps@2x/scalable,apps@2x/symbolic,categories@2x/22,categories@2x/32,categories@2x/symbolic,places@2x/symbolic,places@2x/scalable,places@2x/16,places@2x/22,places@2x/24,mimes@2x/16,mimes@2x/22,mimes@2x/scalable,mimes@2x/symbolic,devices@2x/16,devices@2x/22,devices@2x/24,devices@2x/32,devices@2x/scalable,devices@2x/symbolic,emotes@2x/22,emblems@2x/16,emblems@2x/22,emblems@2x/24,emblems@2x/symbolic,status@2x/16,status@2x/22,status@2x/24,status@2x/32,status@2x/symbolic,preferences@2x/22,preferences@2x/32
+Directories=actions/16,actions/22,actions/24,actions/32,actions/symbolic,animations/16,animations/22,animations/24,apps/22,apps/32,apps/scalable,apps/symbolic,categories/22,categories/32,categories/symbolic,places/symbolic,places/scalable,places/16,places/22,places/24,mimes/16,mimes/22,mimes/scalable,mimes/symbolic,devices/16,devices/22,devices/24,devices/32,devices/scalable,devices/symbolic,emotes/22,emblems/16,emblems/22,emblems/24,emblems/symbolic,status/16,status/22,status/24,status/32,status/symbolic,preferences/32
+ScaledDirectories=actions@2x/16,actions@2x/22,actions@2x/24,actions@2x/32,actions@2x/symbolic,animations@2x/16,animations@2x/22,animations@2x/24,apps@2x/22,apps@2x/32,apps@2x/scalable,apps@2x/symbolic,categories@2x/22,categories@2x/32,categories@2x/symbolic,places@2x/symbolic,places@2x/scalable,places@2x/16,places@2x/22,places@2x/24,mimes@2x/16,mimes@2x/22,mimes@2x/scalable,mimes@2x/symbolic,devices@2x/16,devices@2x/22,devices@2x/24,devices@2x/32,devices@2x/scalable,devices@2x/symbolic,emotes@2x/22,emblems@2x/16,emblems@2x/22,emblems@2x/24,emblems@2x/symbolic,status@2x/16,status@2x/22,status@2x/24,status@2x/32,status@2x/symbolic,preferences@2x/32
 
 [actions/16]
 Size=16
@@ -71,11 +71,6 @@ Type=Fixed
 [animations/24]
 Size=24
 Context=Animations
-Type=Fixed
-
-[preferences/22]
-Size=22
-Context=Applications
 Type=Fixed
 
 [preferences/32]
@@ -327,12 +322,6 @@ Type=Fixed
 Size=24
 Scale=2
 Context=Animations
-Type=Fixed
-
-[preferences@2x/22]
-Size=22
-Scale=2
-Context=Applications
 Type=Fixed
 
 [preferences@2x/32]

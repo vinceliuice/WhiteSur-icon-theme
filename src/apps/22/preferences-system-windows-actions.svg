@@ -1,0 +1,14 @@
+<svg width="22" height="22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="a" x1="7.937" x2="7.937" y1="15.081" y2="1.852" gradientTransform="translate(.001 .015)scale(1.88973)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#8e8d92" offset="0"/>
+   <stop stop-color="#b3b2b6" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect width="22" height="22" rx="6" ry="6" fill="url(#a)" stroke-width=".49998"/>width="3" height="3" x="7" y="5" rx="1.5" ry="1.5" style="fill:#fff;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"/&gt;
+ <rect x="4" y="9" width="14" height="10" rx="2" ry="2" fill="#fff" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" style="paint-order:stroke fill markers"/>
+ <path d="m9 11v6l4.5-3z" fill="#3daee9" fill-rule="evenodd" stroke-width="1.2247"/>
+ <rect y="7" width="22" height="1" rx="0" ry="0" fill-rule="evenodd" opacity=".15" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8864" style="paint-order:stroke fill markers"/>
+ <circle cx="5" cy="4" r="1" fill="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width=".83157"/>
+ <path d="m6 0c-3.324 0-6 2.676-6 6v1h22v-1c0-3.324-2.676-6-6-6z" fill="#ffffff" fill-rule="evenodd" opacity=".35" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0174" style="paint-order:stroke fill markers"/>
+</svg>

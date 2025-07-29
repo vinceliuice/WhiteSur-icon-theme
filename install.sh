@@ -86,7 +86,6 @@ install() {
     rm -rf "${THEME_DIR}"/places/scalable/user-trash{'','-full'}-dark.svg
 
     cp -r "${SRC_DIR}"/links/{actions,apps,categories,devices,emotes,emblems,mimes,places,status,preferences} "${THEME_DIR}"
-    ln -s "${THEME_DIR}"/preferences/32 "${THEME_DIR}"/preferences/22
   fi
 
   if [[ ${color} == '-light' ]]; then

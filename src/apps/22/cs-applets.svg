@@ -1,0 +1,20 @@
+<svg width="22" height="22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="a" x1="7.937" x2="7.937" y1="15.081" y2="1.852" gradientTransform="translate(.001 .015)scale(1.8897)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#8e8d92" offset="0"/>
+   <stop stop-color="#b3b2b6" offset="1"/>
+  </linearGradient>
+  <filter id="b" x="-.432" y="-.432" width="1.864" height="1.864" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation=".18"/>
+  </filter>
+ </defs>
+ <rect width="22" height="22" rx="6" ry="6" fill="url(#a)"/>
+ <path d="m0 15.715v0.28516c0 3.324 2.676 6 6 6h10c3.324 0 6-2.676 6-6v-0.28516h-22z" fill="#ffffff" opacity=".35" stroke-width=".93409" style="paint-order:stroke fill markers"/>
+ <rect y="14.929" width="22" height=".786" rx="0" ry="0" fill-rule="evenodd" opacity=".15" stroke-width=".78571" style="paint-order:stroke fill markers"/>
+ <rect x="2.357" y="12.571" width="3.143" height="3.143" rx=".786" ry=".786" fill="#fff" stroke-width=".78571"/>
+ <rect x="7.071" y="14.143" width="3.143" height="3.143" rx=".786" ry=".786" fill="#fff" stroke-width=".78571"/>
+ <rect x="11.786" y="14.143" width="3.143" height="3.143" rx=".786" ry=".786" fill="#fff" stroke-width=".78571"/>
+ <rect x="16.5" y="14.143" width="3.143" height="3.143" rx=".786" ry=".786" fill="#fff" stroke-width=".78571"/>
+ <circle transform="translate(-1.571 -1.571)scale(.78571)" cx="7" cy="23.5" r=".5" fill="#0ff" filter="url(#b)"/>
+ <circle cx="3.929" cy="16.893" r=".393" fill="#32ddff" stroke-width=".78571"/>
+</svg>

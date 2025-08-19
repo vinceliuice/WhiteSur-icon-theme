@@ -118,7 +118,7 @@ install() {
     mkdir -p                                                                                 "${THEME_DIR}"/{apps,categories,emblems,devices,mimes,places,status}
 
     cp -r "${SRC_DIR}"/src/actions                                                           "${THEME_DIR}"
-    cp -r "${SRC_DIR}"/src/apps/{22,32,symbolic}                                             "${THEME_DIR}"/apps
+    cp -r "${SRC_DIR}"/src/apps/{16,22,32,symbolic}                                          "${THEME_DIR}"/apps
     cp -r "${SRC_DIR}"/src/categories/{22,symbolic}                                          "${THEME_DIR}"/categories
     cp -r "${SRC_DIR}"/src/emblems/symbolic                                                  "${THEME_DIR}"/emblems
     cp -r "${SRC_DIR}"/src/mimes/symbolic                                                    "${THEME_DIR}"/mimes
@@ -151,7 +151,7 @@ install() {
 
     # Change icon color for dark theme
     sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,devices,places}/{16,22,24}/*.svg
-    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/apps/{22,32}/*.svg
+    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/apps/{16,22,32}/*.svg
     sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/categories/22/*.svg
     sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,devices}/32/*.svg
     sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,apps,categories,emblems,devices,mimes,places,status}/symbolic/*.svg
@@ -159,7 +159,7 @@ install() {
     cp -r "${SRC_DIR}"/links/actions/{16,22,24,32,symbolic}                                  "${THEME_DIR}"/actions
     cp -r "${SRC_DIR}"/links/devices/{16,22,24,32,symbolic}                                  "${THEME_DIR}"/devices
     cp -r "${SRC_DIR}"/links/places/{16,22,24,scalable,symbolic}                             "${THEME_DIR}"/places
-    cp -r "${SRC_DIR}"/links/apps/{22,symbolic}                                              "${THEME_DIR}"/apps
+    cp -r "${SRC_DIR}"/links/apps/{16,22,32,symbolic}                                        "${THEME_DIR}"/apps
     cp -r "${SRC_DIR}"/links/categories/{22,symbolic}                                        "${THEME_DIR}"/categories
     cp -r "${SRC_DIR}"/links/mimes/symbolic                                                  "${THEME_DIR}"/mimes
     cp -r "${SRC_DIR}"/links/status/symbolic                                                 "${THEME_DIR}"/status

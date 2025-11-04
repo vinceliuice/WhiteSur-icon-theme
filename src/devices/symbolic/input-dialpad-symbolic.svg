@@ -1,6 +1,8 @@
 <svg height='16' width='16' xmlns='http://www.w3.org/2000/svg'>
-    <g transform='translate(-1293 -81)'>
-        
-        <path color='#000' d='M1297 83h2v2h-2zm3 0h2v2h-2zm3 0h2v2h-2zm-6 3h2v2h-2zm3 0h2v2h-2zm3 0h2v2h-2zm-6 3h2v2h-2zm3 0h2v2h-2zm3 0h2v2h-2zm-3 3h2v2h-2z' fill='#363636' overflow='visible' style='marker:none'/>
-    </g>
+  <path
+     color="#000000"
+     d="M 4,2 H 6 V 4 H 4 Z M 7,2 H 9 V 4 H 7 Z m 3,0 h 2 V 4 H 10 Z M 4,5 H 6 V 7 H 4 Z M 7,5 H 9 V 7 H 7 Z m 3,0 h 2 V 7 H 10 Z M 4,8 h 2 v 2 H 4 Z m 3,0 h 2 v 2 H 7 Z m 3,0 h 2 v 2 h -2 z m -3,3 h 2 v 2 H 7 Z"
+     fill="#363636"
+     overflow="visible"
+     style="marker:none" />
 </svg>

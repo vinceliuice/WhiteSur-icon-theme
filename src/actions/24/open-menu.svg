@@ -1,0 +1,10 @@
+<svg width="24" height="24" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#363636; }</style>
+ </defs>
+ <g class="ColorScheme-Text" transform="translate(4,4)" fill="currentColor">
+  <circle cx="3" cy="8" r="1"/>
+  <circle cx="8" cy="8" r="1"/>
+  <circle cx="13" cy="8" r="1"/>
+ </g>
+</svg>

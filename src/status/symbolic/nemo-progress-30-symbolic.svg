@@ -1,0 +1,11 @@
+<svg width="16" height="16" version="1.0" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter color-interpolation-filters="sRGB">
+   <feBlend in2="BackgroundImage" mode="darken"/>
+  </filter>
+ </defs>
+ <g fill="#363636" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m8 0v1a7 7 0 0 1 7 7 7 7 0 0 1-0.35938 2.2129l0.94922 0.31641a8 8 0 0 0 0.41016-2.5293 8 8 0 0 0-8-8z"/>
+  <path d="m4 4c-0.554 0-1 0.446-1 1v6c0 0.554 0.446 1 1 1h8c0.554 0 1-0.446 1-1v-5c0-0.034625-0.0025-0.067864-0.0059-0.10156-0.050987-0.50548-0.47472-0.89844-0.9941-0.89844h-4c0-0.554-0.446-1-1-1zm0 1h3v0.64844l-0.26562 0.35156h-2.7344zm4 1h4v5h-8v-4h3.2812z"/>
+ </g>
+</svg>

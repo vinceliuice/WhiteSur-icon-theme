@@ -1,6 +1,8 @@
 <svg height='16' width='16' xmlns='http://www.w3.org/2000/svg'>
-    <g transform='translate(-573 -17)'>
-        
-        <path color='#000' d='M573 20v4l4 4v-8zm12 3v8h4v-4z' fill='#363636' overflow='visible' style='marker:none'/>
-    </g>
+  <path
+     color="#000000"
+     d="m 0,3 v 4 l 4,4 V 3 Z m 12,3 v 8 h 4 v -4 z"
+     fill="#363636"
+     overflow="visible"
+     style="marker:none"/>
 </svg>

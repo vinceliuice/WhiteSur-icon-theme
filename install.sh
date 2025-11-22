@@ -31,6 +31,7 @@ cat << EOF
     -t, --theme VARIANT     Specify theme color variant(s) [default|purple|pink|red|orange|yellow|green|grey|nord|all] (Default: blue)
     -a, --alternative       Install alternative icons for software center and file-manager
     -b, --bold              Install bolder panel icons version (1.5px size)
+    -p, --kde-plasma        Replaces Apple logo with KDE Plasma logo.
 
     -r, --remove,
     -u, --uninstall         Uninstall (remove) icon themes
@@ -77,6 +78,10 @@ install() {
 
     if [[ ${alternative:-} == 'true' ]]; then
       cp -r "${SRC_DIR}"/alternative/*                                                       "${THEME_DIR}"
+    fi
+
+    if [[ ${plasma:-} == 'true' ]]; then
+      cp -r "${SRC_DIR}"/plasma/*                                                            "${THEME_DIR}"
     fi
 
     if [[ ${theme} != '' ]]; then
@@ -233,6 +238,11 @@ while [[ "$#" -gt 0 ]]; do
     -b|--bold)
       bold='true'
       echo "Installing 'bold' version..."
+      shift
+      ;;
+    -p|--kde-plasma)
+      plasma='true'
+      echo "Replacing Apple logo with KDE Plasma logo..."
       shift
       ;;
     -r|--remove|-u|--uninstall)

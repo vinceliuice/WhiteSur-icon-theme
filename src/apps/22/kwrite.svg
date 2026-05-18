@@ -1,0 +1,22 @@
+<svg width="22" height="22" version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="f" x1="13" x2="13" y1="44.006" y2="3.172" gradientTransform="matrix(.45 0 0 .49355 -.67 -1.0713)" gradientUnits="userSpaceOnUse">
+   <stop offset="0"/>
+   <stop stop-opacity=".384" offset="1"/>
+  </linearGradient>
+  <linearGradient id="c" x1="11" x2="11" y1="22" gradientTransform="matrix(.42353 0 0 .41029 .965 1031.5)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#b1b1b1" offset="0"/>
+   <stop stop-color="#ddd" offset="1"/>
+  </linearGradient>
+  <linearGradient id="d" x1="11" x2="11" y1="22" gradientTransform="translate(2 2)scale(.81818)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f2f2f2" offset="0"/>
+   <stop stop-color="#fff" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect width="22" height="22" rx="6" ry="6" fill="url(#c)" stroke-linecap="round" stroke-linejoin="round"/>
+ <rect x="2" y="2" width="18" height="18" rx="4" ry="4" fill="url(#d)" stroke-linecap="round" stroke-linejoin="round" stroke-width=".81818"/>
+ <path d="m7 7.629h4.571v0.571h-4.571zm5.143 0h2.857v0.571h-2.857zm-5.143 1.2h3.429v0.571h-3.429zm4 0h4v0.571h-4zm-4 1.1h2.303v0.571h-2.303zm2.857 0h2.286v0.571h-2.286zm-2.857-4.5h2.857v0.571h-2.857zm0 1.1h4v0.571h-4zm4.571 0h1.714v0.571h-1.714zm-1.142-1.1h2.286v0.571h-2.286zm-3.429 6.4h3.429v0.571h-3.429zm4 0h4v0.571h-4zm-4 1.1h2.303v0.571h-2.303zm2.857 0h2.286v0.571h-2.286zm-2.857 1.9h3.429v0.571h-3.429zm4 0h4v0.571h-4zm-4 1.1h2.303v0.571h-2.303zm2.857 0h2.286v0.571h-2.286z" fill="#bcbcbc" fill-rule="evenodd"/>
+ <path d="m5 2h1v17h-1z" color="#000000" fill="url(#f)" opacity=".082" stroke-width="1.0473" style="isolation:auto;mix-blend-mode:normal"/>
+ <path d="m20 8-6-6v1c0 2.77 2.23 5 5 5z" fill="#ededed" stroke-linecap="round" stroke-linejoin="round" stroke-width=".81818"/>
+ <path d="m2 15v1c0 2.216 1.784 4 4 4h10c2.216 0 4-1.784 4-4v-1c0 2.216-1.784 4-4 4h-10c-2.216 0-4-1.784-4-4z" fill="#000000" opacity=".15"/>
+</svg>

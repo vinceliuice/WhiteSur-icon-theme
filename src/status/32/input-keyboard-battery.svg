@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="32" height="32">
-    <style type="text/css" id="current-color-scheme">.ColorScheme-Text {
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
         color:#f2f2f2;
       }
       .ColorScheme-Background {
@@ -11,10 +10,8 @@
       }
       .ColorScheme-ButtonText {
         color:#f2f2f2;
-      }
-    </style>
-    <g id="input-keyboard-battery" transform="translate(-332,-428.36237) translate(-38,-128)">
-        <rect x="370" y="556.36237" width="32" height="32" ry="0" fill="none"/>
-        <path class="ColorScheme-Text" transform="translate(332,428.36237)" d="m44 132v20l10 4 10-4v-11h-1v8h-18v-16h14v-1zm18 0-2 5h2v3l2-5h-2zm-8.59375 4-4.40625 10h1.300781l1.322266-3h4.722656l1.349609 3h1.304688l-4.5-10zm0.552734 1.69531 1.9375 4.30469h-3.833984zm-8.958984 12.30469h18v1h-18z" fill="currentColor"/>
-    </g>
+      }</style>
+ <path class="ColorScheme-Text" d="m24 4-2 5h2v3l2-5h-2z" fill="currentColor"/>
+ <path class="ColorScheme-Text" d="m10.99 5.5c-2.77 0-5 2.23-5 5v11c0 2.77 3 4.2 5 5l5 2 5-2c2-0.8 5-2.23 5-5v-9h-1.5v7.0254c0 1.9251-1.5496 3.4746-3.4746 3.4746h-10.051c-1.9251 0-3.4746-1.5496-3.4746-3.4746v-9.0508c0-1.9251 1.5496-3.4746 3.4746-3.4746h10.025v-1.5z" fill="currentColor"/>
+ <path class="ColorScheme-Text" d="m14.877 10-3.8086 10h1.6055l0.95312-2.5h4.7266l0.95312 2.5h1.6055l-3.8086-10zm1.1133 1.2969 1.793 4.7031h-3.5859z" fill="currentColor"/>
 </svg>

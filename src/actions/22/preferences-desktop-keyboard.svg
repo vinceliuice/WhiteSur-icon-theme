@@ -1,0 +1,20 @@
+<svg width="22" height="22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#363636;
+      }</style>
+  <linearGradient id="a-6" x1="7.937" x2="7.937" y1="15.081" y2="1.852" gradientTransform="matrix(1.4848 0 0 1.4848 -1.5706 -1.5596)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#8e8d92" offset="0"/>
+   <stop stop-color="#b3b2b6" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect width="22" height="22" rx="7" ry="7" fill="url(#a-6)" stroke-width=".78571"/>
+ <g transform="translate(1)" fill="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+  <path d="m5 4c-1.108 0-2 0.892-2 2v2c0 1.108 0.892 2 2 2h2c1.108 0 2-0.892 2-2v-2c0-1.108-0.892-2-2-2zm0 1h2c0.03373 0 0.06691 0.0021 0.09961 0.0059 6.47e-4 6.4e-5 0.0013-6.5e-5 2e-3 0 0.50548 0.05103 0.89844 0.47477 0.89844 0.99414v2c0 0.51937-0.39296 0.94311-0.89844 0.99414-6.45e-4 6.5e-5 -0.0013-6.4e-5 -2e-3 0-0.03269 0.0038-0.06588 0.0059-0.09961 0.0059h-2c-0.03373 0-0.066914-0.0021-0.099609-0.0059-6.376e-4 -7.4e-5 -0.00132 7.4e-5 -0.00195 0-0.50548-0.05107-0.89844-0.47481-0.89844-0.99418v-2c0-0.51937 0.39296-0.94311 0.89844-0.99414 6.372e-4 -7.4e-5 0.00132 7.4e-5 0.00195 0 0.032695-0.003756 0.065879-0.005859 0.099609-0.005859z" style="paint-order:stroke fill markers"/>
+  <path d="m12 3c-1.108 0-2 0.892-2 2v3c0 1.108 0.892 2 2 2h3c1.108 0 2-0.892 2-2v-3c0-1.108-0.892-2-2-2zm0 1h3c0.554 0 1 0.446 1 1v3c0 0.554-0.446 1-1 1h-3c-0.554 0-1-0.446-1-1v-3c0-0.554 0.446-1 1-1z" style="paint-order:stroke fill markers"/>
+  <path d="m5 11c-1.108 0-2 0.892-2 2v3c0 1.108 0.892 2 2 2h8c1.108 0 2-0.892 2-2v-3c0-1.108-0.892-2-2-2zm0 1h8c0.554 0 1 0.446 1 1v3c0 0.554-0.446 1-1 1h-8c-0.554 0-1-0.446-1-1v-3c0-0.554 0.446-1 1-1z" style="paint-order:stroke fill markers"/>
+  <path d="m4 7v1c0 0.554 0.446 1 1 1h2.0114c0.554 0 1-0.446 1-1v-1c0 0.554-0.446 1-1 1h-2.0114c-0.554 0-1-0.446-1-1z" opacity=".35" style="paint-order:stroke fill markers"/>
+  <path d="m11 7v1c0 0.554 0.446 1 1 1h3c0.554 0 1-0.446 1-1v-1c0 0.554-0.446 1-1 1h-3c-0.554 0-1-0.446-1-1z" opacity=".35" style="paint-order:stroke fill markers"/>
+  <path d="m4 15v1c0 0.554 0.446 1 1 1h8c0.554 0 1-0.446 1-1v-1c0 0.554-0.446 1-1 1h-8c-0.554 0-1-0.446-1-1z" opacity=".35" style="paint-order:stroke fill markers"/>
+ </g>
+</svg>

@@ -1,6 +1,7 @@
 <svg height='16' width='16' xmlns='http://www.w3.org/2000/svg'>
-    <g color='#363636' transform='translate(-873 -57)'>
-        <path d='M880 59v12h1V59zm-6 1v1h4v-1zm9.5 0s-.5 0-.5.5v3s0 .5.5.5h3s.5 0 .5-.5v-3s0-.5-.5-.5zm.5 1h2v2h-2zm-10 2v1h4v-1zm0 3v1h4v-1zm9.5 0s-.5 0-.5.5v3s0 .5.5.5h3s.5 0 .5-.5v-3s0-.5-.5-.5zm.5 1h2v2h-2zm-10 2v1h4v-1z' fill='#363636' overflow='visible' style='marker:none'/>
-        
-    </g>
+  <path
+     d="M 7,2 V 14 H 8 V 2 Z M 1,3 V 4 H 5 V 3 Z m 9.5,0 C 10.5,3 10,3 10,3.5 v 3 c 0,0 0,0.5 0.5,0.5 h 3 c 0,0 0.5,0 0.5,-0.5 v -3 C 14,3.5 14,3 13.5,3 Z M 11,4 h 2 V 6 H 11 Z M 1,6 V 7 H 5 V 6 Z m 0,3 v 1 H 5 V 9 Z m 9.5,0 C 10.5,9 10,9 10,9.5 v 3 c 0,0 0,0.5 0.5,0.5 h 3 c 0,0 0.5,0 0.5,-0.5 v -3 C 14,9.5 14,9 13.5,9 Z m 0.5,1 h 2 v 2 H 11 Z M 1,12 v 1 h 4 v -1 z"
+     fill="#363636"
+     overflow="visible"
+     style="color:#363636;marker:none" />
 </svg>

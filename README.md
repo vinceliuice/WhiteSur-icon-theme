@@ -1,4 +1,4 @@
-<img src="https://github.com/vinceliuice/Sierra-gtk-theme/blob/imgs/logo.png" alt="Logo" align="right" /> WhiteSur Icon Theme
+<img src="logo.png" alt="Logo" align="right" /> WhiteSur Icon Theme
 ======
 
 MacOS Big Sur like icon theme for linux desktops
@@ -20,6 +20,7 @@ Usage:  `./install.sh`  **[OPTIONS...]**
 |-t, --theme          | Specify theme color variant(s) [default/purple/pink/red/orange/yellow/green/grey/all/material] (Default: blue)|
 |-a, --alternative    | Install alternative icons (redesigned MacOS default icons)|
 |-b, --bold           | Install bold panel icons version|
+| -p, --kde-plasma    | Replace Apple logo with KDE Plasma logo|
 |-r,--remove,-u,--uninstall | Uninstall (remove) icon themes|
 |-h, --help           | Show this help|
 

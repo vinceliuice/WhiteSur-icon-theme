@@ -1,8 +1,11 @@
-<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg">
-    <g fill="#363636">
-        <path d="M13.909 1.307l-3.304 3.307c.732.273 1.5.527 2.306.764.8.231 1.592.436 2.375.612a48.514 48.514 0 0 0-.621-2.366 40.298 40.298 0 0 0-.756-2.316z" style="marker:none" color="#000" overflow="visible"/>
-        <path d="M12.756 11.656l-.072.084.75.66.091-.103.04-.05.48-.72-.832-.554zm-1.11 1.108l-.34.226.555.832.368-.244.05-.039.422-.37-.658-.751zm-1.353.779l-.676.23.322.948.717-.246.06-.024.218-.11-.442-.896zm-2.326.459l.066.996.801-.053-.066-.998z" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal" color="#000" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible"/>
-        <path d="M8 6a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1z"/>
-        <path d="M7.574 1.014a6.981 6.981 0 0 0-2.347.558 7.005 7.005 0 0 0-4.082 7.844A7.005 7.005 0 0 0 8 15h.5v-1H8a5.996 5.996 0 0 1-5.877-4.787 5.995 5.995 0 0 1 3.5-6.723 5.995 5.995 0 0 1 7.291 2.069l.287.41.82-.574-.287-.41a7.006 7.006 0 0 0-6.16-2.971z" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal" color="#000" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible"/>
-    </g>
+<svg version="1.1" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#363636; } </style>
+ </defs>
+ <g class="ColorScheme-Text" transform="matrix(-1 0 0 1 16 0)" fill="currentColor">
+  <path d="m2.091 1.307 3.304 3.307c-0.732 0.273-1.5 0.527-2.306 0.764-0.8 0.231-1.592 0.436-2.375 0.612 0.183-0.776 0.39-1.565 0.621-2.366 0.237-0.805 0.49-1.577 0.756-2.316z"/>
+  <path d="m3.244 11.656 0.072 0.084-0.75 0.66-0.091-0.103-0.04-0.05-0.48-0.72 0.832-0.554zm1.11 1.108 0.34 0.226-0.555 0.832-0.367-0.244-0.051-0.039-0.422-0.37 0.658-0.751zm1.353 0.779 0.676 0.23-0.322 0.948-0.717-0.246-0.06-0.024-0.218-0.11 0.442-0.896zm2.326 0.459-0.066 0.996-0.801-0.053 0.066-0.998z"/>
+  <path d="m8 6a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2zm0 1a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1z"/>
+  <path d="m8.426 1.014c0.791 0.047 1.586 0.23 2.347 0.558a7.005 7.005 0 0 1 4.083 7.844 7.005 7.005 0 0 1-6.856 5.584h-0.5v-1h0.5c2.85 0 5.3-1.997 5.877-4.787a5.995 5.995 0 0 0-3.5-6.723 5.995 5.995 0 0 0-7.291 2.07l-0.287 0.41-0.82-0.574 0.287-0.41a7.006 7.006 0 0 1 6.16-2.971z"/>
+ </g>
 </svg>

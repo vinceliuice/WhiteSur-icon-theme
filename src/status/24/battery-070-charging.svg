@@ -1,16 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24">
-  <defs id="defs1">
-    <style type="text/css" id="current-color-scheme">
-            .ColorScheme-Text {
-                color:#f2f2f2;
-            }
-            .ColorScheme-PositiveText {
-                color:#27ae60;
-            }
-        </style>
-  </defs>
-  <g transform="translate(1,1)">
-    <path style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-Text" d="M3 7v8h12l-2-8zM1 5v12h19v-4h.5c.277 0 .5-.223.5-.5v-3c0-.277-.223-.5-.5-.5H20V5H4zm1 1h17v10H2z" fill-rule="evenodd"/>
-    <path d="M12 8a3 3 0 0 0-2.826 2H8v2h1.176A3 3 0 0 0 12 14v-1h2v-1h-2v-2h2V9h-2z" class="ColorScheme-PositiveText" fill="currentColor"/>
+<svg width="24" height="24" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <title>Paper Symbolic Icon Theme</title>
+ <g transform="translate(2,4)" fill="#f2f2f2">
+  <path d="m8.834 4-3.334 5h3l-0.75 3h0.41602l3.334-5h-3l0.75-3z" enable-background="new"/>
+  <g fill-rule="evenodd">
+   <path d="m2 3c-1.108 0-2 0.892-2 2v6c0 1.108 0.892 2 2 2h13c1.108 0 2-0.892 2-2v-6c0-1.108-0.892-2-2-2zm0 1h13c0.554 0 1 0.446 1 1v6c0 0.554-0.446 1-1 1h-13c-0.554 0-1-0.446-1-1v-6c0-0.554 0.446-1 1-1z" enable-background="new" style="paint-order:stroke fill markers"/>
+   <path d="m2.5508 5c-0.30514 0-0.55078 0.24564-0.55078 0.55078v4.8984c0 0.30514 0.24564 0.55078 0.55078 0.55078h4.418l0.25-1h-1.7188c-0.79859-1.712e-4 -1.2749-0.89013-0.83203-1.5547l2.2969-3.4453h-4.4141zm7.4805 0-0.25 1h1.7188c0.1877 4.03e-5 0.35566 0.052848 0.5 0.13672v-0.58594c0-0.30514-0.24564-0.55078-0.55078-0.55078h-1.418zm1.9688 3.0527-1.9648 2.9473h1.4141c0.30514 0 0.55078-0.24564 0.55078-0.55078v-2.3965z" enable-background="new" style="paint-order:stroke fill markers"/>
+   <path d="m18 6v4a2 2 0 0 0 2-2 2 2 0 0 0-2-2z" enable-background="new" style="paint-order:stroke fill markers"/>
   </g>
+ </g>
 </svg>

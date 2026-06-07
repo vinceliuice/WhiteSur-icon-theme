@@ -4,7 +4,7 @@
    height="64"
    version="1.1"
    id="svg2"
-   sodipodi:docname="app-template-red.svg"
+   sodipodi:docname="io.github.flattool.Ignition.svg"
    xml:space="preserve"
    inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -49,7 +49,7 @@
        xlink:href="#Strips1_1.5"
        preserveAspectRatio="xMidYMid"
        id="pattern13"
-       patternTransform="matrix(1.0606602,1.0606602,-1.0606602,1.0606602,-50.492725,-129.92783)"
+       patternTransform="matrix(3.792447,4.5196621,-4.5196621,3.792447,-50.492725,-129.92783)"
        x="0"
        y="0" /><pattern
        inkscape:collect="always"
@@ -116,7 +116,7 @@
      ry="11.999346"
      fill="url(#linearGradient862-3)"
      id="rect2-6-5-8"
-     style="fill:none;stroke:#333333;stroke-width:1.96;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1" /><rect
+     style="display:inline;fill:none;stroke:#333333;stroke-width:1.96;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1" /><rect
      x="4.9815006"
      y="4.6397705"
      width="54.036999"

@@ -143,6 +143,10 @@ install() {
       cp -r "${SRC_DIR}"/alternative/places/scalable/*.svg                                   "${THEME_DIR}"/places/scalable
     fi
 
+    if [[ ${plasma:-} == 'true' ]]; then
+      cp -r "${SRC_DIR}"/plasma/*                                                            "${THEME_DIR}"
+    fi
+
     if [[ ${theme} != '' ]]; then
       cp -r "${SRC_DIR}"/colors/color${theme}/*.svg                                          "${THEME_DIR}"/places/scalable
     fi

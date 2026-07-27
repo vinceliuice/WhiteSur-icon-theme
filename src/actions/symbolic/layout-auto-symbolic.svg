@@ -1,22 +1,47 @@
-<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   version="1.1"
+   viewBox="0 0 16 16"
+   id="svg3"
+   sodipodi:docname="layout-auto-symbolic.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="49.125"
+     inkscape:cx="8"
+     inkscape:cy="8"
+     inkscape:window-width="1920"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" />
   <path
      d="m 14.5,9.79 -4.707,4.707 0.70703,0.70703 4.707,-4.707 z m 0,3 -1.707,1.707 0.70703,0.70703 1.707,-1.707 z"
-     color="#000000"
-     stroke-linecap="square"
-     stroke-miterlimit="2"
+     id="path1"
      style="fill:#363636" />
   <path
      d="M 2,0 C 0.892,0 0,0.892 0,2 v 11 c 0,1.108 0.892,2 2,2 H 9 V 14 H 2 C 1.446,14 1,13.554 1,13 V 2 C 1,1.446 1.446,1 2,1 h 11 c 0.554,0 1,0.446 1,1 v 7 h 1 V 2 C 15,0.892 14.108,0 13,0 Z"
-     fill-rule="evenodd"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     stroke-width="2"
-     style="fill:#363636;paint-order:stroke fill markers" />
+     style="fill:#363636;paint-order:stroke fill markers"
+     id="path2" />
   <path
      d="m 2,2 v 4 7 H 6 V 6 h 7 V 2 H 6 Z m 1,1 h 2 7 V 5 H 5 v 7 H 3 V 5 Z"
-     fill-rule="evenodd"
-     stroke-linecap="round"
-     stroke-linejoin="round"
      stroke-width="2"
-     style="fill:#363636;paint-order:stroke fill markers" />
+     style="fill:#363636;paint-order:stroke fill markers"
+     id="path3" />
 </svg>

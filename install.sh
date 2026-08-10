@@ -170,6 +170,7 @@ install() {
     cp -r "${SRC_DIR}"/links/places/{16,22,24,scalable,symbolic}                             "${THEME_DIR}"/places
     cp -r "${SRC_DIR}"/links/apps/{16,22,32,symbolic}                                        "${THEME_DIR}"/apps
     cp -r "${SRC_DIR}"/links/categories/{22,symbolic}                                        "${THEME_DIR}"/categories
+    cp -r "${SRC_DIR}"/links/emblems/symbolic                                                "${THEME_DIR}"/emblems
     cp -r "${SRC_DIR}"/links/mimes/symbolic                                                  "${THEME_DIR}"/mimes
     cp -r "${SRC_DIR}"/links/status/symbolic                                                 "${THEME_DIR}"/status
 

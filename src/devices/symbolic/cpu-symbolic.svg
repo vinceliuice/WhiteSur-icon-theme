@@ -1,0 +1,32 @@
+<svg width="16px" height="16px" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+ <g fill="#363636" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m2 2v12h12v-12h-12zm1 1h10v10h-10v-10z"/>
+  <rect x="1" y="3" width="2" height="1"/>
+  <rect x="1" y="5" width="2" height="1"/>
+  <rect x="1" y="7" width="2" height="1"/>
+  <rect x="1" y="9" width="2" height="1"/>
+  <rect x="1" y="11" width="2" height="1"/>
+  <rect x="13" y="3" width="2" height="1"/>
+  <rect x="13" y="5" width="2" height="1"/>
+  <rect x="13" y="7" width="2" height="1"/>
+  <rect x="13" y="9" width="2" height="1"/>
+  <rect x="13" y="11" width="2" height="1"/>
+  <rect transform="rotate(-90)" x="-3" y="3" width="2" height="1"/>
+  <rect transform="rotate(-90)" x="-3" y="5" width="2" height="1"/>
+  <rect transform="rotate(-90)" x="-3" y="7" width="2" height="1"/>
+  <rect transform="rotate(-90)" x="-3" y="9" width="2" height="1"/>
+  <rect transform="rotate(-90)" x="-3" y="11" width="2" height="1"/>
+  <rect transform="rotate(-90)" x="-15" y="3" width="2" height="1"/>
+  <rect transform="rotate(-90)" x="-15" y="5" width="2" height="1"/>
+  <rect transform="rotate(-90)" x="-15" y="7" width="2" height="1"/>
+  <rect transform="rotate(-90)" x="-15" y="9" width="2" height="1"/>
+  <rect transform="rotate(-90)" x="-15" y="11" width="2" height="1"/>
+  <rect x="4" y="4" width="1" height="1"/>
+  <rect x="11" y="4" width="1" height="1"/>
+  <rect x="4" y="11" width="1" height="1"/>
+  <rect x="11" y="11" width="1" height="1"/>
+  <rect x="7" y="7" width="1" height="1"/>
+  <rect x="8" y="8" width="1" height="1"/>
+  <path d="m5 5v6h6v-6h-6zm1 1h4v4h-4v-4z"/>
+ </g>
+</svg>

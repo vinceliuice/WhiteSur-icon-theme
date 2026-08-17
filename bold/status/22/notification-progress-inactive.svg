@@ -1,6 +1,5 @@
-<svg width="22" height="22">
-    <style type="text/css" id="current-color-scheme">
-        .ColorScheme-Text {
+<svg width="22" height="22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
             color:#f2f2f2;
         }
         .ColorScheme-ButtonFocus {
@@ -8,10 +7,7 @@
         }
         .ColorScheme-NegativeText {
             color:#da4453;
-        }
-    </style>
-    <g id="notification-progress-inactive" transform="translate(39 39) translate(-40,-40)">
-        <path id="path10" d="m1 1h22v22h-22z" fill="none"/>
-        <circle id="circle-transparent" cx="12" cy="12" r="8" class="ColorScheme-Text" fill="currentColor" opacity=".4"/>
-    </g>
+        }</style>
+ <path class="ColorScheme-Text" d="m11 2a9 9 0 0 0-9 9 9 9 0 0 0 9 9 9 9 0 0 0 9-9 9 9 0 0 0-9-9zm0 1.5a7.5 7.5 0 0 1 7.5 7.5 7.5 7.5 0 0 1-7.5 7.5 7.5 7.5 0 0 1-7.5-7.5 7.5 7.5 0 0 1 7.5-7.5z" fill="currentColor"/>
+ <circle class="ColorScheme-Text" cx="11" cy="11" r="6" fill="currentColor" opacity=".35"/>
 </svg>

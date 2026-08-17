@@ -1,10 +1,3 @@
-<svg height='16' width='16' xmlns='http://www.w3.org/2000/svg'>
-    <g color='#363636' transform='translate(-613 -77)'>
-        <rect fill='#363636' height='1' overflow='visible' style='marker:none' width='14' x='614' y='78'/>
-        <rect fill='#363636' height='1' overflow='visible' style='marker:none' width='10' x='614' y='81'/>
-        <rect fill='#363636' height='1' overflow='visible' style='marker:none' width='10' x='614' y='87'/>
-        <rect fill='#363636' height='1' overflow='visible' style='marker:none' width='14' x='614' y='90'/>
-        <rect fill='#363636' height='1' overflow='visible' style='marker:none' width='14' x='614' y='84'/>
-        
-    </g>
+<svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <path d="m1 1v1h14v-1h-14zm0 3v1h10v-1h-10zm0 3v1h14v-1h-14zm0 3v1h10v-1h-10zm0 3v1h14v-1h-14z" fill="#363636"/>
 </svg>

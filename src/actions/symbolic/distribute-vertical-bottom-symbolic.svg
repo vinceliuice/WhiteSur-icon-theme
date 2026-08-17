@@ -1,1 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="svg1" width="16" height="16" version="1.1"><style id="s2">@import &quot;../../highlights.css&quot;;</style><g id="distribute-horizontal-left" transform="matrix(0 -.66667 .66665 0 -472.233 712)"><path id="path9735" d="M1068 711.362h-9v-3h-1.5v19.5h1.5v-3h9zm-1.5 1.5v10.5h-7.5v-10.5zm-9 16.5-4.5-3v6zm-3-15h-9v-6h-1.5v19.5h1.5v-3h9zm-1.5 1.5v7.5h-7.5v-7.5zm-3 10.5-4.5 3 4.5 3z" style="fill:#363636;fill-opacity:1"/></g></svg>
+<svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <path d="m1.9965-0.00356v6h-2v1h13v-1h-2v-6zm0.99998 1h6.9998v5h-6.9998zm11 6-2 3h3.9999zm-9.9997 2v6h-3.9999v1h13v-1h-2v-6zm0.99998 1h4.9999v5h-4.9999zm6.9998 2 2 3 2-3z" fill="#363636" stroke-width=".66666"/>
+</svg>

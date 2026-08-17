@@ -1,1 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="svg1" width="16" height="16" version="1.1"><style id="s2">@import &quot;../../highlights.css&quot;;</style><g id="distribute-unclump" transform="translate(-721.333 -548.908) scale(.66667)"><path id="path8182" d="M1082 823.362v22.5h6v-22.5h-6zm16.5 0v6h7.5v-6h-7.5zm-15 1.5h3v19.5h-3v-19.5zm6 0v1.5h7.5v-1.5h-7.5zm10.5 0h4.5v3h-4.5v-3zm1.5 6v7.5h1.5v-7.5h-1.5zm-3 9v6h7.5v-6h-7.5zm1.5 1.5h4.5v3h-4.5v-3zm-10.5 1.5v1.5h7.5v-1.5h-7.5z" style="fill:#363636;fill-opacity:1"/></g></svg>
+<svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <path d="m0.00394 0.0027445v15h4v-15zm11 0v4h5v-4zm-10 1h2v13h-2zm4 0v1h5v-1zm7 0h3v2h-3zm1 4v5h1v-5zm-2 6v4h5v-4zm1 1h3v2h-3zm-7 1v1h5v-1z" fill="#363636" stroke-width=".66667"/>
+</svg>

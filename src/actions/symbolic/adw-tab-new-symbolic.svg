@@ -1,0 +1,4 @@
+<svg width="16" height="16" gpa:rendering="symbolic" gpa:state="0" gpa:state-names="outline empty" gpa:version="1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:gpa="https://www.gtk.org/grappa">
+ <path d="m4 0c-2.216 0-4 1.784-4 4v8c0 2.216 1.784 4 4 4h8c2.216 0 4-1.784 4-4v-8c0-2.216-1.784-4-4-4h-8zm0 1h8c1.662 0 3 1.338 3 3v8c0 1.662-1.338 3-3 3h-8c-1.662 0-3-1.338-3-3v-8c0-1.662 1.338-3 3-3z" fill="#363636" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+ <path d="m7.5 4v3.5h-3.5v1h3.5v3.5h1v-3.5h3.5v-1h-3.5v-3.5h-1z" fill="#363636" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>
